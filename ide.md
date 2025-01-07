@@ -29,18 +29,16 @@ In MacOS kan je de map naar het symbool van VS Code in jouw lint slepen.
 * Typ een eenvoudige HTML-structuur zoals `div>ul>li*3` en druk op `Tab` om het uit te vouwen naar een volledige structuur.
 * Hier vind je een uitgebreide [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/).
 
-## 2. Extensies
+## 2. Extensies installeren
 
 In VS Code heb je de mogelijkheid om extensies te installeren.
 
 ![icoon van extensies in VS Code](.gitbook/assets/ide-extensies.png)
 
-### **Prettier: code formatter:**
-
-* Installeer de Prettier-extensie in VS Code.
-* Prettier automatiseert het formatteren van je code volgens vastgestelde regels.
-* Activeer "Format on Save" om je code automatisch te laten formatteren bij het opslaan.
-* Kijk ook na dat Prettier geselecteerd staat als "Default Formatter".
+### **Prettier: code formatter**
+Prettier automatiseert het formatteren van je code volgens vastgestelde regels.
+Installeer de Prettier-extensie in VS Code. 
+Prettier automatiseert het formatteren van je code volgens vastgestelde regels.
 
 ### **Live Server: live preview van je website:**
 
@@ -48,11 +46,23 @@ In VS Code heb je de mogelijkheid om extensies te installeren.
 * Klik met de rechtermuisknop op je HTML-bestand en selecteer "Open with Live Server".
 * Je ziet een live voorbeeld van je website en automatische updates bij het opslaan van bestanden.
 
-## 3. **terminal gebruiken in VS Code:**
+### **HTMLHint: fouten in html zichtbaar maken**
+* Installeer de HTMLHint extensie VS Code om fouten in HTML zichtbaar te maken.
 
-* Open de terminal in VS Code met `View > Terminal` of gebruik de sneltoets `Ctrl +` (backtick).
-* Hier kun je commando's uitvoeren zoals `npm install` of `git commit`.
+## 4. **Configuratie VSCode**
 
-![open nieuwe terminal](.gitbook/assets/new-terminal.png)
+* Druk op `Ctrl+Shift+P` (of `Cmd+Shift+P` op macOS) om het Command Palette te openen.
+* Typ `Preferences: Open Settings (JSON)` en selecteer deze optie om de instellingen in JSON-formaat te openen.
+* Alternatief: Je kunt ook naar de instellingen navigeren via `File > Preferences > Settings` (of `Code > Settings > Settings` op macOS), en daar de JSON-instellingen openen door op het `Open Settings (JSON)` icoon in de rechterbovenhoek van het instellingenvenster te klikken.
+* Voeg de volgende configuraties toe aan je settings.json:
 
-Het gebruik van Visual Studio Code als je IDE kan je productiviteit aanzienlijk verhogen. Met functies zoals Emmet, Prettier en Live Server kun je efficiënter werken en tegelijkertijd genieten van een intuïtieve ontwikkelervaring. Verken de mogelijkheden van VS Code en pas ze aan aan jouw ontwikkelingsbehoeften.
+```json
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+```
+
+De instellingen zorgen ervoor dat Visual Studio Code automatisch je bestanden opslaat na een korte vertraging met "files.autoSave": "afterDelay", automatisch de code formatteert bij het opslaan met "editor.formatOnSave": true, en Prettier instelt als de standaard formatter voor al je codebestanden met "editor.defaultFormatter": "esbenp.prettier-vscode". Hierdoor wordt je code consistent geformatteerd en hoef je je geen zorgen te maken over handmatig opslaan of formatteren.
+
