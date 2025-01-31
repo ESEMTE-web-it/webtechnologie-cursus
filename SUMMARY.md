@@ -2,6 +2,8 @@
 
 * [inleiding](README.md)
 * [IDE](ide.md)
+* [Coding guidelines](coding-guidelines.md)
+* [Projectopdracht](projectopdracht/index.md)
 
 ## HTML
 
@@ -145,3 +147,7 @@
   * [oefeningen](asynchroon-programmeren/wat-is-een-api/oefeningen.md)
   * [extra oefeningen](asynchroon-programmeren/wat-is-een-api/oefeningen-extra.md)
 * [bronnen](asynchroon-programmeren/bronnen.md)
+
+
+
+
