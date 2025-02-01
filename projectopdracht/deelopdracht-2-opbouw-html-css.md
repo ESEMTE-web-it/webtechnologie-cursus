@@ -3,7 +3,6 @@
 In deze deelopdracht ga je mobiele webpagina's bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbare smartphone en voer de stappen in dit document uit. Volg hierbij altijd de [wireframes](algemeen.md#wireframes). Pas de ontwerpen aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
 
 
-
 ## Mappenstructuur & bestanden
 
 Maak de volgende mappenstructuur aan:
@@ -41,7 +40,7 @@ Maak ook een `normalize.css` aan, gebaseerd op [modern-normalize.css](https://gi
 
 Link elke HTML-pagina met de juiste CSS-bestanden. `index.html` zal bijvoorbeeld 3 `<link>`-tags hebben: `normalize.css`, `general.css` en `home.css`.
 
-> **TIP**: Houd de volgorde van de CSS-bestanden aan: eerst `normalize.css`, daarna `general.css` en vervolgens de pagina-specifieke CSS-bestanden. Dit zorgt ervoor dat de meer specifieke CSS-regels een hogere specificiteit hebben.
+> **TIP**: Houd de volgorde van de CSS-bestanden aan: eerst `normalize.css`, daarna `general.css` en vervolgens de pagina-specifieke CSS-bestanden.
 
 
 ## Wireframe analyse 
@@ -56,8 +55,8 @@ Elke pagina moet de volgende elementen bevatten, die op elke pagina hetzelfde zi
 - ...
 
 > **TIP**: 
-> - Bouw de algemene elementen eerst op één pagina (bijvoorbeeld `index.html`). Wanneer deze correct zijn, kopieer je de HTML naar de andere .html-bestanden. Door `global.css` in alle .html-bestanden te linken, zal de styling overal hetzelfde zijn, wat veel tijd bespaart en zorgt voor uniformiteit.
-> - Zorg ervoor dat je op elke pagina de juiste semantische elementen gebruikt (header, nav, main, aside, section, article, footer, ...) zoals geleerd in de les.
+> - Bouw de algemene elementen eerst op één pagina (bijvoorbeeld `index.html`). Wanneer deze klaar zijn kopieer je de HTML naar de andere .html-bestanden. Door `global.css` in elk .html-bestanden te linken, zal de styling overal hetzelfde zijn, wat veel tijd bespaart en zorgt voor uniformiteit.
+> - Zorg ervoor dat je op elke pagina de juiste semantische elementen gebruikt (header, nav, main, aside, section, article, footer, ...) zoals we gezien hebben in de les.
 
 ### Pagina-specifieke features
 
@@ -68,17 +67,21 @@ Elke pagina moet de volgende elementen bevatten, die op elke pagina hetzelfde zi
   - Een professionele foto van jezelf
   - Een korte uitleg of bio van jezelf
 
-- **shop.html**: De overzichtspagina van de webshop
-  - Titel
-  - Korte beschrijving gebaseerd op de productbeschrijving uit deelopdracht 1
-  - Foto van het product
-  - Over de volledige productcard een link naar de detailpagina van het desbetreffende product
+- **shop.html**: De overzichtspagina van alle producten
+  - Voorzie een `<aside>` voor de wishlist en voor een shopping-cart. Deze mogen in deze fase wel nog leeg zijn. 
+  - Voorzie 6 product tegels onder elkaar met elk:
+    - Een titel
+    - Een korte beschrijving gebaseerd op de productbeschrijving uit deelopdracht 1
+    - Een foto van het product
+    - Een button om het product toe te voegen aan je winkelmandje (non-functioneel) 
 
 - **6 detailpagina's**: Pagina's voor elk van de producten, met:
   - Een titel
   - Een beschrijving
-  - Afbeelding in een `figure` met de bronvermelding in de `figcaption`
-  - Een opsomming van de productspecificaties
+  - Afbeelding in een `figure` met de bronvermelding van de afbeelding in de `figcaption`
+  - Een opsomming met minstens 5 productspecificaties
+  - Een button om het product toe te voegen aan je wishlist.
 
-- **contact.html**: Een pagina met:
-  - Een contactformulier
+- **contact.html**: 
+  - Een pagina waar het contactformulier op komt, maar deze hoeft op dit moment nog niet uitgewerkt te worden.
+  - Voorzie de pagina met alle algemene features, maar laat de `<main>` voorlopig leeg.
