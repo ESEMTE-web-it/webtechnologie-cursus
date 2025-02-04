@@ -11,6 +11,9 @@
   * [4. Contact page](projectopdracht/deelopdracht-4-contact-page.md)
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
+* Labo oefeningen
+  * [Labo 1](/oefeningen/labo1/oefeningen.md)
+  * [Labo 2](/oefeningen/labo2/oefeningen.md)
 
 ## HTML
 

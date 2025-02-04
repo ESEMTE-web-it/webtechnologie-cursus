@@ -1,10 +1,9 @@
-# Oefeningen labo 1
+# Oefeningen labo 2
 
 * Zorg dat Visual Studio Code en alle nodige extensies zijn geïnstalleerd (zie hoofdstuk [IDE](/ide.md))
 * open Visual Studio Code.
 
 * maak ergens op je computer een mapje "webtechnologie" aan met daaronder een mapje per labo zoals in onderstaande afbeelding.
-
 ![bestandstuctuur.png](bestandstuctuur.png)
 
 * zet de volgende oefeningen om naar HTML5
@@ -13,7 +12,11 @@
 * Klik op Go-live (Live server extensie)
 * open het HTML-bestand in een browser (bezoek de URL _localhost:5500_)
 
-## HTML basis
+> Maak voor deze oefeningen gebruik van de volgende content (= tekst en afbeeldingen):
+> 
+> [labo-1-bijlagen.zip](labo-2-bijlagen.zip)
+
+## Lijsten
 
 ### oefening 1
 ![oef-1.png](oef-1.png)
@@ -30,16 +33,30 @@
 ### oefening 5
 ![oef-5.png](oef-5.png)
 
+## Afbeeldingen
+
 ### oefening 6
 ![oef-6.png](oef-6.png)
 
-## Verwijzingen (links)
-
 ### oefening 7
-![oef-7.png](oef-7.png)
+Kopieer oefening 6, en zorg dat er een link over de afbeelding heen ligt naar de website van AP (https://ap.be).
 
 ### oefening 8
+Kopieer oefening 5 en voeg een afbeelding toe op onderstaande manier.
+
 ![oef-8.png](oef-8.png)
 
 ### oefening 9
 ![oef-9.png](oef-9.png)
+
+
+## Herhalingsoefeningen labo 1 + labo 2
+
+### oefening 10
+![oef-10.png](oef-10.png)
+
+### oefening 11
+![oef-11.png](oef-11.png)
+
+### oefening 12
+![oef-12.png](oef-12.png)
