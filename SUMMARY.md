@@ -3,7 +3,7 @@
 * [inleiding](README.md)
 * [IDE](ide.md)
 * [Coding guidelines](coding-guidelines.md)
-* [Projectopdracht](projectopdracht/index.md)
+* [Projectopdracht](projectopdracht/README.md)
 
 ## HTML
 

@@ -1,6 +1,6 @@
 # Projectopdracht - webshop
 
-![Homepage op deskltop](homepage-desktop.jpg "Homepage op desktop")
+![Homepage op desktop](homepage-desktop.jpg "Homepage op desktop")
 
 ## Algemene Info
 
