@@ -6,15 +6,16 @@
 
 Je opdracht bestaat uit het maken van een **fictieve webshop** met minstens 6 producten of diensten die binnen jouw interesseveld vallen. De webshop moet worden geschreven in **HTML5**, **CSS3** en **JavaScript**.
 
-De opdracht is opgedeeld in **7 deelopdrachten**:
+De opdracht is opgedeeld in **6 deelopdrachten**:
 
 1. [Concept & content](deelopdracht-1-concept-content.md)
-2. [Opbouw mobiele website met HTML en CSS](./deelopdracht-2-opbouw-html-css.md)
-3. Responsive design + formulier
-4. Leaflet
-5. Functionaliteit winkelmandje & wishlist
-6. Dynamische inhoud
-7. Presentatie
+2. [Development mobiele website met HTML en CSS](./deelopdracht-2-opbouw-html-css.md)
+3. [Development responsive webshop](./deelopdracht-3-development-responsive.md)
+4. [Contact page (met Leaflet en formulier)](./deelopdracht-4-contact-page.md)
+5. [Winkelmandje & wishlist](./deelopdracht-5-winkelmandje-wishlist.md)
+6. [Dynamische content](./deelopdracht-6-dynamische-content.md)
+
+Tijdens de laatste 2 labo's kom je je webshop die je doorheen het semester gebouwd hebt presenteren voor de klas. Deelopdracht 6 is dus je finale inzending.
 
 ## Wireframes
 
@@ -28,10 +29,6 @@ De wireframes van de webshop zijn terug te vinden op [deze Figma Community Page]
   - ~~Components~~ (enkel nuttig voor de ontwerper aka. de lector)
 
 Bekijk de wireframes steeds op Figma, gezien ze nog geüpdatet kunnen worden doorheen het semester.
-
-## Presentatie
-
-Aan het einde van het semester presenteer je jouw webshop en de bijbehorende code aan je medestudenten en lector. De presentatie zal plaatsvinden in de laatste twee lessen van het semester.
 
 ## Mobile-First
 
