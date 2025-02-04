@@ -1,4 +1,6 @@
-# Development responsive webshop
+# Deelopdracht 3 - Development responsive webshop
+
+> (Deze pagina is nog niet finaal: bekijk deze pagina later nog even terug)
 
 In deze deelopdracht werken we de desktopversie van de wireframe uit. Gebruik hiervoor "min-width" media-queries (behoud de _mobile-first_ aanpak).
 

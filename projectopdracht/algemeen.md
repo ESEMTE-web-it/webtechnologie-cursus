@@ -1,4 +1,4 @@
-# Projectopdracht - webshop
+# Projectopdracht: algemene uitleg
 
 ![Homepage op desktop](homepage-desktop.jpg "Homepage op desktop")
 

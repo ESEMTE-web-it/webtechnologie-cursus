@@ -1,4 +1,4 @@
-# Opbouw mobiele website met HTML en CSS
+# Deelopdracht 2 - Opbouw mobiele website met HTML en CSS
 
 In deze deelopdracht ga je **mobiele** webpagina's bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [wireframes](algemeen.md#wireframes), maar pas deze ontwerpen aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
 
