@@ -2,10 +2,6 @@
 
 * Zorg dat Visual Studio Code en alle nodige extensies zijn geïnstalleerd (zie hoofdstuk [IDE](/ide.md))
 * open Visual Studio Code.
-
-* maak ergens op je computer een mapje "webtechnologie" aan met daaronder een mapje per labo zoals in onderstaande afbeelding.
-![bestandstuctuur.png](bestandstuctuur.png)
-
 * zet de volgende oefeningen om naar HTML5
 * zet de naam van de oefening in de _head_ en in de _title_
 * bewaar elke oefening als index.html (belangrijk).
@@ -14,7 +10,7 @@
 
 > Maak voor deze oefeningen gebruik van de volgende content (= tekst en afbeeldingen):
 > 
-> [labo-1-bijlagen.zip](labo-2-bijlagen.zip)
+> [labo-2-bijlagen.zip](labo-2-bijlagen.zip)
 
 ## Lijsten
 
