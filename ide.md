@@ -37,8 +37,7 @@ In VS Code heb je de mogelijkheid om extensies te installeren.
 
 ### **Prettier: code formatter**
 Prettier automatiseert het formatteren van je code volgens vastgestelde regels.
-Installeer de Prettier-extensie in VS Code. 
-Prettier automatiseert het formatteren van je code volgens vastgestelde regels.
+Installeer de Prettier-extensie in VS Code.
 
 ### **Live Server: live preview van je website:**
 
