@@ -21,13 +21,13 @@ Dit is één grote oefening die gericht is op het begrijpen en toepassen van de 
 * Binnen het `<main>`-element, schrijf de hoofdinhoud van je webpagina met behulp van relevante semantische HTML5- elementen, zoals `<article>`, `<section>`, `<h1>`, `<h2>`, `<p>`, en eventueel `<figure>` met `<figcaption>` voor afbeeldingen
 
 ## 4. zijbalk (aside)
-Voeg een zijbalk toe en gebruik hiervoor een <aside>-element. Zet in de zijbalk contactinfomatie en maak hierbij gebruik van het <address>-element met de volgende gegevens:
+Voeg een zijbalk toe en gebruik hiervoor een `<aside>`-element. Zet in de zijbalk contactinfomatie en maak hierbij gebruik van het `<address>`-element met de volgende gegevens:
   * adres: [Voeg een fictief adres in]
   * telefoonnummer: [Voeg een telefoonnummer in]
   * e-mail: link naar het e-mailadres "lector@ap.be", waarbij het emailadres zelf als klikbare link wordt weergegeven.
 
 ## 5. footer
-Voeg een <footer>-element toe onderaan je pagina. Plaats hierin volgende informatie:
+Voeg een `<footer>`-element toe onderaan je pagina. Plaats hierin volgende informatie:
 * een voettekst met een copyright-teken jaar AP-Hogeschool
 * op de tekst “AP-Hogeschool” plaats je een link naar de website van de school die zal openen in een nieuw venster
 
