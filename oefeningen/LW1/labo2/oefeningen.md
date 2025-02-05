@@ -56,8 +56,6 @@ Kopieer oefening 5 en voeg een afbeelding toe op onderstaande manier.
 ### oefening 12
 ![oef-12.png](oef-12.png)
 
-## Herhalingsoefeningen labo 1 + labo 2
-
 ### oefening 13
 ![oef-13.png](oef-13.png)
 

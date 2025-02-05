@@ -15,6 +15,7 @@
   * Lesweek 1
     * [Labo 1](oefeningen/LW1/labo1/oefeningen.md)
     * [Labo 2](oefeningen/LW1/labo2/oefeningen.md)
+    * [Herhalingsoefening](oefeningen/LW1/herhalingsoefening.md)
     * [Oplossingen](oefeningen/LW1/oplossingen.md)
 
 ## HTML
