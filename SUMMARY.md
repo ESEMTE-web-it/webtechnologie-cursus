@@ -3,7 +3,7 @@
 * [inleiding](README.md)
 * [IDE](ide.md)
 * [Coding guidelines](coding-guidelines.md)
-* [Projectopdracht](projectopdracht/)
+* [Projectopdracht](projectopdracht)
   * [Algemene opzet](projectopdracht/algemeen.md)
   * [1. Concept & content](projectopdracht/deelopdracht-1-concept-content.md)
   * [2. Development mobiele website met HTML en CSS](projectopdracht/deelopdracht-2-opbouw-html-css.md)
@@ -11,9 +11,11 @@
   * [4. Contact page](projectopdracht/deelopdracht-4-contact-page.md)
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
-* [Oefeningen](oefeningen/)
-  * [Labo 1](/oefeningen/labo1/oefeningen.md)
-  * [Labo 2](/oefeningen/labo2/oefeningen.md)
+* [Oefeningen](oefeningen)
+  * Lesweek 1
+    * [Labo 1](oefeningen/LW1/labo1/oefeningen.md)
+    * [Labo 2](oefeningen/LW1/labo2/oefeningen.md)
+    * [Oplossingen](oefeningen/LW1/oplossingen.md)
 
 ## HTML
 
