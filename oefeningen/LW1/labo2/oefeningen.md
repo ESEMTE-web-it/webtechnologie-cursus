@@ -49,7 +49,7 @@
 Kopieer oefening 9, en zorg dat er een link over de afbeelding heen ligt naar de website van AP (https://ap.be).
 
 ### oefening 11
-Kopieer oefening 5 en voeg een afbeelding toe op onderstaande manier.
+Kopieer oefening 8 en voeg een afbeelding toe op onderstaande manier.
 
 ![oef-11.png](oef-11.png)
 
