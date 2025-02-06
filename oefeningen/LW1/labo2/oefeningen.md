@@ -46,7 +46,7 @@
 ![oef-9.png](oef-9.png)
 
 ### oefening 10
-Kopieer oefening 6, en zorg dat er een link over de afbeelding heen ligt naar de website van AP (https://ap.be).
+Kopieer oefening 9, en zorg dat er een link over de afbeelding heen ligt naar de website van AP (https://ap.be).
 
 ### oefening 11
 Kopieer oefening 5 en voeg een afbeelding toe op onderstaande manier.
