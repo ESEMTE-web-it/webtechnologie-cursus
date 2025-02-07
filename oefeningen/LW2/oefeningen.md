@@ -72,11 +72,13 @@ Deze oefening is een vervolg op [Labo 2 - oefening 15](../LW1/labo2/oefeningen.m
 ## oefening 5
 
 Maak het volgende design na. De kleuren mogen afwijken.
+
 ![Oefening 5.png](oef-5.png)
 
 ## oefening 6
 
 Maak het volgende design na. De kleuren mogen afwijken, maar ze moeten wel van blauw naar rood gaan.
+
 ![Oefening 6](oef-6.png)
 
 ## oefening 7
