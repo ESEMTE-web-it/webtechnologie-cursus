@@ -31,7 +31,7 @@ Maak de preview van het flex-box model na.
 
 * zowel nav als main staan in een flex
 * een `main` met daarin 8 paragrafen met een klasse `.item`
-* main heeft een achtergrondkleur `lightgrey` en een achtergrondafbeelding die wordt herhaald ([link](oefeningen.md#assets-oefening-3))
+* main heeft een achtergrondkleur `lightgrey` en een achtergrondafbeelding die wordt herhaald ([link](css/natuurlijke-volgorde/flex/oefeningen.md#assets-oefening-3))
 * het derde .item heeft een achtergrondkleur `rgba(139, 211, 146, 0.5)` en de eerste letter heeft een grote van `200%`
 * de kleur van de links is `grey`
 * lees meer heeft een link naar `#`&#x20;
@@ -66,7 +66,7 @@ Maak de preview van het flex-box model na.&#x20;
 
 • de footer is [sticky](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers) en heeft een witte achtergrond en een padding van `2rem`
 
-* de main heeft een herhalende achtergrond afbeelding ([link naar assets](oefeningen.md#assets-oefening-3))
+* de main heeft een herhalende achtergrond afbeelding ([link naar assets](css/natuurlijke-volgorde/flex/oefeningen.md#assets-oefening-3))
 
 <figure><img src="../../../.gitbook/assets/oefn-3-laptop.png" alt="" width="188"><figcaption><p>oefening 3: desktop</p></figcaption></figure>
 
@@ -88,7 +88,7 @@ Maak een extra pagina `studenten.html` aan
 * tussen section `info` en de quote komt een section `portfolio`
 * plaats in de section `portfolio` 6 afbeeldingen met bijhorende tekst (gebruik `display: flex`)
 * elke figure heeft een afbeelding (breedte 432px) met alt en een `figcaption`&#x20;
-* de te gebruiken afbeeldingen en teksten staan onderaan bij de assets ([link](oefeningen.md#assets-oefening-4))
+* de te gebruiken afbeeldingen en teksten staan onderaan bij de assets ([link](css/natuurlijke-volgorde/flex/oefeningen.md#assets-oefening-4))
 * op de figure staat een link naar “#”
 * zet de nav met de menu-items in een flex
 

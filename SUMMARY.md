@@ -18,7 +18,9 @@
     * [Herhalingsoefening](oefeningen/LW1/herhalingsoefening.md)
     * [Oplossingen](oefeningen/LW1/oplossingen.md)
   * Lesweek 2
-    * [Labo 3](oefeningen/LW2/oefeningen.md)
+    * [Labo 3](oefeningen/LW2/labo%203/oefeningen.md)
+    * [Labo 4](oefeningen/LW2/labo%204/oefeningen.md)
+    * [Oplossingen](oefeningen/LW2/oplossingen.md)
 
 ## HTML
 
@@ -34,7 +36,6 @@
   * [invoervelden](html/intro-2/invoervelden.md)
   * [oefeningen](html/intro-2/oefeningen.md)
 * [4: tabellen](html/intro-3/README.md)
-  * [oefeningen](html/intro-3/oefeningen.md)
 * [5: media](html/media/README.md)
   * [afbeeldingen](html/media/afbeeldingen.md)
   * [video](html/media/video.md)

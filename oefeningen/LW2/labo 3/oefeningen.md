@@ -26,7 +26,7 @@ webtechnologie/
 * zet het lettertype voor de titel op ‘Arial’
 * de kleur van de paragraaftekst zet je op blauw
 
-![Oefening 1](oef-1.png)
+![Oefening 1](oefeningen/LW2/labo%203/oef-1.png)
 
 ## oefening 2
 * maak index.html in een nieuwe map “oefening-02”
@@ -39,7 +39,7 @@ webtechnologie/
   * zet de paragrafen op 1.2rem
   * geef de afbeelding een gestipte rode rand
 
-![Oefening 2](oef-2.png)
+![Oefening 2](oefeningen/LW2/labo%203/oef-2.png)
 
 ## oefening 3
 
@@ -53,11 +53,11 @@ webtechnologie/
   * de navigatie (nav) is de helft van de header
   * de article-elementen krijgen een gestipte rode kader
 
-![Oefening 3](oef-3.png)
+![Oefening 3](oefeningen/LW2/labo%203/oef-3.png)
 
 ## oefening 4
 
-Deze oefening is een vervolg op [Labo 2 - oefening 15](../LW1/labo2/oefeningen.md#oefening-15). Maak een nieuwe file index.html en kopieer hierin de HTML van oefening 15.
+Deze oefening is een vervolg op [Labo 2 - oefening 15](oefeningen/LW1/labo2/oefeningen.md#oefening-15). Maak een nieuwe file index.html en kopieer hierin de HTML van oefening 15.
 
 * style.css
   * alle teksten in body maken we standaard 14px
@@ -66,25 +66,25 @@ Deze oefening is een vervolg op [Labo 2 - oefening 15](../LW1/labo2/oefeningen.m
   * de tekst bij de afbeelding is cursief en 11px groot
   * de afbeelding mag maximaal 250px breed zijn
 
-![Oefening 4](oef-4.png)
+![Oefening 4](oefeningen/LW2/labo%203/oef-4.png)
 
 ## oefening 5
 
 Maak het volgende design na. De kleuren mogen afwijken.
 
-![Oefening 5.png](oef-5.png)
+![Oefening 5.png](oefeningen/LW2/labo%203/oef-5.png)
 
 ## oefening 6
 
 Maak het volgende design na. De kleuren mogen afwijken, maar ze moeten wel van blauw naar rood gaan.
 
-![Oefening 6](oef-6.png)
+![Oefening 6](oefeningen/LW2/labo%203/oef-6.png)
 
 ## oefening 7
 
 Maak het volgende design na.
 
-![Oefening 7](oef-7.png)
+![Oefening 7](oefeningen/LW2/labo%203/oef-7.png)
 
 ## oefening 8
 
@@ -126,7 +126,7 @@ Maak het volgende design na.
 
 Maak het volgende design na.
 
-![Oefening 9](oef-9.png)
+![Oefening 9](oefeningen/LW2/labo%203/oef-9.png)
 
 ### body
 * lettertype Arial, Helvetica, sans-serif met een grootte van 1rem

@@ -15,27 +15,27 @@
 ## Verwijzingen (_links_)
 
 ### oefening 1
-![oef-1.png](oef-1.png)
+![oef-1.png](oefeningen/LW1/labo2/oef-1.png)
 
 ### oefening 2
-![oef-2.png](oef-2.png)
+![oef-2.png](oefeningen/LW1/labo2/oef-2.png)
 
 ### oefening 3
-![oef-3.png](oef-3.png)
+![oef-3.png](oefeningen/LW1/labo2/oef-3.png)
 
 ## Lijsten
 
 ### oefening 4
-![oef-4.png](oef-4.png)
+![oef-4.png](oefeningen/LW1/labo2/oef-4.png)
 
 ### oefening 5
-![oef-5.png](oef-5.png)
+![oef-5.png](oefeningen/LW1/labo2/oef-5.png)
 
 ### oefening 6
-![oef-6.png](oef-6.png)
+![oef-6.png](oefeningen/LW1/labo2/oef-6.png)
 
 ### oefening 7
-![oef-7.png](oef-7.png)
+![oef-7.png](oefeningen/LW1/labo2/oef-7.png)
 
 ### oefening 8
 ![oef-8.png](oef-8.png)
@@ -43,7 +43,7 @@
 ## Afbeeldingen
 
 ### oefening 9
-![oef-9.png](oef-9.png)
+![oef-9.png](oefeningen/LW1/labo2/oef-9.png)
 
 ### oefening 10
 Kopieer oefening 9, en zorg dat er een link over de afbeelding heen ligt naar de website van AP (https://ap.be).

@@ -6,7 +6,7 @@ Deze oefeningen worden behandeld tijdens LW4 (UI\&UX en CSS): Labo 8
 
 ## oefening 1
 
-Maak op basis van volgende screenshots oefening 1 na. De html-elementen zijn [toegevoegd als bijlage](oefeningen.md#assets-oefening-1).
+Maak op basis van volgende screenshots oefening 1 na. De html-elementen zijn [toegevoegd als bijlage](css/natuurlijke-volgorde/media-queries/oefeningen.md#assets-oefening-1).
 
 Alles tot en met 575px is standaard (lijst-1)
 
