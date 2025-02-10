@@ -57,7 +57,7 @@ webtechnologie/
 
 ## oefening 4
 
-Deze oefening is een vervolg op [Labo 2 - oefening 15](oefeningen/LW1/labo2/oefeningen.md#oefening-15). Maak een nieuwe file index.html en kopieer hierin de HTML van oefening 15.
+Deze oefening is een vervolg op [Labo 2 - oefening 15](../../LW1/labo2/oefeningen.md#oefening-15). Maak een nieuwe file index.html en kopieer hierin de HTML van oefening 15.
 
 * style.css
   * alle teksten in body maken we standaard 14px
