@@ -63,7 +63,7 @@ webtechnologie/
 
 Deze oefening is een vervolg op [Labo 2 - oefening 15](../../LW1/labo2/oefeningen.md#oefening-15). Maak een nieuwe file index.html en kopieer hierin de HTML van oefening 15.
 
-* style.css
+* Voeg een css bestand toe: `css/style.css` en pas daar de volgende styling in toe:
   * alle teksten in body maken we standaard 14px
   * h1 staat in het lettertype ‘Verdana’, 24px, vet en bruin (brown) zijn en wordt automatisch in hoofdletters geplaatst
   * de ondertitels worden 18px, onderlijnd en bruin (brown)
@@ -74,84 +74,87 @@ Deze oefening is een vervolg op [Labo 2 - oefening 15](../../LW1/labo2/oefeninge
 
 ## oefening 5
 
-Maak het volgende design na. De kleuren mogen afwijken.
+Maak het volgende design na in HTML / CSS. De kleuren mogen afwijken.
 
 ![Oefening 5.png](oef-5.png)
 
 ## oefening 6
 
-Maak het volgende design na. De kleuren mogen afwijken, maar ze moeten wel van blauw naar rood gaan.
+Maak het volgende design na in HTML / CSS. De kleuren mogen afwijken, maar ze moeten wel van blauw naar rood gaan.
 
 ![Oefening 6](oef-6.png)
 
 ## oefening 7
 
-Maak het volgende design na.
+Maak het volgende design na in HTML / CSS.
 
 ![Oefening 7](oef-7.png)
 
 ## oefening 8
 
-Maak het volgende design na.
+Maak het volgende design na in HTML / CSS.
 
 ![Oefening 8](oef-8.jpg)
 
-### body
-*  lettertype Arial, Helvetica, sans-serif met een grootte van 1rem
-* lijn de tekst uit, zowel links als rechts
-*  titels worden gecentreerd en in hoofdletters gezet header
-* zwarte achtergrondkleur en een witte tekstkleur
-*  grootte lettertype van 2.5rem
-*  padding zowel boven als onder van 60px
+**body**
+  *  lettertype Arial, Helvetica, sans-serif met een grootte van 1rem
+  *  lijn de tekst uit, zowel links als rechts
+  *  titels worden gecentreerd en in hoofdletters gezet header
+  *  zwarte achtergrondkleur en een witte tekstkleur
+  *  grootte lettertype van 2.5rem
+  *  padding zowel boven als onder van 60px
 
-### header
-* zwarte achtergrondkleur en een witte tekstkleur
-* grootte lettertype van 2.5rem
-* padding zowel boven als onder van 60px
+**header**
+  * zwarte achtergrondkleur en een witte tekstkleur
+  * grootte lettertype van 2.5rem
+  * padding zowel boven als onder van 60px
 
-### nav
-* rode achtergrondkleur
-* font grootte van 1.5rem
-* padding zowel boven als onder van 30px
-* border radius op de onderste hoeken van 10px
-* geef links een witte kleur
-### section
-* padding zowel boven als onder van 60px
-* padding zowel links als rechts van 30px
+**nav**
+  * rode achtergrondkleur
+  * font grootte van 1.5rem
+  * padding zowel boven als onder van 30px
+  * border radius op de onderste hoeken van 10px
+  * geef links een witte kleur
 
-### footer
-* achtergrondkleur #ccc
-* font-grootte van 1rem
-* padding zowel boven als onder van 60px
-* padding zowel links als rechts van 30px
-* zwarte rand van 5px met korte lijntjes (dashed)
+**section**
+  * padding zowel boven als onder van 60px
+  * padding zowel links als rechts van 30px
+
+**footer**
+  * achtergrondkleur #ccc
+  * font-grootte van 1rem
+  * padding zowel boven als onder van 60px
+  * padding zowel links als rechts van 30px
+  * zwarte rand van 5px met korte lijntjes (dashed)
 
 ## oefening 9
 
-Maak het volgende design na.
+Maak het volgende design na in HTML / CSS.
 
 ![Oefening 9](oef-9.png)
 
-### body
+**body**
 * lettertype Arial, Helvetica, sans-serif met een grootte van 1rem
 * de tekst wordt gecentreerd
 * titels worden in het vet gezet
 
-### alle cirkels
+**alle cirkels**
 * alle cirkels hebben een hoogte en breedte van 200px
 * alle cirkels hebben een border radius van 50%
 * alle cirkels hebben een zwarte rand van 10px
 * alle cirkels hebben hun marge op automatisch staan (margin: auto)
 
-### rode cirkel
+**rode cirkel**
 * achtergrondkleur is rood 
 * rand is doorlopend (solid)
-### groene cirkel
+
+**groene cirkel**
 * achtergrondkleur is groen 
 * rand is dubbel (double)
-### blauwe cirkel
+
+**blauwe cirkel**
 * achtergrondkleur is blauw 
 * rand is gestippeld (dashed)
 
 ## oefening 10
-Probeer de volgende interactieve oefening om CSS selectors te oefenen: https://flukeout.github.io/
+Probeer de volgende interactieve oefening (tot en met level 14) om je CSS selectors in te oefenen: [CSS Dinner](https://flukeout.github.io/)
