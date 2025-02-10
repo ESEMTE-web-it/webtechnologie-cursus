@@ -5,3 +5,10 @@
 
 ## Labo 3
 [Labo3 - oplossingen.zip](Labo3%20-%20oplossingen.zip)
+
+## Labo 4
+[Oplossing oefening 1](https://codepen.io/phillslevin/pen/rNXMLNd)
+
+[Oplossing oefening 2](https://codepen.io/phillslevin/pen/eYqdzvK)
+
+[Oplossing oefening 3](https://codepen.io/phillslevin/pen/KKOgMBR)

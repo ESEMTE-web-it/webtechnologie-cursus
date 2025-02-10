@@ -41,13 +41,5 @@ Bouw een fictief overzicht van de bezetting van een klaslokaal na met een HTML t
 
 >**TIP** - Hergebruik de CSS van oefening 2, maar voeg een extra border toe voor alle `td`
 
-### Oplossingen
-
-[Oefening 1](https://codepen.io/phillslevin/full/rNXMLNd)
-
-[Oefening 2](https://codepen.io/phillslevin/full/eYqdzvK)
-
-[Oefening 3](https://app.gitbook.com/s/ouoIA7Dvx8ty0RZ0Hqs1/h0-introductie/readme)
-
 
 

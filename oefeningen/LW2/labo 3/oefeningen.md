@@ -18,6 +18,10 @@ webtechnologie/
 ├─ labo-n/      
 ```
 
+> Maak voor deze oefeningen gebruik van de volgende content (= tekst en afbeeldingen):
+>
+> [labo-3-bijlagen.zip](labo-3-bijlagen.zip)
+
 ## oefening 1
 * maak een nieuwe map “oefening-01” met daarin index.html
 * maak een nieuwe map “css” in de map “oefening-01” met daarin style.css (css/style.css)
