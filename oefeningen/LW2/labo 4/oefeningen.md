@@ -106,7 +106,7 @@ Wanneer de derde knop de focus krijgt (bijvoorbeeld via de tab-toets) wordt een 
 
 ## Tabellen
 
-### oefening 1
+### oefening 3
 
 Bouw de volgende tabel in HTML en CSS. Zorg ervoor dat de koppen van de tabel de dagen aangeven en dat de rijen de informatie over de producten en inkomsten bevatten. De eerste kolom bevat eveneens een legende van de rij.
 
@@ -114,7 +114,7 @@ Gebruik hierbij het `<th>`-element voor de koppen en het `<td>`-element voor de 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-10-07 at 23.25.18 (1).png" alt=""><figcaption><p>Een tabel met data</p></figcaption></figure>
 
-### oefening 2
+### oefening 4
 
 Bouw je lessenrooster voor de eerste drie dagen van de week week na, waarbij bepaalde vakken meerdere uren in beslag nemen. Gebruik het `colspan`-attribuut om aan te geven dat een vak bijvoorbeeld twee of drie uren achter elkaar in beslag neemt.
 
@@ -129,7 +129,7 @@ Bouw je lessenrooster voor de eerste drie dagen van de week week na, waarbij bep
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-10-07 at 23.25.32 (1).png" alt=""><figcaption><p>Een lessenrooster</p></figcaption></figure>
 
-### oefening 3
+### oefening 5
 
 Bouw een fictief overzicht van de bezetting van een klaslokaal na met een HTML table en CSS.
 
