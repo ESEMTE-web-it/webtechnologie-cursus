@@ -172,7 +172,7 @@ ul li:last-child {
 
 **:nth-child(N)**
 
-De [:nth-child(N)](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child) CSS-pseudo-classe selecteert elementen op basis van hun positie in een groep van broers en zussen binnen één ouderelement ([voorbeeld](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)).
+De [:nth-child(N)](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child) CSS-pseudo-class selecteert elementen op basis van hun positie in een groep van broers en zussen binnen één ouderelement ([voorbeeld](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)).
 
 ```css
 /* Selecteert td-elementen van de even rijen (2n) in tbody van een tabel */
@@ -251,6 +251,8 @@ article:first-of-type {
 {% hint style="info" %}
 Er bestaan nog meer véél meer pseudo-classes. Bekijk ze [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes) allemaal!
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Het verschil tussen nth-child en nth-of-type pseudo class selectors gevisualiseerd</p></figcaption></figure>
 
 ## pseudo-elementen
 
