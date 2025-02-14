@@ -18,11 +18,11 @@
     * [Herhalingsoefening](oefeningen/LW1/herhalingsoefening.md)
     * [Oplossingen](oefeningen/LW1/oplossingen.md)
   * Lesweek 2
-    * [Labo 3](oefeningen/LW2/labo 3/oefeningen.md>)
-    * [Labo 4](oefeningen/LW2/labo 4/oefeningen.md>)
+    * [Labo 3](oefeningen/LW2/labo3/oefeningen.md)
+    * [Labo 4](oefeningen/LW2/labo4/oefeningen.md)
     * [Oplossingen](oefeningen/LW2/oplossingen.md)
   * Lesweek 3
-    * [Labo 5](oefeningen/LW3/labo 5/oefeningen.md>)
+    * [Labo 5](oefeningen/LW3/labo5/oefeningen.md)
     * [Oplossingen](oefeningen/LW3/oplossingen.md)
 
 ## HTML
