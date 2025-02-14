@@ -11,16 +11,19 @@
   * [4. Contact page](projectopdracht/deelopdracht-4-contact-page.md)
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
-* [Oefeningen](oefeningen/README.md)
-  * [Lesweek 1](oefeningen/lesweek-1/README.md)
+* Oefeningen
+  * Lesweek 1
     * [Labo 1](oefeningen/LW1/labo1/oefeningen.md)
     * [Labo 2](oefeningen/LW1/labo2/oefeningen.md)
     * [Herhalingsoefening](oefeningen/LW1/herhalingsoefening.md)
     * [Oplossingen](oefeningen/LW1/oplossingen.md)
-  * [Lesweek 2](oefeningen/lesweek-2/README.md)
-    * [Labo 3](<oefeningen/LW2/labo 3/oefeningen.md>)
-    * [Labo 4](<oefeningen/LW2/labo 4/oefeningen.md>)
+  * Lesweek 2
+    * [Labo 3](oefeningen/LW2/labo 3/oefeningen.md>)
+    * [Labo 4](oefeningen/LW2/labo 4/oefeningen.md>)
     * [Oplossingen](oefeningen/LW2/oplossingen.md)
+  * Lesweek 3
+    * [Labo 5](oefeningen/LW3/labo 5/oefeningen.md>)
+    * [Oplossingen](oefeningen/LW3/oplossingen.md)
 
 ## HTML
 
