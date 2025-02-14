@@ -78,9 +78,10 @@ Maak het voorgaande ontwerp na en maak opnieuw gebruik van grid-template-areas i
 ## oefening 4
 
 Bouw het onderstaande grid na:
+
 ![Oefening 4](oef-4.png)
 
-Maak een HTML-pagina met een <head> en een <body>-sectie.
+* Maak een HTML-pagina met een `head` en een `body`-sectie.
 * Gebruik de volgende elementen om de structuur van de pagina te definiëren:
   * header
   * nav
