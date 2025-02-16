@@ -97,8 +97,8 @@ Bouw het onderstaande grid na:
   * Hoogte van elk article: 100px;
 * Voorzie een gap van 10px tussen de articles.
 * Gebruik :first-child, :last-child, :nth-of-type, :nth-child(even), en :nth- child(odd) om verschillende stijlen toe te passen op specifieke items in het raster:
-  * Geef het eerste article een blauwe (#3498db) achtergrondkleur
-  * Geef het laatste article een rode (#e74c3c) achtergrondkleur
-  * Geef alle even articles een groene (#2ecc71) achtergrondkleur
+  * Geef het eerste article een blauwe (`#3498db`) achtergrondkleur
+  * Geef het laatste article een rode (`#e74c3c`) achtergrondkleur
+  * Geef alle even articles een groene (`#2ecc71`) achtergrondkleur
   * Geef alle oneven articles een gele (`#f1c40f`) achtergrondkleur.
 * Zet een nummer in elk article. Zorg ervoor dat het nummer goed leesbaar is (gebruik een witte tekst op de rode, groene en blauwe achtergrondkleur en een zwarte tekst op de gele achtergrondkleur).

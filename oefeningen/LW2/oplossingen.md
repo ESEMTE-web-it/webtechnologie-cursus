@@ -11,8 +11,13 @@ Oplossingen labo 3
 
 ## Labo 4
 
-[Oplossing oefening 1](https://codepen.io/phillslevin/pen/rNXMLNd)
+{% file src="../../.gitbook/assets/Labo-4-oplossingen.zip" %}
+Oplossingen labo 4 (oefening 1 en 2)
+{% endfile %}
 
-[Oplossing oefening 2](https://codepen.io/phillslevin/pen/eYqdzvK)
 
-[Oplossing oefening 3](https://codepen.io/phillslevin/pen/KKOgMBR)
+[Oplossing oefening 3](https://codepen.io/phillslevin/pen/rNXMLNd)
+
+[Oplossing oefening 4](https://codepen.io/phillslevin/pen/eYqdzvK)
+
+[Oplossing oefening 5](https://codepen.io/phillslevin/pen/KKOgMBR)
