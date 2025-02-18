@@ -24,11 +24,11 @@ webtechnologie/
 
 ## oefening 1
 
-Bouw het volgende ontwerp na met behulp van een CSS Grid en grid-template-areas
+Bouw het volgende ontwerp na met behulp van een CSS Grid.
 
 ![Oefening 1](oef-1.png)
 
-* Zorg dat de body-tag altijd minstens `100vh` hoog is.
+* Zorg dat de body-tag altijd minstens `100vh` hoog is. (`min-height: 100vh`)
 * Voeg de volgende elementen toe aan de body van je `index.html` pagina.
   * header
   * main
@@ -42,8 +42,16 @@ Bouw het volgende ontwerp na met behulp van een CSS Grid en grid-template-areas
   * main: `#7da9d5`
   * aside: `#007fff`
   * footer: `#588ec3`
-* geef elk element een naam (met de property `grid-area`) zodat je ze kunt gebruiken in een grid.
-* selecteer de parent van de voorgaande elementen met een type-selector en pas het grid toe. Let daarbij dat de aside 1/4 van de schermbreedte inneemt.
+* selecteer de parent van de voorgaande elementen met een type-selector en pas het grid toe. Let daarbij dat de aside 1/5 van de schermbreedte inneemt.
+
+### Extra:
+
+Maak de voorgaande oefening nu ook een keer met named areas:
+  * geef elk grid-child een naam (met de property `grid-area`) zodat je ze kunt gebruiken in een grid.
+
+    > **TIP**: Opgelet: de value moet NIET tussen quotes ("") staan.
+
+  * geef de grid-parent de `grid-template-areas` property.
 
 ## oefening 2
 
@@ -73,7 +81,7 @@ Maak het voorgaande ontwerp na en maak opnieuw gebruik van grid-template-areas i
   * section3: `#6d9fd2` 
   * main: `#7da9d5`
   * footer: `#588ec3`
-* Elk section is een aparte grid-area. Maak gebruik van child pseudoklassen om de 3 sections naast elkaar te zetten.
+* Elke section is een aparte grid-area. Maak gebruik van child pseudoklassen om de 3 sections naast elkaar te zetten.
 
 ## oefening 4
 
