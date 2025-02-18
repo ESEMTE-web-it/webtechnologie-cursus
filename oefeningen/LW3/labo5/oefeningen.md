@@ -102,3 +102,7 @@ Bouw het onderstaande grid na:
   * Geef alle even articles een groene (`#2ecc71`) achtergrondkleur
   * Geef alle oneven articles een gele (`#f1c40f`) achtergrondkleur.
 * Zet een nummer in elk article. Zorg ervoor dat het nummer goed leesbaar is (gebruik een witte tekst op de rode, groene en blauwe achtergrondkleur en een zwarte tekst op de gele achtergrondkleur).
+
+## oefening 5
+Probeer de volgende interactieve oefening om je CSS grid te oefenen:
+[CSS Grid Garden](https://cssgridgarden.com)
