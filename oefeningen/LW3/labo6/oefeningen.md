@@ -34,7 +34,9 @@ Bouw onderstaand digitaal visitekaartje na. Gebruik `position: relative` om de a
 
 Vertrek vanuit het volgende bestand.
 
-![Startbestanden](../../../.gitbook/assets/labo-6-start-assets.zip)
+{% file src="../../../.gitbook/assets/labo-6-start-assets.zip" %}
+    De startbestanden
+{% endfile %}
 
 Jij moet enkel nog voor de positionering van de `<aside>` zorgen. Zorg dat de `<aside>` in de rechterbenedenhoek gepositioneerd wordt, en let daarbij op de kleine afstand tot de rand. Gebruik hiervoor de CSS propterty `position: absolute.`
 
