@@ -4,7 +4,7 @@
 
 Bouw onderstaand digitaal visitekaartje na. Gebruik `position: relative` om de afbeelding over de bovenste rand te duwen. Achteraf duw je je naam, titel en e-mailadres ook op de zelfde manier wat mee omhoog zodat alles mooi uitgelijnd is.
 
-<figure><img src="../../../.gitbook/assets/localhost_5500_webtechnologie_LW3_labo%205_demo_position-relative_.png" alt=""><figcaption></figcaption></figure>
+![Oefening 1](../../../.gitbook/assets/pos-relative.png)
 
 #### assets voor oefening 1
 
@@ -14,7 +14,7 @@ Bouw onderstaand digitaal visitekaartje na. Gebruik `position: relative` om de a
 
 In de bijlage vind je de HTML en CSS code voor onderstaande webpagina te genereren. Jij moet enkel nog voor de positionering van de `<aside>` zorgen. Zorg dat de `<aside>` in de rechterbenedenhoek gepositioneerd wordt, en let daarbij op de kleine afstand tot de rand. Gebruik hiervoor de CSS propterty `position: absolute.`
 
-<figure><img src="../../../.gitbook/assets/localhost_5500_webtechnologie_LW3_labo%205_demo_position-absolute_ (1).png" alt=""><figcaption></figcaption></figure>
+![Oefening 2a](../../../.gitbook/assets/pos-absolute.png)
 
 #### assets oefening 2a
 
