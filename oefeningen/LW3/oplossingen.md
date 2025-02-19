@@ -10,3 +10,7 @@ Oplossingen labo 5
 {% endfile %}
 
 ## Labo 6
+
+{% file src="../../.gitbook/assets/labo-6-oplossingen.zip" %}
+Oplossingen labo 6
+{% endfile %}
