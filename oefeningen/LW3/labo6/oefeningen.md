@@ -49,11 +49,16 @@ Vertrek vanuit je oplossing van oefening 2 (kopieer deze naar een nieuwe folder)
 
 Zoals je in oefening 2 zult zien zal het `<aside>` element niet automatisch herpositioneren wanneer je naar beneden scrolt. Verander `position: absolute` in `position: fixed` om de container mee te laten scrollen.
 
+![Oefening 3](../../../.gitbook/assets/labo-6-oef-3.png)
+
+
 ### oefening 4
 
 Kopieer oefening 3, en verwijder nu de aside (ook de bijhorende css).
 
 Zorg er voor dat wanneer de gebruiker scrollt, het nav-element blijft plakken tegen de bovenkant van de viewport. Gebruik daarvoor `position: sticky`.
+
+![Oefening 4](../../../.gitbook/assets/labo-6-oef-4.png)
 
 ### oefening 5
 
