@@ -1,5 +1,9 @@
 # oefeningen
 
+{% hint style="danger" %}
+**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW4/labo7/oefeningen.md)
+{% endhint %}
+
 {% hint style="info" %}
 Deze oefeningen worden behandeld tijdens LW4 (UI\&UX en CSS): Labo 7
 {% endhint %}
