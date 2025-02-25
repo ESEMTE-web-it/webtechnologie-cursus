@@ -32,17 +32,12 @@ Maak de preview van het flex-box model na.
 * gebruik https://picsum.photos voor de foto. Zorg voor foto's van 1000x500px.
 * lees meer heeft een link naar `#`
 * font-family: Arial,...&#x20;
-* nav staat ook in een flex
 * kleur van links nav: `darkgray` en hoofdletters met css&#x20;
 * achtergrondkleur van de section: `rgb (240, 240, 240)`
 
 > **TIP**: Centreer de body door de linker en rechter marge op auto te zetten.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-09-24 at 14.42.25 (1).png" alt="" width="188"><figcaption><p>oefening 1: desktop</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-09-24 at 14.42.12 (1).png" alt="" width="72"><figcaption><p>oefening 1: tablet</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-09-24 at 14.41.59 (1).png" alt="" width="44"><figcaption><p>oefening 1: mobile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-09-24 at 14.42.25 (1).png" alt="" width="188"><figcaption><p>oefening 1</p></figcaption></figure>
 
 ## oefening 2
 
