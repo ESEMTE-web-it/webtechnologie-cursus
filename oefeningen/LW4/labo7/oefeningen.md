@@ -13,6 +13,7 @@ webtechnologie/
 │  │  │  ├─ image-1.jpg 
 │  │  │  ├─ image-n.jpg 
 │  │  ├─ css/
+│  │  │  ├─ reset.css
 │  │  │  ├─ style.css
 │  ├─ oefening-02/
 │  ├─ oefening-n/
