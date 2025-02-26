@@ -22,7 +22,7 @@ webtechnologie/
 ```
 ## oefening 1
 
-Maak op basis van volgende screenshots oefening 1 na. De html-elementen zijn [toegevoegd als bijlage](css/natuurlijke-volgorde/media-queries/oefeningen.md#assets-oefening-1).
+Maak op basis van volgende screenshots oefening 1 na. De html-elementen zijn hieronder toegevoegd als bijlage.
 
 Alles tot en met 575px is standaard (lijst-1)
 
