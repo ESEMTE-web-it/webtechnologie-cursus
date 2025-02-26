@@ -28,23 +28,23 @@ Alles tot en met 575px is standaard (lijst-1)
 
 **Media-queries**
 
-* small devices: gsm, 576px en groter (lijst-2)\
-* medium devices: tablets, 768px en groter (lijst-3)\
-* large devices: desktops, 992px en groter (lijst-4)\
-* x-large devices: grote desktops, 1200px en groter (lijst-5)\
+* small devices: gsm, 576px en groter (lijst-2)
+* medium devices: tablets, 768px en groter (lijst-3)
+* large devices: desktops, 992px en groter (lijst-4)
+* x-large devices: grote desktops, 1200px en groter (lijst-5)
 * xx-large devices: heel grote desktops, 1400px en groter (lijst-6)
 
 **Tekstkleuren**
 
 gebruik de volgende kleuren voor de tekst
 
-1. \#0d6efd (blauw)
-2. \#198754 (groen)
-3. \#0dcaf0 (cyaan)
-4. \#ffc107 (geel)
-5. \#dc3545 (rood)
-6. \#ffffff (wit)
-7. \#cf04beb4 (achtergrondkleur xxl - paars)
+1. #0d6efd (blauw)
+2. #198754 (groen)
+3. #0dcaf0 (cyaan)
+4. #ffc107 (geel)
+5. #dc3545 (rood)
+6. #ffffff (wit)
+7. #cf04beb4 (achtergrondkleur xxl - paars)
 
 <div><figure><img src="../../../.gitbook/assets/width-575px.png" alt=""><figcaption><p>lijst 1</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/width-576px.png" alt=""><figcaption><p>lijst 2</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/width-768px.png" alt=""><figcaption><p>lijst 3</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/width-992px.png" alt=""><figcaption><p>lijst 4</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/width-1200px.png" alt=""><figcaption><p>lijst 5</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/width-1400px.png" alt=""><figcaption><p>lijst 6</p></figcaption></figure></div>
 
@@ -57,9 +57,7 @@ gebruik de volgende kleuren voor de tekst
 Maak wat je ziet in oefening-02.mp4 na.
 
 * kleuren: red, white&#x20;
-
 * media-query op 1000px, waarbij richting flex verandert&#x20;
-
 * gebruik lettertype Arial. Voorzie een fallback naar eender welk serif font.
 
 {% file src="../../../.gitbook/assets/oefening-02.mp4" %}
