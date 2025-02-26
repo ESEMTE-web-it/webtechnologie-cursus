@@ -1,14 +1,25 @@
-{% hint style="danger" %}
-**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW4/labo8/oefeningen.md)
-{% endhint %}
+# Oefeningen labo 8
 
+Voor deze oefeningen vertrek je telkens met een gelinkt reset.css bestand op basis van [The New CSS Reset](https://elad2412.github.io/the-new-css-reset/).
 
-# oefeningen
+Zorg dat je de volgende folder structuur volgt:
 
-{% hint style="info" %}
-Deze oefeningen worden behandeld tijdens LW4 (UI\&UX en CSS): Labo 8
-{% endhint %}
-
+```
+webtechnologie/
+├─ labo-01/
+│  ├─ oefening-01/
+│  │  ├─ index.html
+│  │  ├─ images/
+│  │  │  ├─ image-1.jpg 
+│  │  │  ├─ image-n.jpg 
+│  │  ├─ css/
+│  │  │  ├─ reset.css
+│  │  │  ├─ style.css
+│  ├─ oefening-02/
+│  ├─ oefening-n/
+├─ labo-02/
+├─ labo-n/      
+```
 ## oefening 1
 
 Maak op basis van volgende screenshots oefening 1 na. De html-elementen zijn [toegevoegd als bijlage](css/natuurlijke-volgorde/media-queries/oefeningen.md#assets-oefening-1).
@@ -17,11 +28,11 @@ Alles tot en met 575px is standaard (lijst-1)
 
 **Media-queries**
 
-• small devices: gsm, 576px en groter (lijst-2)\
-• medium devices: tablets, 768px en groter (lijst-3)\
-• large devices: desktops, 992px en groter (lijst-4)\
-• x-large devices: grote desktops, 1200px en groter (lijst-5)\
-• xx-large devices: heel grote desktops, 1400px en groter (lijst-6)
+* small devices: gsm, 576px en groter (lijst-2)\
+* medium devices: tablets, 768px en groter (lijst-3)\
+* large devices: desktops, 992px en groter (lijst-4)\
+* x-large devices: grote desktops, 1200px en groter (lijst-5)\
+* xx-large devices: heel grote desktops, 1400px en groter (lijst-6)
 
 **Tekstkleuren**
 
@@ -45,11 +56,11 @@ gebruik de volgende kleuren voor de tekst
 
 Maak wat je ziet in oefening-02.mp4 na.
 
-• kleuren: red, white&#x20;
+* kleuren: red, white&#x20;
 
-• media-query op 1000px, waarbij richting flex verandert&#x20;
+* media-query op 1000px, waarbij richting flex verandert&#x20;
 
-• gebruik lettertype: Arial
+* gebruik lettertype Arial. Voorzie een fallback naar eender welk serif font.
 
 {% file src="../../../.gitbook/assets/oefening-02.mp4" %}
 
@@ -63,7 +74,7 @@ Maak wat je ziet in oefening-02.mp4 na.
 
 ## oefening 3
 
-Vertrek vanuit [labo 7 met oefening 4](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/flex/oefeningen#oefening-4).\
+Vertrek vanuit [labo 7 met oefening 4](../labo7/oefeningen.md#oefening-4).\
 Schrijf extra css met media-queries voor schermen tot max. 768px:
 
 * in de body zorgt de grid-template ervoor dat header, nav, main, aside en footer onder elkaar komen staan
