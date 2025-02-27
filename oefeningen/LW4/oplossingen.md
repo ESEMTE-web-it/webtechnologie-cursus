@@ -8,3 +8,9 @@
 {% file src="../../.gitbook/assets/labo-7-flex-oplossingen.zip" %}
 Oplossingen labo 7
 {% endfile %}
+
+## Labo 8
+
+{% file src="../../.gitbook/assets/oplossingen/labo-8-mediaquery-oplossingen.zip" %}
+Oplossingen labo 8
+{% endfile %}
