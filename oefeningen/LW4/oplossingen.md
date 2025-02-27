@@ -5,7 +5,7 @@
 
 ## Labo 7
 
-{% file src="../../.gitbook/assets/labo-7-flex-oplossingen.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/labo-7-flex-oplossingen.zip" %}
 Oplossingen labo 7
 {% endfile %}
 

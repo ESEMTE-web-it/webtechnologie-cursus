@@ -5,13 +5,13 @@
 
 ## Labo 3
 
-{% file src="../../.gitbook/assets/Labo3 - oplossingen.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/labo-3-oplossingen.zip" %}
 Oplossingen labo 3
 {% endfile %}
 
 ## Labo 4
 
-{% file src="../../.gitbook/assets/Labo-4-oplossingen.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/labo-4-oplossingen.zip" %}
 Oplossingen labo 4 (oefening 1 en 2)
 {% endfile %}
 

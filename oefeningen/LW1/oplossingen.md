@@ -5,13 +5,13 @@
 
 ## Labo 1 + 2
 
-{% file src="../../.gitbook/assets/LW1-oplossingen.zip" %}
-Oefeningen Labo 1 + Labo 2
+{% file src="../../.gitbook/assets/oplossingen/labo-1-2-oplossingen.zip" %}
+Oefeningen labo 1 & labo 2
 {% endfile %}
 
 ## Herhalingsoefening (voorbeeldoplossing)
 
-{% file src="../../.gitbook/assets/herhalingsoefening-oplossing.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/herhalingsoefening-oplossing.zip" %}
 Voorbeeldoplossing herhalingsoefening
 {% endfile %}
 

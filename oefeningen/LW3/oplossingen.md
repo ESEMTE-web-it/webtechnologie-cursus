@@ -5,12 +5,12 @@
 
 ## Labo 5
 
-{% file src="../../.gitbook/assets/Labo-5-oplossingen.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/labo-5-oplossingen.zip" %}
 Oplossingen labo 5
 {% endfile %}
 
 ## Labo 6
 
-{% file src="../../.gitbook/assets/labo-6-oplossingen.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/labo-6-oplossingen.zip" %}
 Oplossingen labo 6
 {% endfile %}
