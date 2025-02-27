@@ -19,7 +19,7 @@ Tijdens de laatste 2 labo's kom je je webshop die je doorheen het semester gebou
 
 ## Wireframes
 
-De wireframes van de webshop zijn terug te vinden op [deze Figma Community Page](https://www.figma.com/community/file/1467109776669525336/webtechnologie-projectopdracht-s2-2024-2025).
+De wireframes van de webshop zijn terug te vinden op [deze Figma Community Page](https://www.figma.com/community/file/1476954261247826487).
 
 - Klik "Open in Figma", en maak een account aan.
 - Deze Figma file bestaat uit 3 pagina's:
