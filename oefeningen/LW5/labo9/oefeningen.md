@@ -44,9 +44,14 @@ Je vertrekt vanuit de oplossing van oefening 3 van labo 8 ([hier te vinden](../.
     * In dit script plaats je de code om de kaart in de id `apMap` te tekenen, zodat de AP-Hogeschool met adres Ellermanstraat 33 gecentreerd staat.
     * Ga op zoek naar de geografische coördinaten van onze school.
     * De map heeft een zoom-level van 15, met een maximum zoom van 19.
-* JS: Voeg aan de kaart een marker toe door gebruik te maken van icon-ap.png (zie Digitap).
+* JS: Voeg aan de kaart een marker toe door gebruik te maken het onderstaand icoontje.
     * De afmetingen van de marker zijn \[36, 20].
     * Het ankerpunt van de marker is \[0, 20].
+
+{% file src="../../../.gitbook/assets/oefeningen/labo9/icon.png" %}
+  Icoon marker
+{% endfile %}
+
 
 **voorbeeldinteractie**
 
