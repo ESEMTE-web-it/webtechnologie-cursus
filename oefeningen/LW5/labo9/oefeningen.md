@@ -25,7 +25,7 @@ webtechnologie/
 
 ## oefening 1: Leaflet-map
 
-Je vertrekt vanuit de oplossing van oefening 3 van labo 8 ([hier te vinden](../../../.gitbook/assets/oplossingen/labo-8-mediaquery-oplossingen.zip)).
+Je vertrekt vanuit de oplossing van oefening 3 van labo 8 ([hier te vinden](../../LW4/oplossingen.md)).
 
 **leerdoelen**
 
