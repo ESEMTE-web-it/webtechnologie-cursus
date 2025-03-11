@@ -1,7 +1,5 @@
 # Oefeningen labo 7
 
-Voor deze oefeningen vertrek je telkens met een gelinkt reset.css bestand op basis van [The New CSS Reset](https://elad2412.github.io/the-new-css-reset/).
-
 Zorg dat je de volgende folder structuur volgt:
 
 ```
