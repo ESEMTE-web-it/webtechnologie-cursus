@@ -17,6 +17,12 @@ De opdracht is opgedeeld in **6 deelopdrachten**:
 
 Tijdens de laatste 2 labo's kom je je webshop die je doorheen het semester gebouwd hebt presenteren voor de klas. Deelopdracht 6 is dus je finale inzending.
 
+## Inzending via Digitap
+
+Vòòr het verstrijken van iedere deadline lever je elke deelopdracht in via Digitap onder het hoofdstuk projectopdracht. Voor deadlines: check Digitap.
+
+![digitap-projectopdracht.png](../.gitbook/assets/digitap-projectopdracht.png)
+
 ## Wireframes
 
 De wireframes van de webshop zijn terug te vinden op [deze Figma Community Page](https://www.figma.com/community/file/1476954261247826487).
