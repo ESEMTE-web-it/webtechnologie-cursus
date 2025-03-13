@@ -1,3 +1,7 @@
+{% hint style="danger" %}
+**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW5/labo9/oefeningen.md)
+{% endhint %}
+
 # oefeningen
 
 {% hint style="warning" %}
