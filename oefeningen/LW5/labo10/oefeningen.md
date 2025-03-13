@@ -1,6 +1,28 @@
-# Oefeningen
+# Oefeningen labo 10
 
-Voor alle oefeningen:
+Zorg dat je de volgende folder structuur volgt:
+
+```
+webtechnologie/
+├─ labo-01/
+│  ├─ oefening-01/
+│  │  ├─ index.html
+│  │  ├─ images/
+│  │  │  ├─ image-1.jpg 
+│  │  │  ├─ image-n.jpg 
+│  │  ├─ css/
+│  │  │  ├─ reset.css
+│  │  │  ├─ style.css
+│  │  ├─ js/
+│  │  │  ├─ script.js
+│  ├─ oefening-02/
+│  ├─ oefening-n/
+├─ labo-02/
+├─ labo-n/      
+```
+
+
+## Algemene opzet
 
 - Zorg ervoor dat de body minimaal 100vh hoog is.
 - Voorzie de achtergrond van de body van een leuk gradient. Gebruik hiervoor een CSS gradient generator tool zoals [cssgradient.io](https://cssgradient.io/).
@@ -8,7 +30,7 @@ Voor alle oefeningen:
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-basis.png" alt=""><figcaption>De basis van de oefeningen. Deze opmaak kun je vervolgens kopiëren naar elke oefening.</figcaption></figure>
 
-### Oefening 1
+## Oefening 1
 
 Maak een formulier waarin de gebruiker een gebruikersnaam en wachtwoord kan invoeren. Baseer je op het onderstaande voorbeeld.
 
@@ -26,7 +48,7 @@ Maak een formulier waarin de gebruiker een gebruikersnaam en wachtwoord kan invo
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-1.png" alt=""><figcaption>Het beoogde resultaat oefening 1</figcaption></figure>
 
-### Oefening 2
+## Oefening 2
 
 Kopieer je oplossing van oefening 1 en pas het formulier vervolgens aan.
 - Zorg ervoor dat de labels en inputs terug inline-elementen worden.
@@ -41,25 +63,25 @@ Kopieer je oplossing van oefening 1 en pas het formulier vervolgens aan.
 Bekijk de video
 {% endfile %}
 
-### Oefening 3
+## Oefening 3
 
 Kopieer je oplossing van oefening 1 en pas het formulier aan naar het volgende voorbeeld.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-3.png" alt=""><figcaption>Het beoogde resultaat oefening 3</figcaption></figure>
 
-### Oefening 4
+## Oefening 4
 
 Kopieer je oplossing van oefening 1 en pas het formulier aan naar het volgende voorbeeld.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-4.png" alt=""><figcaption>Het beoogde resultaat oefening 4</figcaption></figure>
 
-### Oefening 5
+## Oefening 5
 
 Kopieer je oplossing van oefening 1 en pas het formulier aan naar het volgende voorbeeld.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-5.png" alt=""><figcaption>Het beoogde resultaat oefening 5</figcaption></figure>
 
-### Oefening 6
+## Oefening 6
 
 Maak het volgende formulier aan om op de website van AP te tonen die we hebben nagemaakt. Start hiervoor van het bestaande ontwerp uit het vorige labo.
 
