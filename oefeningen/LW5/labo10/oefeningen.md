@@ -1,80 +1,80 @@
+# Oefeningen
 
-# oefeningen
+Voor alle oefeningen:
 
-- Zorg dat de body minstens 100vh hoog is.
+- Zorg ervoor dat de body minimaal 100vh hoog is.
 - Voorzie de achtergrond van de body van een leuk gradient. Gebruik hiervoor een CSS gradient generator tool zoals [cssgradient.io](https://cssgradient.io/).
-- Zorg dat de body children in het midden (verticaal + horizontaal) van de webpagina gecentreerd staan. Gebruik hiervoor CSS Grid
+- Zorg ervoor dat de body children zowel verticaal als horizontaal in het midden van de webpagina gecentreerd staan. Gebruik hiervoor CSS Grid.
 
-### oefening 1
+<figure><img src="../../../.gitbook/assets/labo-10-oef-basis.png" alt=""><figcaption>De basis van de oefeningen. Deze opmaak kun je vervolgens kopiëren naar elke oefening.</figcaption></figure>
 
-Maak een formulier aan om de gebruiker een gebruikersnaam en wachtwoord in te laten geven. Baseer je op onderstaand voorbeeld.
+### Oefening 1
 
-- Zorg dat de inputs van het juiste type zijn. 
-- Voorzie elk type input van een label en zorg dat de twee gelinkt zijn.
-- Zet een container rond de header en het form en zorg ervoor dat deze een witte achtergrondkleur krijgt. Voorzie hierop ook een padding van 1rem verticaal en 5rem horizontaal.
-- Zorg dat de labels en de inputs de volledige breedte innemen.
-  > **TIP** - inputs en labels zijn _by default_ inline elementen. Pas dit aan met css.
-- Geef elke input een gepaste placeholder value
-- Geef het formulier een header met een logo en een titeltje. Je kunt [LogoIpsum](https://logoipsum.com/) gebruiken om een willekeurig logootje te linken. Zorg er voor dat deze verticaal uitgelijnd zijn.
--  
+Maak een formulier waarin de gebruiker een gebruikersnaam en wachtwoord kan invoeren. Baseer je op het onderstaande voorbeeld.
+
+- Zorg ervoor dat de inputs van het juiste type zijn.
+- Voorzie elk type input van een label en zorg ervoor dat deze gelinkt zijn.
+- Zet een container rond de header en het formulier en zorg ervoor dat deze een witte achtergrondkleur krijgt. Voorzie hierop ook een padding van 1rem verticaal en 5rem horizontaal.
+- Zorg ervoor dat de labels en de inputs de volledige breedte innemen.
+  > **TIP** - inputs en labels zijn _by default_ inline-elementen. Pas dit aan met CSS.
+- Geef elke input een gepaste placeholder value.
+- Geef het formulier een header met een logo en een titeltje. Je kunt [LogoIpsum](https://logoipsum.com/) gebruiken om een willekeurig logootje te linken. Zorg ervoor dat deze verticaal uitgelijnd zijn.
 - Zorg ervoor dat de button en de inputs een mooie opmaak krijgen:
-  - Voorzie een padding van 0.5rem
+  - Voorzie een padding van 0.5rem.
   - Voorzie een 2px volle zwarte border met een border-radius van 7px.
-  - Wanneer de gebruiker over de input of button hovert en wanneer de focus in de input staat moet de input een paarse outline krijgen. Zorg voor dezelfde border-radius als de gewone border.
-
-
+  - Wanneer de gebruiker over de input of button hovert en wanneer de focus in de input staat, moet de input een paarse outline krijgen. Zorg voor dezelfde border-radius als de gewone border.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-1.png" alt=""><figcaption>Het beoogde resultaat oefening 1</figcaption></figure>
 
-### oefening 2
+### Oefening 2
 
 Kopieer je oplossing van oefening 1 en pas het formulier vervolgens aan.
-- Zorg dat de labels en inputs terug inline elementen worden.
-- Zorg dat de gebruiker uit een lijst keuzerondjes (_radiobuttons_) zijn favoriete programmeertaal en IDE kan aanduiden.
-- Zorg voor één fieldset en legend per vraag.
-- Zorg dat de radio-buttons per vraag gelinkt zijn aan elkaar (gebruik unieke `name` attributes per vraag). De gebruiker moet maar 1 antwoord per vraag kunnen aanduiden.
-- Zorg dat telkens het eerste resultaat _by default_ aangeduid is.
+- Zorg ervoor dat de labels en inputs terug inline-elementen worden.
+- Zorg ervoor dat de gebruiker uit een lijst met keuzerondjes (_radiobuttons_) zijn favoriete programmeertaal en IDE kan aanduiden.
+- Zorg voor één `fieldset` en `legend` per vraag.
+- Zorg ervoor dat de radio-buttons per vraag gelinkt zijn aan elkaar (gebruik unieke `name`-attributen per vraag). De gebruiker moet maar 1 antwoord per vraag kunnen aanduiden.
+- Zorg ervoor dat telkens het eerste resultaat _by default_ is aangeduid.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-2.png" alt=""><figcaption>Het beoogde resultaat oefening 2</figcaption></figure>
 
 {% file src="../../../.gitbook/assets/labo-10-oef-2.mp4" %}
-  Bekijk de video
+Bekijk de video
 {% endfile %}
 
-### oefening 3
+### Oefening 3
 
-Kopieer je oplossing van oefening 1 en pas het formulier aan naar volgend voorbeeld.
+Kopieer je oplossing van oefening 1 en pas het formulier aan naar het volgende voorbeeld.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-3.png" alt=""><figcaption>Het beoogde resultaat oefening 3</figcaption></figure>
 
-### oefening 4
+### Oefening 4
 
-Kopieer je oplossing van oefening 1 en pas het formulier aan naar volgend voorbeeld.
+Kopieer je oplossing van oefening 1 en pas het formulier aan naar het volgende voorbeeld.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-4.png" alt=""><figcaption>Het beoogde resultaat oefening 4</figcaption></figure>
 
-### oefening 5
+### Oefening 5
 
-Kopieer je oplossing van oefening 1 en pas het formulier aan naar volgend voorbeeld.
+Kopieer je oplossing van oefening 1 en pas het formulier aan naar het volgende voorbeeld.
 
 <figure><img src="../../../.gitbook/assets/labo-10-oef-5.png" alt=""><figcaption>Het beoogde resultaat oefening 5</figcaption></figure>
 
-### oefening 6
+### Oefening 6
 
 Maak het volgende formulier aan om op de website van AP te tonen die we hebben nagemaakt. Start hiervoor van het bestaande ontwerp uit het vorige labo.
 
-* Pas de menu in de index.html aan en link naar de nieuwe pagina.&#x20;
-* Voeg een zoek-functie toe in de menu met search (in een form).
+- Pas het menu in de `index.html` aan en link naar de nieuwe pagina.
+- Voeg een zoekfunctie toe in het menu met een zoekformulier.
 
-Het formulier heeft 2 fieldsets en telkens een legend
+Het formulier heeft 2 `fieldset`s en telkens een `legend`.
 
-* gegevens
-* vraag
-* vraag is gericht aan:
-    * keuze: maak hier een keuze, secretariaat, graduaat IT, stuvo
+- Gegevens
+- Vraag
+- De vraag is gericht aan:
+  - Keuze: maak hier een keuze, secretariaat, graduaat IT, stuvo
 
 <figure><img src="../../../.gitbook/assets/labo-06-oefening-07.png" alt=""><figcaption></figcaption></figure>
 
-**bijlagen:**
+**Bijlagen:**
 
 {% file src="../../../.gitbook/assets/searchblack.png" %}
