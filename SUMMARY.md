@@ -35,6 +35,7 @@
     * [Oplossingen](oefeningen/LW5/oplossingen.md)
   * Lesweek 6
     * [Labo 11](oefeningen/LW6/labo11/oefeningen.md)
+    * [Labo 12](oefeningen/LW6/labo12/oefeningen.md)
     * [Oplossingen](oefeningen/LW6/oplossingen.md)
 
 ## HTML
