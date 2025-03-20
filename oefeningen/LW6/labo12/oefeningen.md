@@ -63,7 +63,7 @@ Test jouw website op responsiviteit, zodat die werkt op alle schermgroottes.
 - Maak gebruik van semantische elementen waar mogelijk (header, nav, main, section, article, aside en footer)
 - De header met nav bevat:
   - het logo met daarover een link naar de homepage
-  - een navbar met 4 elementen: 
+  - een navbar met 3 elementen: 
         - home (link naar section met id="home")
         - portfolio (link naar section met id="portfolio")
         - contact (link naar section met id="contact")
@@ -79,8 +79,8 @@ Test jouw website op responsiviteit, zodat die werkt op alle schermgroottes.
     - een paragraaf 
     - een tweede paragraaf met een link naar de contactgegevens onderaan de pagina
   - Portfolio section (section met id="portfolio")
-    - een flexibel grid waarin 3 flex items naast elkaar passen op desktop.
-    - het grid past zich automatisch aan aan de beschikbare schermgrootte
+    - een flexbox waarin 3 items naast elkaar passen op desktop.
+    - de flex-items moeten naar de volgende lijn geduwd worden wanneer de minimum breedte niet gegarandeerd kan worden.
 - Contact section (section met id="contact)
   - Rechts staat de contact info
   - Onderaan staan de social media icons met links (href="#")
