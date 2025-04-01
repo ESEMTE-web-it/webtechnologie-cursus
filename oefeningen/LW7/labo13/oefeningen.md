@@ -1,10 +1,29 @@
-{% hint style="danger" %}
-**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW7/labo13/oefeningen.md)
-{% endhint %}
+# Oefeningen labo 13
 
+Zorg dat je de volgende folder structuur volgt:
 
+```
+webtechnologie/
+├─ labo-x/
+│  ├─ oefening-01/
+│  │  ├─ index.html
+│  │  ├─ assets/
+│  │  │  ├─ image-1.jpg 
+│  │  │  ├─ image-n.jpg 
+│  │  ├─ css/
+│  │  │  ├─ reset.css
+│  │  │  ├─ style.css
+│  │  ├─ js/
+│  │  │  ├─ script.js
+│  ├─ oefening-02/
+│  ├─ oefening-n/
+├─ labo-y/
+├─ labo-z/      
+```
 
-# oefeningen
+- Gebruik steeds JS modules om globale variabelen te vermijden (`<script type="module" src="./path/to/script.js" defer></script>`)
+- Zet je Javascript file steeds in strict mode (`"use strict"`);
+- Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines)
 
 ## oefening 1: hello world!
 
@@ -23,7 +42,7 @@ Gebruik een `console.log`-statement om de inhoud van de variabele uit te lezen i
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h1-oef1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h1-oef1.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 1
 
@@ -44,7 +63,7 @@ Tip: Gebruik string-manipulatie om de voorvoegsels (de woorden naam, leeftijd, e
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h1-oef2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h1-oef2.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 2
 
@@ -65,7 +84,7 @@ Lees enkel het resulaat uit met 1 `console.log`-statement.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h1-oef3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h1-oef3.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 3: getallen krijgen een kleur in de console
 
@@ -81,13 +100,13 @@ voorbeeldinteractie oefening 3: getallen krijgen een kleur in de console
 
 **technische analyse** Maak een variabele `myWeight` en `myLength` waar je het gewicht in kg en de lengte in meter bijhoudt. Maak vervolgens een variabele `myBmi` die de bmi op de volgende manier berekend:
 
-![](<../../.gitbook/assets/image (26).png>)
+![](../../../.gitbook/assets/bmi-formula.png)
 
 Je kan een getal afronden aan de hand van `Math.round` te gebruiken.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef1.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 1: BMI tonen
 
@@ -108,7 +127,7 @@ Toon de naam van de persoon met zijn bij behorende bmi op het scherm.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef2.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 2: meerdere BMI's tonen
 
@@ -126,7 +145,7 @@ Zorg ervoor dat de BMI deze keer afgrond is door `Math.round` te gebruiken.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef3.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 3: afgeronde BMI's tonen
 
@@ -159,7 +178,7 @@ Eind saldo = Inleg \* ( 1 + rente)^looptijd
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef4.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 4: interest berekenen
 
@@ -179,7 +198,7 @@ Let op: de klok telt maar 24 uur. Wat doe je als je hierboven gaat?
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef5.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 5: uren berekenen
 
@@ -208,7 +227,7 @@ Print deze waarden af gebruikmakende van string concatinatie of string interpola
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef6.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 6: wisselgeld berekenen
 
@@ -231,7 +250,7 @@ Vervang de komma's door het pipe-symbool | en zet deze output in de variabele `f
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-11-08 at 16.29.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-11-08 at 16.29.53.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 10: lotto
 
@@ -250,7 +269,7 @@ We veronderstellen dat de variabele een juist e-mailadres bevat. Het e-mailadres
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef8.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 8: e-mailadres
 
@@ -273,7 +292,7 @@ Je kan deze string opbouwen aan de hand van string interpolatie.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef9.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 9: naam
 
@@ -299,7 +318,7 @@ Je mag er vanuit gaan dat elke kleur maar 1 keer voorkomt in de tekst.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef10.png" alt=""><figcaption></figcaption></figure>
 
 voorbeeldinteractie oefening 10: colorblind
 
@@ -322,6 +341,51 @@ Zorg ervoor dat je maar 1 console.log statement gebruikt. Je zal dus moeten gebr
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-h2-oef11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef11.png" alt=""><figcaption>voorbeeldinteractie oefening 11: text-box</figcaption></figure>
 
-voorbeeldinteractie oefening 11: text-box
+
+## oefening 15 (extra): color-blind
+
+**leerdoelen**
+
+* functionaliteit strings (replace, meerdere keren replace)
+* escapen van karakters
+
+**functionele analyse** De color-blind applicatie dient uitgebreid te worden zodat de foutieve kleur meerdere keren kan vervangen worden. De fout wordt nu wel ook in omgekeerde richting gemaakt.
+
+**technische analyse** We kunnen de applicatie van color-blind overnemen en uitbreiden. We moeten er nu voor zorgen dat de kleuren meerdere keren worden vervangen.
+
+De volgende kleuren worden foutief geschreven:
+
+* blue -> red
+* yellow -> green maar ook:
+* red -> blue
+* green -> yellow
+
+Om te voorkomen dat een bepaalde kleur die al omgezet werd terug wordt omgezet naar het origineel vervangen we de kleur met de kleur in hoofdletters.
+
+**voorbeeldinteractie**
+
+```
+roses are blue, violets are red, strawberries are blue and we always define variables with let
+=
+roses are red, violets are blue, strawberries are red and we always define variables with let.
+```
+
+## Oefening 16 (extra) - Caesar rotation
+
+**leerdoelen**
+
+* functionaliteit strings (replace, meerdere keren replace)
+
+**functionele analyse** We willen een programma maken dat geheimschrift decodeert dat gemaakt is aan de hand van de de Caesar-rotatie (rot13). De tekst is in **lowercase**.
+
+**technische analyse** Je voorziet een variabele voor de inputString. Je zorgt dat de vertaling gebeurd volgens het volgende schema. Wij gebruiken hier wel alleen kleine letters.
+
+<figure><img src="../../../.gitbook/assets/rot13.webp" alt=""><figcaption></figcaption></figure>
+
+Caesar-rotation
+
+<figure><img src="../../../.gitbook/assets/oefeningen/resultaten/labo13/oef-14.png" alt=""><figcaption>
+voorbeeldinteractie oefening 14: Caesar-rotation
+</figcaption></figure>

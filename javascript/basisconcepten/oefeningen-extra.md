@@ -1,3 +1,8 @@
+{% hint style="danger" %}
+**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW7/labo13/oefeningen.md)
+{% endhint %}
+
+
 # extra oefeningen
 
 ## oefening 10: color-blind
