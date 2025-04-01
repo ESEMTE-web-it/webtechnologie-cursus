@@ -135,7 +135,7 @@ Zie dat je deze niet perongeluk omwisselt!
 Als we willen weten waar een bepaalde substring in een string voorkomt, gebruiken we `indexOf`
 
 ```javascript
-console.log("Javascript is cooler!".indexOf("cool"));  // geeft 6
+console.log("Javascript is cooler!".indexOf("cool"));  // geeft 14
 console.log("Javascript is cooler!".indexOf("z"));     // geeft -1
 console.log("Javascript is cooler!".indexOf("Cool"));  // geeft -1 want cool is niet hetzelfde als Cool
 ```
