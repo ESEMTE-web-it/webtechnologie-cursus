@@ -102,7 +102,7 @@ voorbeeldinteractie oefening 3: getallen krijgen een kleur in de console
 
 ![](../../../.gitbook/assets/bmi-formula.png)
 
-Je kan een getal afronden aan de hand van `Math.round` te gebruiken.
+Je kan een getal afronden door [Number.toFixed()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed) te gebruiken (bv. result.toFixed(2)).
 
 **voorbeeldinteractie**
 
@@ -135,19 +135,17 @@ voorbeeldinteractie oefening 2: meerdere BMI's tonen
 
 **leerdoelen**
 
-* `Math.round()` gebruiken
+* `Number.toFixed()` gebruiken
 
 **functionele analyse** Het programma rond het BMI af tot een geheel getal
 
 **technische analyse** Kopieer jouw oplossing van de vorige oefening.
 
-Zorg ervoor dat de BMI deze keer afgrond is door `Math.round` te gebruiken.
+Zorg ervoor dat de BMI deze keer afgrond is door `Number.toFixed()` te gebruiken.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef3.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 3: afgeronde BMI's tonen
+<figure><img src="../../../.gitbook/assets/js-h2-oef3.png" alt=""><figcaption>voorbeeldinteractie oefening 3: afgeronde BMI's tonen</figcaption></figure>
 
 ## oefening 7: interest
 
@@ -178,9 +176,7 @@ Eind saldo = Inleg \* ( 1 + rente)^looptijd
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef4.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 4: interest berekenen
+<figure><img src="../../../.gitbook/assets/js-h2-oef4.png" alt=""><figcaption>voorbeeldinteractie oefening 4: interest berekenen</figcaption></figure>
 
 ## oefening 8: uren
 
@@ -198,9 +194,7 @@ Let op: de klok telt maar 24 uur. Wat doe je als je hierboven gaat?
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef5.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 5: uren berekenen
+<figure><img src="../../../.gitbook/assets/js-h2-oef5.png" alt=""><figcaption>voorbeeldinteractie oefening 5: uren berekenen</figcaption></figure>
 
 ## oefening 9: wisselgeld
 
@@ -227,9 +221,8 @@ Print deze waarden af gebruikmakende van string concatinatie of string interpola
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-h2-oef6.png" alt=""><figcaption>voorbeeldinteractie oefening 6: wisselgeld berekenen</figcaption></figure>
 
-voorbeeldinteractie oefening 6: wisselgeld berekenen
 
 ## oefening 10: lotto
 
@@ -250,9 +243,7 @@ Vervang de komma's door het pipe-symbool | en zet deze output in de variabele `f
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-11-08 at 16.29.53.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 10: lotto
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-11-08 at 16.29.53.png" alt=""><figcaption>voorbeeldinteractie oefening 10: lotto</figcaption></figure>
 
 ## oefening 11: name-from-mail
 
@@ -269,9 +260,7 @@ We veronderstellen dat de variabele een juist e-mailadres bevat. Het e-mailadres
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef8.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 8: e-mailadres
+<figure><img src="../../../.gitbook/assets/js-h2-oef8.png" alt=""><figcaption>voorbeeldinteractie oefening 8: e-mailadres</figcaption></figure>
 
 ## oefening 12: short-name
 
@@ -292,9 +281,7 @@ Je kan deze string opbouwen aan de hand van string interpolatie.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef9.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 9: naam
+<figure><img src="../../../.gitbook/assets/js-h2-oef9.png" alt=""><figcaption>voorbeeldinteractie oefening 9: naam</figcaption></figure>
 
 ## oefening 13: color-blind
 
@@ -318,9 +305,7 @@ Je mag er vanuit gaan dat elke kleur maar 1 keer voorkomt in de tekst.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/js-h2-oef10.png" alt=""><figcaption></figcaption></figure>
-
-voorbeeldinteractie oefening 10: colorblind
+<figure><img src="../../../.gitbook/assets/js-h2-oef10.png" alt=""><figcaption>voorbeeldinteractie oefening 10: colorblind</figcaption></figure>
 
 ## oefening 14: text-box
 
@@ -342,7 +327,6 @@ Zorg ervoor dat je maar 1 console.log statement gebruikt. Je zal dus moeten gebr
 **voorbeeldinteractie**
 
 <figure><img src="../../../.gitbook/assets/js-h2-oef11.png" alt=""><figcaption>voorbeeldinteractie oefening 11: text-box</figcaption></figure>
-
 
 ## oefening 15 (extra): color-blind
 
