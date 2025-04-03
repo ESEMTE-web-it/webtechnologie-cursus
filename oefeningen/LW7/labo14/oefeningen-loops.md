@@ -1,3 +1,175 @@
+# Oefeningen loops labo 13
+
+## Folderstructuur
+
+Zorg ervoor dat je de volgende folderstructuur volgt:
+
+```plaintext
+webtechnologie/
+├─ labo-x/
+│  ├─ oefening-01/
+│  │  ├─ index.html
+│  │  ├─ assets/
+│  │  │  ├─ image-1.jpg 
+│  │  │  ├─ image-n.jpg 
+│  │  ├─ css/
+│  │  │  ├─ reset.css
+│  │  │  ├─ style.css
+│  │  ├─ js/
+│  │  │  ├─ script.js
+│  ├─ oefening-02/
+│  ├─ oefening-n/
+├─ labo-y/
+├─ labo-z/      
+```
+
+### Belangrijke richtlijnen
+
+- Gebruik altijd **JS modules** om globale variabelen te vermijden:
+  ```html
+  <script type="module" src="./path/to/script.js" defer></script>
+  ```
+- Schrijf JavaScript in **strict mode**:
+  ```javascript
+  "use strict";
+  ```
+- Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines)
+
+---
+# Oefeningen loops - Labo 13
+
+## Oefening 1: Maaltafel Generator
+
+**Leerdoelen**
+
+- Werken met een for-loop
+- Wiskundige bewerkingen
+- Variabelen declareren met let en const
+- Werken met controlestructuren
+
+**Functionele analyse**
+
+Je programma genereert op basis van een hardcoded waarde een maaltafelreeks voor een bepaalde maaltafel met een vast aantal iteraties.
+
+**Technische analyse**
+
+- Declareer een const genaamd `maalTafel` en ken hier een getal aan toe.
+- Declareer een const genaamd `iteraties` en ken hier een getal aan toe.
+- Gebruik een stringvariabele om de maaltafelreeks bij te houden.
+- Gebruik een for-loop om de maaltafelreeks op te bouwen en voeg elk resultaat toe aan de string, gescheiden door een ", ".
+- Print de maaltafelreeks uit in de console.
+
+---
+
+## Oefening 2: Raster Generator
+
+**Leerdoelen**
+
+- Werken met een for-loop
+- Werken met strings
+- Variabelen declareren met let en const
+
+**Functionele analyse**
+
+Je programma genereert een raster van kruisjes op basis van hardcoded waarden.
+
+**Technische analyse**
+
+- Declareer een const `kolommen` en ken hier een getal aan toe.
+- Declareer een const `rijen` en ken hier een getal aan toe.
+- Gebruik een for-loop om de rijen te doorlopen.
+- Gebruik een geneste for-loop om de kolommen te doorlopen.
+- Print elke rij met kruisjes (`X`), gescheiden door een spatie.
+
+---
+
+## Oefening 3: Raad het Getal
+
+**Leerdoelen**
+
+- Werken met een do-while-loop
+- Werken met getallen
+- Werken met controlestructuren
+
+**Functionele analyse**
+
+Het programma laat de gebruiker een getal raden tussen 0 en 30. De invoer is hardcoded en wordt gecontroleerd in een loop.
+
+**Technische analyse**
+
+- Stel een variabele `teRadenGetal` in op een vaste waarde.
+- Gebruik een array met hardcoded gokpogingen.
+- Gebruik een do-while-loop om de ingevoerde waarde te controleren.
+- Geef aan of het getal hoger of lager moet zijn.
+- Stop zodra het juiste getal geraden is.
+
+---
+
+## Oefening 4: Som van Even Getallen
+
+**Leerdoelen**
+
+- Werken met een for-loop
+- Werken met wiskundige bewerkingen
+- Variabelen declareren met let en const
+
+**Functionele analyse**
+
+Je programma berekent de som van alle even getallen tot en met een bepaalde hardcoded grens.
+
+**Technische analyse**
+
+- Declareer een const `grens` en ken hier een getal aan toe.
+- Declareer een variabele om de som bij te houden.
+- Gebruik een for-loop om door de getallen te itereren.
+- Controleer of het getal even is en tel het op bij de som.
+- Print de uiteindelijke som uit.
+
+---
+
+## Oefening 5: Aftellen
+
+**Leerdoelen**
+
+- Werken met een while-loop
+- Werken met aftellussen
+- Variabelen declareren met let en const
+
+**Functionele analyse**
+
+Je programma telt af vanaf een hardcoded startwaarde tot nul en print bij elke stap een melding.
+
+**Technische analyse**
+
+- Declareer een const `startWaarde` en ken hier een getal aan toe.
+- Gebruik een while-loop om af te tellen.
+- Print bij elke iteratie het huidige getal.
+- Stop zodra het getal nul bereikt.
+
+---
+
+## Oefening 6: Fibonacci-reeks
+
+**Leerdoelen**
+
+- Werken met loops
+- Werken met arrays
+- Variabelen declareren met let en const
+
+**Functionele analyse**
+
+Je programma genereert de eerste N getallen van de Fibonacci-reeks op basis van een hardcoded waarde.
+
+**Technische analyse**
+
+- Declareer een const `aantalGetallen` en ken hier een getal aan toe.
+- Gebruik een array om de Fibonacci-getallen op te slaan.
+- Gebruik een loop om de reeks op te bouwen.
+- Print de reeks uit in de console.
+
+
+# Extra oefeningen
+
 {% hint style="danger" %}
 **Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW7/labo14/oefeningen.md)
 {% endhint %}
@@ -121,6 +293,8 @@ Wat is je naam? STOP
 Bye bye!
 ```
 
+
+
 ## oefening: gemiddelde vragen
 
 Maak een programma dat de gebruiker blijft getallen vragen tot de gebruiker het getal leeg laat. Als de gebruiker dit gedaan heeft dan toont het programma het gemiddelde van deze getallen.
@@ -197,6 +371,10 @@ Geef een getal in: STOP
 Doei!
 ```
 
+{% hint style="info" %}
+Je kunt input van de gebruiker vragen door gebruik te maken van de [prompt() functie](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+{% endhint %}
+
 ## oefening: op en neer
 
 Maak een programma dat het volgende patroon kan genereren:
@@ -257,7 +435,7 @@ Geef een getal in? 10
 
 ## oefening: letters omdraaien
 
-Schrijf een programma dat een woord vraagt aan de gebruiker en vervolgens dit woord achterstevoren afprint op het scherm.
+Schrijf een programma dat een woord vraagt aan de gebruiker (zet deze in een constante variabele) en vervolgens dit woord achterstevoren afprint op het scherm.
 
 ```
 Geef een woord in? auto
@@ -293,7 +471,7 @@ otto is een palindroom
 
 ## oefening: vierkant tekenen
 
-Schrijf een programma dat een vierkant tekent op het scherm. De hoogte en de breedte van het vierkant wordt aan de gebruiker gevraagd
+Schrijf een programma dat een vierkant tekent op het scherm. De hoogte en de breedte van het vierkant wordt aan de gebruiker gevraagd (via variabelen)
 
 ```
 Hoogte: 10

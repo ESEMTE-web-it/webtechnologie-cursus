@@ -1,3 +1,8 @@
+{% hint style="danger" %}
+**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW7/labo14/oefeningen.md)
+{% endhint %}
+
+
 # oefeningen
 
 ## oefening 1: maaltafel generator

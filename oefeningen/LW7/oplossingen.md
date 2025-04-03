@@ -9,3 +9,10 @@
 Oplossingen labo 13
 {% endfile %}
 
+
+## Labo 14
+
+{% file src="../../.gitbook/assets/oplossingen/labo-14-conditionals-loops-oplossingen.zip" %}
+Oplossingen labo 14
+{% endfile %}
+
