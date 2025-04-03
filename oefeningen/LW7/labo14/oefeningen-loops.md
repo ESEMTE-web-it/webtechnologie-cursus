@@ -170,13 +170,6 @@ Je programma genereert de eerste N getallen van de Fibonacci-reeks op basis van 
 
 # Extra oefeningen
 
-{% hint style="danger" %}
-**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../../oefeningen/LW7/labo14/oefeningen.md)
-{% endhint %}
-
-
-# extra oefeningen
-
 ## oefening: maaltafel generator (alt)
 
 Maak oefening 1 opnieuw maar deze keer maak je **geen** gebruik van for-loops. Je gebruikt hiervoor de while-loop.
