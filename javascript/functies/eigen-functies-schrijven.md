@@ -147,19 +147,13 @@ function multiply(a, b) {
 console.log(multiply(2,3));
 ```
 
-## optionele argumenten in TypeScript
+## optionele argumenten
 
 Stel dat we de `multiply` functie willen aanpassen dat ze ook toestaat om maar 1 argument mee te geven. Als we gewoon de 2de argument zouden weglaten krijgen we een foutmelding. Logisch ook want hij kan helemaal geen vermenigvuldiging doen met 1 getal.
 
-![](../../.gitbook/assets/optionalparams.gif)
-
-We zouden deze argument optioneel kunnen maken. Dit doe je door `?` achter het argument te plaatsen. Je gaat dan wel nog een extra foutboodschap krijgen die je zal moeten oplossen.
-
-![](../../.gitbook/assets/optionalparamsdefault.gif)
-
 We lossen dit op door een stuk code te schrijven die nakijkt of `b` op `undefined` staat.
 
-Er bestaat ook nog een andere manier om dit op te lossen. We kunnen een default waarde meegeven aan het argument. Het argument moet dan wel niet meer als optioneel aangeduid worden.
+Er bestaat ook nog een andere manier om dit op te lossen. We kunnen een default waarde meegeven aan het argument.
 
 ```js
 function multiply(a, b = 2) {

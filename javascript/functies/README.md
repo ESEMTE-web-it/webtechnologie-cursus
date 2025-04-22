@@ -74,6 +74,6 @@ De `indexOf` functie heeft als return waarde een number die aangeeft op welke in
 Soms heeft een functie geen return waarde. In JavaScript zal de functie dan de speciale waarde `undefined` teruggeven. `console.log` heeft bijvoorbeeld geen return waarde.
 
 ```js
-let returnValue = console.log("Hello TypeScript");
+let returnValue = console.log("Hello JavaScript");
 console.log(returnValue); // undefined
 ```
