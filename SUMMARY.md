@@ -44,6 +44,7 @@
     * [Oplossingen](oefeningen/LW7/oplossingen.md)
   * Lesweek 8
     * [Labo 15](oefeningen/LW8/labo15/oefeningen.md)
+    * [Oplossingen](oefeningen/LW8/oplossingen.md)
 
 ## HTML
 
