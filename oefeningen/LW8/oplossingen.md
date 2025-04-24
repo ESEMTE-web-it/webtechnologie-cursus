@@ -12,3 +12,6 @@ Oplossingen labo 15
 
 ## Labo 16
 
+{% file src="../../.gitbook/assets/oplossingen/labo-16-object-json.zip" %}
+Oplossingen labo 16
+{% endfile %}
