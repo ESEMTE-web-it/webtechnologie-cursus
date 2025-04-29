@@ -1,5 +1,6 @@
 # CSS aanpassen met JavaScript
 
+
 Naast het bewerken van de HTML, kunnen we met JavaScript ook CSS manipuleren.
 
 ### Directe CSS-aanpassing via JavaScript
