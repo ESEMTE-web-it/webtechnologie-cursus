@@ -45,19 +45,23 @@ In afbeelding 1 zie je bijvoorbeeld één div-element; het parent-element daarva
 Je kunt het parent-element van een geselecteerd element opvragen met:
 
 ```javascript
-let elParent = elExample.parentNode;
+let elParent = document.querySelector("section").parentElement;
 ```
 
-## Child
+## Children
 
 Je kunt ook in omgekeerde richting werken, van een parent naar child-elementen.
-Een element kan meerdere child-elementen bevatten.
 
-Een voorbeeld waarbij we het vierde element uit een lijst verwijderen:
+```javascript
+let elChildren = document.querySelector("section").children;
+```
+
+
+Een element kan meerdere child-elementen bevatten.
+Een voorbeeld waarbij we het vierde element uit een lijst vanuit de parent verwijderen.
 
 ```javascript
 let removeEl = document.querySelectorAll("li")[3]; // The element to remove
 let containerEl = removeEl.parentNode; // The parent element
 containerEl.removeChild(removeEl); // Removing the element
 ```
-
