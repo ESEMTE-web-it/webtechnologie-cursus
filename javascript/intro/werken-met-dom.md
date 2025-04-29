@@ -36,6 +36,8 @@ let derdeItem = document.querySelectorAll('li')[2];
 derdeItem.textContent = "Aangepast item";
 ```
 
+Meer informatie over document.querySelectorAll vind je op [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+
 ## Parent
 Een parent is het element dat zich direct boven het geselecteerde element bevindt in de DOM-structuur.
 In afbeelding 1 zie je bijvoorbeeld één div-element; het parent-element daarvan is de body.
