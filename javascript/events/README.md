@@ -24,6 +24,6 @@ function checkUsername(e) {
     let target = e.target; // get target of event
 }
 
-let elUsername = document.getElementById('username');
+let elUsername = document.querySelector('#username');
 elUsername.addEventListener('blur', checkUsername, false);
 ```

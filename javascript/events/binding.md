@@ -17,7 +17,7 @@ function checkUsername() {
     // code to check username
 }
 
-let elUsername = document.getElementById('username');
+let elUsername = document.querySelector('#username');
 
 elUsername.addEventListener('blur', checkUsername, false);
 // 'blur' is één van de vele DOM events die wordt aangeroepen
@@ -63,6 +63,6 @@ function checkUsername() {
     // code to check username
 }
 
-let elUsername = document.getElementById('username');
+let elUsername = document.querySelector('#username');
 elUsername.onblur = checkUsername;
 ```

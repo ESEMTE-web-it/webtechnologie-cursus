@@ -80,11 +80,11 @@ Stel dat we een programma moeten maken die een paswoord vraagt en dan nakijkt of
 
 ```js
 // gebruiker wordt gevraagd een wachtwoord in te geven
-let password = document.getElementById('password').value;
+let password = document.querySelector('#password').value;
 
 while (password !== "password") {
     alert("Dat is het verkeerde wachtwoord!");
-    password = document.getElementById('password').value;
+    password = document.querySelector('#password').value;
 }
 ```
 
@@ -94,6 +94,6 @@ Als we hier een `while` loop willen voor gebruiken dan moeten we voor de eerste 
 let password;
 do  {
     alert("Geef het juiste wachtwoord in!");
-    password = document.getElementById('password').value;
+    password = document.querySelector('#password').value;
 } while (password !== "password")
 ```

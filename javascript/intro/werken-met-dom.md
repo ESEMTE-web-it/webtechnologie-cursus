@@ -1,32 +1,61 @@
-# werken met DOM
+# Werken met de DOM
 
-Aanpassingen maken in de DOM tree bestaat uit 2 stappen: het selecteren van de node die je wil aanpassen en de eigenschappen of methoden ervan gebruiken om een verandering te maken.
+Aanpassingen maken in de DOM-tree bestaat uit twee stappen:
+1. Het selecteren van de node die je wilt aanpassen.
+2. Het gebruiken van eigenschappen of methoden om een wijziging door te voeren.
+
+---
+
+## querySelector()
+Een node selecteer je met de methode `document.querySelector()`. Binnen `querySelector()` geef je een string mee die werkt als een CSS-selector.  
+Bijvoorbeeld: `.test` selecteert het eerste element met de class _test_.
 
 ```js
-let elExample = document.getElementById("example");
+let elExample = document.querySelector('#example');
 elExample.textContent = "Nieuwe tekst";
 ```
 
-Try it yourself: [link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_getelementbyid)
+Meer informatie over document.querySelector vind je op [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-## parent
+## querySelectorAll()
 
-Een parent is de node net boven de geselecteerde node. In de DOM tree in afbeelding 1 zien we 1 div-element staan. Het parent-element van deze div is body.
+Met document.querySelectorAll() kun je meerdere elementen tegelijk selecteren die overeenkomen met de opgegeven CSS-selector.
+Deze methode geeft een NodeList terug, een array-achtig object waar je op verschillende manieren doorheen kunt loopen, zoals met forEach() of via indexering.
 
-Je kan van een geselecteerd element altijd de parent selecteren, aangezien elk element maar één parent kan hebben.
+```javascript
+let alleItems = document.querySelectorAll('li');
+alleItems.forEach(item => {
+  item.style.color = 'blue';
+});
+```
 
-```js
+Je kunt ook specifieke elementen selecteren via indexering:
+
+```javascript
+let derdeItem = document.querySelectorAll('li')[2];
+derdeItem.textContent = "Aangepast item";
+```
+
+## Parent
+Een parent is het element dat zich direct boven het geselecteerde element bevindt in de DOM-structuur.
+In afbeelding 1 zie je bijvoorbeeld één div-element; het parent-element daarvan is de body.
+
+Je kunt het parent-element van een geselecteerd element opvragen met:
+
+```javascript
 let elParent = elExample.parentNode;
 ```
 
-## child
+## Child
 
-In de andere volgorde kan je van een element ook het onderliggende element selecteren. Uiteraard kan een element meerdere child-elementen bevatten.
+Je kunt ook in omgekeerde richting werken, van een parent naar child-elementen.
+Een element kan meerdere child-elementen bevatten.
 
-Een voorbeeld waarbij we het vierde element uit een opsomming verwijderen:
+Een voorbeeld waarbij we het vierde element uit een lijst verwijderen:
 
-```js
-let removeEl = document.getElementsByTagName("li")[3]; //The element to remove
-let containerEl = removeEl.parentNode; //The parent element
-containerEl.removeChild(removeEl); //Removing the element
+```javascript
+let removeEl = document.querySelectorAll("li")[3]; // The element to remove
+let containerEl = removeEl.parentNode; // The parent element
+containerEl.removeChild(removeEl); // Removing the element
 ```
+

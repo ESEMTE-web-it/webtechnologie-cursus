@@ -10,7 +10,7 @@ Het `if (...)` statement evalueert de conditie tussen de haakjes, als het result
 
 ```js
 // de gebruiker moet in een veld ingeven wat de beste pokemon is
-let pokemon = document.getElementById('pokemon').value;
+let pokemon = document.querySelector('#pokemon').value;
 
 if (pokemon === "Bidoof") {
     console.log("You are right!");
@@ -25,7 +25,7 @@ Een `if` statement staat vaak niet alleen in de code en wordt vaak vergezeld doo
 
 ```js
 // de gebruiker moet in een veld ingeven wat de beste pokemon is
-let pokemon = document.getElementById('pokemon').value;
+let pokemon = document.querySelector('#pokemon').value;
 
 if (pokemon === "Bidoof") {
     console.log("You are right!");
@@ -44,7 +44,7 @@ heb je meer dan 1 conditie die je wil nakijken en bepaalde code uitvoeren als de
 
 ```js
 // de gebruiker moet in een veld ingeven wat de beste pokemon is
-let pokemon = document.getElementById('pokemon').value;
+let pokemon = document.querySelector('#pokemon').value;
 
 if (pokemon === "Bidoof") {
     console.log("You are right!");
@@ -102,7 +102,7 @@ Het voorbeeld van de Pokemon kan je dan als volgt schrijven
 
 ```js
 // de gebruiker moet in een veld ingeven wat de beste pokemon is
-let pokemon = document.getElementById('pokemon').value;
+let pokemon = document.querySelector('#pokemon').value;
 
 switch (pokemon) {
     case "Bidoof":
@@ -130,7 +130,7 @@ Je vraagt je waarschijnlijk af waarom je dit kan nodig hebben. Het wordt gebruik
 
 ```js
 // de gebruiker moet in een veld ingeven wat de beste pokemon is
-let pokemon = document.getElementById('pokemon').value;
+let pokemon = document.querySelector('#pokemon').value;
 
 switch (pokemon) {
     case "Bidoof":
@@ -155,7 +155,7 @@ Soms willen we een waarde toekennen aan een variabele die afhangt van een bepaal
 
 ```js
 // de gebruiker moet in een veld een leeftijd ingeven
-let age = document.getElementById('age').value;
+let age = document.querySelector('#age').value;
 
 let accessAllowed;
 
@@ -180,7 +180,7 @@ We kunnen dan bovenstaande code vereenvoudigen:
 
 ```js
 // de gebruiker moet in een veld een leeftijd ingeven
-let age = document.getElementById('age').value;
+let age = document.querySelector('#age').value;
 
 let accessAllowed = (age > 18) ? true : false;
 console.log(accessAllowed);
@@ -190,7 +190,7 @@ Het is mogelijk om ook meerdere conditional operators te gebruiken in 1 lijn cod
 
 ```js
 // de gebruiker moet in een veld de nummer van een pokemon ingeven
-let pokeId = document.getElementById('pokemon').value;
+let pokeId = document.querySelector('#pokemon').value;
 
 let generation = (pokeId <= 151) ? "generation 1" : (pokeId <= 256) ? "generation 2" : (pokeId <= 386) ? "generation 3" : "Unknown";
 
@@ -201,7 +201,7 @@ Je merkt op dat deze code al snel heel complex aan het worden is om snel te leze
 
 ```js
 // de gebruiker moet in een veld de nummer van een pokemon ingeven
-let pokeId = document.getElementById('pokemon').value;
+let pokeId = document.querySelector('#pokemon').value;
 
 let generation;
 

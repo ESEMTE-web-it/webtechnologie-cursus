@@ -25,7 +25,7 @@ try it yourself: [link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_ou
 Met `textContent` kunnen we tekstuele inhoud van een HTML-element lezen en aanpassen. Deze gaan we regelamtig gebruiken in onze oefeningen!
 
 ```js
-let element = document.getElementById('result');
+let element = document.querySelector('#result');
 element.textContent = "Nieuwe tekst";
 ```
 
@@ -34,7 +34,7 @@ element.textContent = "Nieuwe tekst";
 We kunnen ook alle eigenschappen van een HTML-element wijzigen. Denk hierbij bijvoorbeeld aan de `src` van een afbeelding.
 
 ```javascript
-document.getElementById("myImage").src = "landscape.jpg";
+document.querySelector('#myImage").src = "landscape.jpg";
 ```
 
 Try it yourself: [link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_image)
