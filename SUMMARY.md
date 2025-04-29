@@ -46,6 +46,10 @@
     * [Labo 15](oefeningen/LW8/labo15/oefeningen.md)
     * [Labo 16](oefeningen/LW8/labo16/oefeningen.md)
     * [Oplossingen](oefeningen/LW8/oplossingen.md)
+  * Lesweek 9
+    * [Labo 17 - DOM](oefeningen/LW9/labo17/oefeningen-dom.md)
+    * [Labo 17 - Events](oefeningen/LW9/labo17/oefeningen-events.md)
+    * [Oplossingen](oefeningen/LW9/oplossingen.md)
 
 ## HTML
 
