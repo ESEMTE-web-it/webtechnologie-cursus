@@ -1,8 +1,29 @@
-{% hint style="danger" %}
-**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../oefeningen/LW10/labo18/oefeningen.md)
-{% endhint %}
+# Oefeningen labo 18 - Array functions
 
-# oefeningen
+Zorg dat je de volgende folder structuur volgt:
+
+```
+webtechnologie/
+├─ labo-x/
+│  ├─ oefening-01/
+│  │  ├─ index.html
+│  │  ├─ assets/
+│  │  │  ├─ image-1.jpg 
+│  │  │  ├─ data.json 
+│  │  ├─ css/
+│  │  │  ├─ reset.css
+│  │  │  ├─ style.css
+│  │  ├─ js/
+│  │  │  ├─ script.js
+│  ├─ oefening-02/
+│  ├─ oefening-n/
+├─ labo-y/
+├─ labo-z/      
+```
+
+- Gebruik steeds JS modules om globale variabelen te vermijden (`<script type="module" src="./path/to/script.js" defer></script>`)
+- Zet je Javascript file steeds in strict mode (`"use strict"`);
+- Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines)
 
 ## oefening 1: bereken de som en het product
 
@@ -24,7 +45,7 @@ Schrijf een JavaScript-functie genaamd `calculate` die twee getallen en een call
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-callbacks-oef1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-callbacks-oef1.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 2: string manipulatie
 
@@ -46,7 +67,7 @@ Schrijf een JavaScript-functie genaamd `modifyString` die een string en een call
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-callbacks-oef2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-callbacks-oef2.png" alt=""><figcaption></figcaption></figure>
 
 ## extra oefening: "minstens twee"
 
@@ -89,7 +110,7 @@ Schrijf een JavaScript-functie genaamd `createCalculator` die een wiskundige bew
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-callbacks-oef3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-callbacks-oef3.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 4: gebruik van de spread operator
 
@@ -110,7 +131,7 @@ Schrijf een JavaScript-functie genaamd `mergeArrays` die twee arrays accepteert 
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-callbacks-oef4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-callbacks-oef4.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 5: sorteren van objecten
 
@@ -131,7 +152,7 @@ Schrijf een JavaScript-functie genaamd `sortByAttribute` die een array van objec
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-callbacks-oef5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-callbacks-oef5.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 6: filteren en verdubbelen
 
@@ -153,7 +174,7 @@ Schrijf een JavaScript-functie genaamd `filterAndDouble` die een array van getal
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-callbacks-oef6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-callbacks-oef6.png" alt=""><figcaption></figcaption></figure>
 
 ### Oefening 7: reduce
 
@@ -171,7 +192,7 @@ Schrijf een JavaScript-functie genaamd `calculateTotalPrice` die een array van g
 2. Gebruik de reduce functie om alle getallen in de array met elkaar op te tellen
 3. Retourneer de resulterende array.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-02 at 15.10.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-02 at 15.10.52.png" alt=""><figcaption></figcaption></figure>
 
 
 

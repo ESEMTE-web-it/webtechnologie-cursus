@@ -49,7 +49,7 @@ De som print je af op in de console.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef1.png" alt=""><figcaption></figcaption></figure>
 
 ### oefening 2: namen
 
@@ -75,7 +75,7 @@ Toon vervolgens een lijst uit met voor- en achternamen op de scherm van de brows
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef2.png" alt=""><figcaption></figcaption></figure>
 
 ### oefening 3: vrienden
 
@@ -101,7 +101,7 @@ Toon vervolgens de lijst met vrienden in een lijst.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef3.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef3.gif" alt=""><figcaption></figcaption></figure>
 
 ### oefening 4: punten
 
@@ -131,7 +131,7 @@ Toon deze waardes op het scherm in een lijst.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef4.png" alt=""><figcaption></figcaption></figure>
 
 ### oefening 5: punten met vragen
 
@@ -151,7 +151,7 @@ Schrijf eerst een do while loop om de punten te vragen. Op de moment dat de gebr
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef5.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef5.gif" alt=""><figcaption></figcaption></figure>
 
 ### oefening 6: pokémon team
 
@@ -255,7 +255,7 @@ Jouw team van pokemon is:
 
 **voorbeeld interactie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef6.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef6.gif" alt=""><figcaption></figcaption></figure>
 
 ### oefening 7: twee dimensionale som
 
@@ -285,7 +285,7 @@ let spreadsheet = [
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/js-7-oef7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/js-7-oef7.png" alt=""><figcaption></figcaption></figure>
 
 ## Oefeningen functies
 

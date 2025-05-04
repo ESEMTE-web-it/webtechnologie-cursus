@@ -50,6 +50,9 @@
     * [Labo 17 - DOM](oefeningen/LW9/labo17/oefeningen-dom.md)
     * [Labo 17 - Events](oefeningen/LW9/labo17/oefeningen-events.md)
     * [Oplossingen](oefeningen/LW9/oplossingen.md)
+  * Lesweek 10
+    * [Labo 18 - Callbacks / Array functions](oefeningen/LW10/labo18/oefeningen.md)
+    * [Oplossingen](oefeningen/LW10/oplossingen.md)
 
 ## HTML
 
