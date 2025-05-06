@@ -41,7 +41,7 @@ Schrijf een JavaScript-functie genaamd `calculate` die twee getallen en een call
 1. Schrijf een functie genaamd `calculate` die twee parameters (getallen) en een derde parameter (callback-functie) accepteert.
 2. In de functie `calculate`, bereken de som van de twee getallen.
 3. Roep de callback-functie aan met de berekende som als argument.
-4. Lees het resultaat uit naar de console.
+4. Lees in deze callback-functie het resultaat uit naar de console of DOM.
 
 **voorbeeldinteractie**
 
@@ -63,33 +63,11 @@ Schrijf een JavaScript-functie genaamd `modifyString` die een string en een call
 1. Schrijf een functie genaamd `modifyString` die een string en een callback-functie accepteert.
 2. In de functie `modifyString`, bereken de lengte van de string.
 3. Roep de callback-functie aan met de lengte van de string als argument.
-4. Lees het resultaat uit in de console.
+4. Lees het resultaat uit in de console of DOM.
 
 **voorbeeldinteractie**
 
 <figure><img src="../../../.gitbook/assets/async-callbacks-oef2.png" alt=""><figcaption></figcaption></figure>
-
-## extra oefening: "minstens twee"
-
-* Schrijf een arrow functie `isOdd` die via de returnwaarde aangeeft of een getal oneven is.
-* Schrijf een arrow functie `isEven` die via de returnwaarde aangeeft of een getal even is.
-* Verzin twee andere functies die op deze manier zeggen of een getal een bepaalde eigenschap heeft.
-* Schrijf een functie genaamd `atLeastTwo` die twee argumenten aanvaardt. Het eerste argument is een array van getallen en de tweede argument is een callbackfunctie.
-* De functie `atLeastTwo` geeft true terug als en slechts als minstens twee elementen voldoen aan de meegegeven functie.
-
-Bijvoorbeeld:
-
-```
-console.log(atLeastTwo([2,3,4,6,8], isOdd));
-console.log(atLeastTwo([2,3,4,5,6,8], isOdd));
-```
-
-geeft de volgende output:
-
-```
-false
-true
-```
 
 ## oefening 3: rekenmachine
 
@@ -100,17 +78,48 @@ true
 
 **functionele analyse**
 
-Schrijf een JavaScript-functie genaamd `createCalculator` die een wiskundige bewerking ('add' of 'multiply') accepteert en een callback-functie retourneert. Deze callback-functie moet de uitkomst van de bewerking afdrukken.
+Schrijf een factory-functie genaamd `createCalculator` die een wiskundige bewerking ('add' of 'multiply') accepteert en een functie retourneert. 
 
 **technische analyse**
 
-1. Schrijf een functie genaamd `createCalculator` die een parameter (bewerking) accepteert.
-2. Binnen de functie, gebruik een `if`-statement om te bepalen of de bewerking 'add' of 'multiply' is.
-3. Afhankelijk van de bewerking, retourneer een callback-functie die de bijbehorende bewerking uitvoert (optellen of vermenigvuldigen).
+1. **Maak een functie genaamd `createCalculator`**  
+   Deze functie accepteert één parameter: een string genaamd `bewerking`.
+
+2. **Gebruik een `if`-statement binnen `createCalculator`**  
+   Controleer of de waarde van `bewerking` gelijk is aan `'add'` of `'multiply'`.
+
+3. **Retourneer een functie op basis van de bewerking**  
+   De geretourneerde functie moet:
+    - Twee getallen **optellen** of **vermenigvuldigen**, afhankelijk van de opgegeven bewerking.
+    - Daarna een **callback-functie** aanroepen met het resultaat.
+
+4. **De geretourneerde functie accepteert drie parameters:**
+    - `getal1`: het eerste getal
+    - `getal2`: het tweede getal
+    - `callback`: een functie die wordt aangeroepen met het resultaat
+
+5. **Maak een aparte functie genaamd `printToConsole`**  
+   Deze functie accepteert één argument en logt dit naar de console.
+
+6. **Gebruik de `createCalculator` functie**  
+   Roep de geretourneerde functie aan met twee getallen en de `printToConsole` callback.
 
 **voorbeeldinteractie**
 
 <figure><img src="../../../.gitbook/assets/async-callbacks-oef3.png" alt=""><figcaption></figcaption></figure>
+
+**uitbreiding**
+
+7. **Maak een leeg ul-element aan in de HTML**
+8. **Maak een extra functie `printToDom` aan**  
+   Deze functie accepteert één argument en schrijft dit weg als een `<li>`-element binnen een bestaand `<ul>`-element in de DOM.
+9. **Roep de geretourneerde functie uit stap 4 nogmaals aan**  
+   Geef dit keer `printToDom` mee als derde argument (de callback).
+
+**voorbeeldinteractie**
+
+<figure><img src="../../../.gitbook/assets/oefeningen/resultaten/labo18/oef-3-uitbreiding.png" alt=""><figcaption>Het resultaat na uitbreiding</figcaption></figure>
+
 
 ## oefening 4: gebruik van de spread operator
 
@@ -127,7 +136,7 @@ Schrijf een JavaScript-functie genaamd `mergeArrays` die twee arrays accepteert 
 
 1. Schrijf een functie genaamd `mergeArrays` die twee parameters (arrays) accepteert.
 2. Gebruik de spread-operator om beide arrays samen te voegen in een nieuwe array.
-3. Retourneer de samengevoegde array.
+3. Lees het resultaat uit in de console of DOM.
 
 **voorbeeldinteractie**
 
@@ -148,7 +157,7 @@ Schrijf een JavaScript-functie genaamd `sortByAttribute` die een array van objec
 
 1. Schrijf een functie genaamd `sortByAttribute` die twee parameters accepteert: de array van objecten en de attribuutnaam om op te sorteren.
 2. Gebruik de sort-functie met een aangepaste vergelijkingsfunctie om de array van objecten te sorteren op het opgegeven attribuut.
-3. Retourneer de gesorteerde array van objecten.
+3. Lees het resultaat uit in de console of DOM.
 
 **voorbeeldinteractie**
 
@@ -170,7 +179,7 @@ Schrijf een JavaScript-functie genaamd `filterAndDouble` die een array van getal
 1. Schrijf een functie genaamd `filterAndDouble` die een array van getallen accepteert.
 2. Gebruik de filter-functie om alleen even getallen te behouden.
 3. Gebruik de map-functie om de overgebleven getallen te verdubbelen.
-4. Retourneer de resulterende array.
+4. Lees het resultaat uit in de console of DOM.
 
 **voorbeeldinteractie**
 
@@ -190,9 +199,22 @@ Schrijf een JavaScript-functie genaamd `calculateTotalPrice` die een array van g
 
 1. Schrijf een functie genaamd `calculateTotalPrice` die een array van getallen accepteert.
 2. Gebruik de reduce functie om alle getallen in de array met elkaar op te tellen
-3. Retourneer de resulterende array.
+3. Lees het resultaat uit in de console of DOM.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-02 at 15.10.52.png" alt=""><figcaption></figcaption></figure>
 
 
+## Oefening 8: minstens twee
 
+* Schrijf een arrow functie `isOdd` die via de returnwaarde aangeeft of een getal oneven is.
+* Schrijf een arrow functie `isEven` die via de returnwaarde aangeeft of een getal even is.
+* Verzin twee andere functies die op deze manier zeggen of een getal een bepaalde eigenschap heeft.
+* Schrijf een functie genaamd `atLeastTwo` die twee argumenten aanvaardt. Het eerste argument is een array van getallen en de tweede argument is een callbackfunctie.
+* De functie `atLeastTwo` geeft true terug als en slechts als minstens twee elementen voldoen aan de meegegeven functie.
+
+Bijvoorbeeld:
+
+```
+console.log(atLeastTwo([2,3,4,6,8], isOdd)); // false
+console.log(atLeastTwo([2,3,4,5,6,8], isOdd)); // true
+```

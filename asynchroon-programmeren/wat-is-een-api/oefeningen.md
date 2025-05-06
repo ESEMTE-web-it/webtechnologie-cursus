@@ -17,7 +17,7 @@ Lees een API uit die de actuele waarde in euro geeft van 1 Bitcoin en toon deze 
 
 **technische analyse**
 
-1. Gebruik de `fetch`-functie om gegevens op te halen van de API: [https://api.coindesk.com/v1/bpi/currentprice.json](https://api.coindesk.com/v1/bpi/currentprice.json).
+1. Gebruik de `fetch`-functie om gegevens op te halen van de API: [https://sampleapis.assimilate.be/bitcoin/current](https://sampleapis.assimilate.be/bitcoin/current).
 2. Haal de actuele waarde van 1 Bitcoin (bpi.EUR.rate\_float) uit het responsobject.
 3. Toon deze waarde in de DOM.
 
