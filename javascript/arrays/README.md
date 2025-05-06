@@ -121,3 +121,16 @@ let fruits = ["Banana","Apple","Orange"];
 console.log(fruits.shift()); // Banana
 console.log(fruits);
 ```
+
+### join
+
+De .join() methode wordt gebruikt op arrays en plaatst een separator (scheidingsteken) tussen de elementen om één grote string te vormen.
+```javascript
+const words = ['Dit', 'is', 'een', 'zin'];
+const result = woorden.join(' ');
+console.log(resultaat); // Output: Dit is een zin 
+```
+
+.join() verandert de originele array niet, maar retourneert een nieuwe string.
+
+Je kunt ook .join() gebruiken op arrays met getallen of gemengde types – ze worden automatisch omgezet naar strings.
