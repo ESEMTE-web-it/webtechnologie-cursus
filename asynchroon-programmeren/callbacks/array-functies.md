@@ -239,6 +239,43 @@ let doubledNumbers = numbers.map(e => 2 * e);
 
 Het resultaat is hetzelfde als het vorige voorbeeld. De map-functie verwacht een callback die weeral elk element aanspreekt van de array. De return waarde van map is een nieuwe array. De elementen van deze nieuwe array zijn het resultaat van elke oproep naar de callback. In het voorbeeld hierboven worden alle elementen maal 2 gedaan.
 
+## find
+Soms willen we in een array één specifiek element zoeken dat voldoet aan een bepaalde voorwaarde. We zouden dit kunnen doen met een for-lus of forEach:
+
+```js
+const numbers = [3, 7, 12, 5];
+let firstBig = null; 
+
+numbers.forEach(num => {
+    if (num > 10 && firstBig === null) { 
+        firstBig = num;
+    }
+});
+
+console.log(firstBig); // 12 
+```
+
+In dit voorbeeld zoeken we het eerste getal dat groter is dan 10. Zodra we dat gevonden hebben, bewaren we het en stoppen we (in dit geval doen we dat via een check op `firstBig === null`).
+
+Dit kan veel eenvoudiger met de find-functie:
+
+```js
+const numbers = [3, 7, 12, 5]; 
+let firstBig = numbers.find(num => num > 10); // firstBig = 12 
+```
+
+De find-functie doorloopt de array en geeft het eerste element terug dat voldoet aan de opgegeven voorwaarde (de callback). Zodra een element gevonden is waarvoor de callback true teruggeeft, stopt de functie en geeft het dat element terug.
+
+Als geen enkel element aan de voorwaarde voldoet, dan is het resultaat undefined.
+
+Voorbeeld:
+
+```js
+const numbers = [1, 2, 3]; 
+let found = numbers.find(n => n > 10); 
+console.log(found); // undefined 
+```
+
 ## chains
 
 We kunnen de return waarden van array functies ook aan mekaar doorgeven. Dit doen we door "chains". Bv. wanneer we 2 maps na mekaar willen doen:
