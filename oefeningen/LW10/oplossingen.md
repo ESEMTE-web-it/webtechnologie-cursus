@@ -10,8 +10,8 @@ Oplossingen labo 18
 {% endfile %}
 
 
-## Labo 19 - Promises
+## Labo 19 - Herhaling
 
-{% file src="../../.gitbook/assets/oplossingen/labo-19-promises.zip" %}
+{% file src="../../.gitbook/assets/oplossingen/labo-19-herhaling-oplossingen.zip" %}
 Oplossingen labo 19
 {% endfile %}

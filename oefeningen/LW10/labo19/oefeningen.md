@@ -1,4 +1,4 @@
-# Oefeningen labo 18 - Array functions
+# Oefeningen labo 19 - Herhaling
 
 Zorg dat je de volgende folder structuur volgt:
 
@@ -25,211 +25,90 @@ webtechnologie/
 - Zet je Javascript file steeds in strict mode (`"use strict"`);
 - Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines)
 
-## oefening 1: basis promise
+Voor deze oefeningen vertrek je vanuit het volgende startproject:
 
-**Leerdoelen**
+{% file src="../../../.gitbook/assets/oefeningen/startbestanden/labo19/startbestanden.zip" %}
+    De startbestanden
+{% endfile %}
 
-* begrip van asynchrone programmeerconcepten
-* een eenvoudige Promise maken en gebruiken
+<figure><img src="../../../.gitbook/assets/oefeningen/resultaten/labo19/img.png" alt=""><figcaption>Het startbestand</figcaption></figure>
 
-**functionele analyse** 
+## Oefening 1 - Formuliervalidatie
 
-Schrijf een functie genaamd `delayedGreeting` die een Promise retourneert. Deze Promise moet na 2 seconden worden opgelost met een begroeting die de opgegeven naam bevat.
+Je zal het formulier afhandelen in JavaScript.
 
-**technische analyse**
+**functionele analyse**
 
-1. Definieer een functie genaamd `delayedGreeting` die een Promise retourneert.
-2. Binnen de Promise-functie, gebruik de `setTimeout`-functie om een vertraging van 2 seconden te creëren.
-3. Na de vertraging, los de Promise op met een begroeting die de opgegeven naam bevat.
-4. Gebruik de `then`-methode om het resultaat van de Promise af te handelen en de begroeting te loggen.
-5. Gebruik de `catch`-methode om eventuele fouten af te handelen en deze in de console te loggen.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../../.gitbook/assets/async-promises-oef1.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 2: ketting van promises
-
-**leerdoelen**
-
-* begrip van het creëren van een ketting van promises
-* promises op een opeenvolgende manier gebruiken
-
-**functionele analyse** Schrijf een reeks van drie promises die achtereenvolgens worden uitgevoerd. Elke promise moet een ander bericht tonen.
+* Zorg dat een error-bericht wordt getoont wanneer een veld niet ingevuld is.
+* Zorg dat een success-bericht wordt getoont wanneer alle velden juist ingevuld zijn met daarin de waardes van het name, email en message veld.
 
 **technische analyse**
 
-1. Maak een functie genaamd `promiseChain` die een ketting van Promises bevat.
-2. Elke Promise in de ketting moet een ander bericht retourneren.
-3. Gebruik de `then`-methode om de berichten af te handelen en in de console te loggen.
-4. Gebruik de `catch`-methode om eventuele fouten af te handelen en deze in de console te loggen.
+* Maak een map aan genaamd js met daarin een bestand form.js.
+* Koppel het bestand form.js aan de index.html.
+* Geef het form-element een id en haal het op in je form.js met querySelector.
+* Voeg een submit-eventlistener toe aan form.
+* Haal de 3 velden op en kijk na of ze zijn ingevuld.
+* niet ingevuld: geef een foutmelding
+* ingevuld: geef een succesmelding
+* Toon de ingevulde waarden aan de gebruiker via een `alert`.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/async-promises-oef2.png" alt=""><figcaption></figcaption></figure>
+![form interactie](../../../.gitbook/assets/oefeningen/resultaten/labo19/form.gif)
 
-## oefening 3: parallelle Promises
+![alert na submit](../../../.gitbook/assets/oefeningen/resultaten/labo19/form-submit.png)
 
-**leerdoelen**
+## Oefening 2 - Frequently Asked Questions sectie (FAQ)
 
-* begrip van het gelijktijdig uitvoeren van meerdere Promises
-* resultaten van parallelle Promises samenvoegen
+**functionele analyse**
 
-**functionele analyse** 
-
-Schrijf een functie genaamd `simulateAPICalls` die gelijktijdig twee fictieve API-oproepen simuleert en de resultaten samenvoegt.
+* Maak een inklapbare FAQ met behulp van JavaScript.
+* Voeg HTML toe zoals visueel weergegeven in de voorbeeldinteractie.
+* Elk inklapbaar element bestaat uit:
+* een button met class `collapsible`
+* een p-element met class `context`
 
 **technische analyse**
 
-Je definieert als volgt een functie die het gecombineerde resultaat van **twee** API-calls tegelijkertijd teruggeeft.
-
-1. Gebruik de `setTimeout`-functie om een vertraging van elk van 2 seconden en 4 seconden te creëren om twee fictieve API-oproepen te simuleren.
-2. Laat elke Promise een object met fictieve gegevens bevatten (bijvoorbeeld `{ data: 'API-resultaat' }`).
-3. Gebruik `Promise.all` om beide Promises gelijktijdig uit te voeren en de resultaten samen te voegen.
-4. Laat `simulateAPICalls` deze gecombineerde Promise teruggeven.
-5. Gebruik de `then`-methode om de samengevoegde gegevens in de console te loggen.
-6. Gebruik de `catch`-methode om eventuele fouten af te handelen en deze in de console te loggen.
+* Haal in faq.js alle elementen op met de klasse 'collapsible' en gebruik hierbij querySelectorAll.
+* Loop over de array van elementen.
+* Voeg voor elk element een 'click' eventlistener toe.
+* Als er op een ingeklapt element wordt geklikt, wordt de inhoud zichtbaar.
+* Als er op een opengeklapt element wordt geklikt, wordt de inhoud onzichtbaar.
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/async-promises-oef3.png" alt=""><figcaption></figcaption></figure>
+![FAQ resultaat](../../../.gitbook/assets/oefeningen/resultaten/labo19/faq.gif)
 
-## oefening 4: afwijzen van een Promise
+## Oefening 3 - Social media icons
 
-**leerdoelen**
+**functionele analyse**
 
-* begrip van het afwijzen van Promises
-* een Promise afwijzen na een bepaalde vertraging
-
-**functionele analyse** 
-
-Schrijf een functie genaamd `rejectAfterTimeout` die na 3 seconden een Promise afwijst met een opgegeven foutmelding.
+* Plaats de social media icons op het scherm vanuit JavaScript
+* Voeg HTML toe zoals visueel weergegeven in de voorbeeldinteractie.
+* Elk social media icon bestaat uit:
+  * een li-element
+  * een a-element met een juiste link
+  * een img-element met een juist icoon
 
 **technische analyse**
 
-1. Definieer een functie genaamd `rejectAfterTimeout` die een Promise retourneert.
-2. Gebruik de `setTimeout`-functie om een vertraging van 3 seconden te creëren.
-3. Na de vertraging, wijs de Promise af met een opgegeven foutmelding.
-4. Gebruik de `then`-methode om het resultaat van de Promise af te handelen (zou niet moeten worden aangeroepen in dit geval).
-5. Gebruik de `catch`-methode om de foutmelding in de console te loggen.
+* Maak een `socials.js`-bestand aan en plaats hierin de volgende arrays:
+```javascript
+    const socialPlatforms = ["youtube", "instagram", "facebook", "twitter"];
+    const socialLinks = ["https://www.youtube.com", "https://www.instagram.com/", "https://www.facebook.com/", "https://twitter.com/"];
+```
+
+* Selecteer de ul#socials en voeg hier per social media de nodige elementen aan toe
+```javascript
+    <li>
+     <a href="https://www.youtube.com" target="_blank">
+        <img src="assets/iconyoutube.png"/>
+     </a>
+    </li>
+ ```
 
 **voorbeeldinteractie**
 
-<figure><img src="../../../.gitbook/assets/async-promises-oef4.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 5: promisify
-
-{% hint style="warning" %}
-Dit is een gevorderde oefening. Je hoeft dit niet uit het hoofd te kunnen.
-{% endhint %}
-
-**leerdoelen**
-
-* begrip van het omzetten van callback-gebaseerde functies naar Promise-gebaseerde functies
-* een zelfgemaakte Promise-gebaseerde functie gebruiken
-
-**functionele analyse** 
-
-Schrijf een functie genaamd `promisify` die een callback-gebaseerde functie omzet in een Promise-gebaseerde functie.
-
-**technische analyse**
-
-1. Definieer een functie genaamd `promisify` die een callback-gebaseerde functie als invoer accepteert.
-2. Binnen de `promisify`-functie, retourneer een nieuwe functie die een Promise retourneert.
-3. De interne functie moet de callback-gebaseerde functie aanroepen en de Promise oplossen of afwijzen op basis van het resultaat.
-4. Gebruik de omgezette Promise-gebaseerde functie om een asynchrone taak uit te voeren.
-5. Gebruik de `then`-methode om het resultaat van de Promise af te handelen en in de console te loggen.
-6. Gebruik de `catch`-methode om eventuele fouten af te handelen en deze in de console te loggen.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../../.gitbook/assets/async-promises-oef4.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 6: basis Promise met async/await
-
-**leerdoelen**
-
-* begrip van asynchrone programmeerconcepten
-* een eenvoudige Promise maken en gebruiken
-* gebruik van `async/await`
-
-**functionele analyse** 
-
-Schrijf een functie genaamd `delayedGreeting` die een Promise retourneert. Deze Promise moet na 2 seconden worden opgelost met een begroeting die de opgegeven naam bevat.
-
-**technische analyse**
-
-1. Definieer een functie genaamd `delayedGreeting` die een Promise retourneert.
-2. Binnen de Promise-functie, gebruik de `setTimeout`-functie om een vertraging van 2 seconden te creëren.
-3. Na de vertraging, los de Promise op met een begroeting die de opgegeven naam bevat.
-4. Gebruik `async/await` om de Promise af te handelen in een andere functie genaamd `handleGreeting`.
-5. Roep de `handleGreeting`-functie aan en log het resultaat of de foutmelding.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../../.gitbook/assets/async-promises-oef6.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 7: async/await met ketting van Promises
-
-**leerdoelen**
-
-* begrip van het gebruik van `async/await` met een ketting van Promises
-* asynchrone taken opeenvolgend uitvoeren
-
-**functionele analyse** 
-
-Schrijf een functie genaamd `asyncChain` die een reeks van drie Promises opeenvolgend uitvoert met behulp van `async/await`. Elke Promise moet een ander bericht retourneren.
-
-**technische analyse**
-
-1. Definieer een functie genaamd `asyncChain`.
-2. Gebruik `async/await` om drie opeenvolgende Promises uit te voeren.
-3. Elk van de Promises moet een ander bericht retourneren.
-4. Log de resultaten van de Promises in de console.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../../.gitbook/assets/async-promises-oef7.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 8: parallelle async/await
-
-**leerdoelen**
-
-* begrip van het gebruik van `async/await` met parallelle asynchrone taken
-* resultaten van parallelle Promises samen te voegen
-
-**functionele analyse** 
-
-Schrijf een functie genaamd `asyncParallel` die gelijktijdig twee asynchrone taken uitvoert en de resultaten samenvoegt met behulp van `async/await`.
-
-**technische analyse**
-
-1. Definieer een functie genaamd `asyncParallel`.
-2. Gebruik `Promise.all` in combinatie met `async/await` om twee asynchrone taken gelijktijdig uit te voeren.
-3. Laat elke asynchrone taak een object met fictieve gegevens retourneren (bijvoorbeeld `{ data: 'Resultaat van taak 1' }`).
-4. Log de samengevoegde resultaten in de console.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../../.gitbook/assets/async-promises-oef8.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 9: async/await met foutafhandeling
-
-**leerdoelen**
-
-* begrip van het gebruik van `async/await` voor foutafhandeling
-* fouten detecteren en afhandelen bij asynchrone taken
-
-**functionele analyse** 
-
-Schrijf een functie genaamd `asyncWithErrorHandling` die een asynchrone taak uitvoert en fouten afhandelt met behulp van `async/await`.
-
-**technische analyse**
-
-1. Definieer een functie genaamd `asyncWithErrorHandling`.
-2. Gebruik `async/await` om een asynchrone taak uit te voeren die een fout kan veroorzaken (bijv. een Promise die wordt afgewezen).
-3. Gebruik `try/catch` om de fout af te vangen en log de foutmelding in de console.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../../.gitbook/assets/async-promises-oef9.png" alt=""><figcaption></figcaption></figure>
+![social media icons](../../../.gitbook/assets/oefeningen/resultaten/labo19/socials.png)
