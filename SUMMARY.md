@@ -54,6 +54,8 @@
     * [Labo 18 - Callbacks / Array functions](oefeningen/LW10/labo18/oefeningen.md)
     * [Labo 19 - Herhalingsoefeningen](oefeningen/LW10/labo19/oefeningen.md)
     * [Oplossingen](oefeningen/LW10/oplossingen.md)
+  * Lesweek 11
+    * [Labo 20 - Promises](oefeningen/LW11/labo20/oefeningen.md)
 
 ## HTML
 
