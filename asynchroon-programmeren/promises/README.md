@@ -1,16 +1,21 @@
 # Hoofdstuk 2: Werken met Promises
 
-In dit hoofdstuk leer je werken met **Promises** in JavaScript. Je leert begrijpen wat een Promise is, hoe je ermee werkt, en hoe je foutafhandeling toepast.
+In dit hoofdstuk leer je werken met **Promises** in JavaScript. Je ontdekt wat een Promise is, hoe je ermee werkt, en hoe je fouten afhandelt.
+
+---
 
 ## Wat is een Promise?
 
-Een Promise is een object dat de **toekomstige uitkomst** van een asynchrone operatie vertegenwoordigt. Die uitkomst kan succesvol zijn (**resolved**) of fout gaan (**rejected**).
+Een **Promise** is een object dat de **toekomstige uitkomst** van een asynchrone operatie vertegenwoordigt. Die uitkomst kan:
 
-Je hoeft **geen eigen Promises** te leren maken. Je gebruikt vooral bestaande functies die al een Promise teruggeven.
+- **geslaagd** zijn (de Promise wordt *resolved*), of
+- **mislukken** (de Promise wordt *rejected*).
 
-## Een eenvoudige Promise gebruiken
+Je hoeft voorlopig zelf geen Promise te kunnen schrijven. In de praktijk gebruik je vooral functies die al een Promise teruggeven.
 
-Stel dat je werkt met een functie `doeIetsAsynchroon()` die een Promise teruggeeft:
+## Een Promise gebruiken
+
+Stel dat je een functie hebt genaamd `doeIetsAsynchroon()` die een Promise teruggeeft:
 
 ```javascript
 doeIetsAsynchroon()
@@ -22,61 +27,81 @@ doeIetsAsynchroon()
   });
 ```
 
-- `.then()` wordt uitgevoerd als de Promise succesvol is.
+- `.then()` wordt uitgevoerd wanneer de Promise geslaagd is.
 - `.catch()` wordt uitgevoerd als er iets misgaat.
 
-## Then-chaining
+---
+
+## Promise chaining
+
+Je kunt meerdere asynchrone stappen op elkaar laten volgen door `.then()` meerdere keren te gebruiken. Dit heet **chaining**.
+
+### Voorbeeld met geneste `then`:
 
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then((response) => {
-    // De eerste .then() verwerkt de response en zet deze om naar JSON
-    return response.json();
-  })
-  .then((data) => {
-    // De tweede .then() verwerkt de data die we hebben ontvangen
-    console.log("Todo ontvangen:", data);
-    // We kunnen ook een extra bewerking doen, zoals het loggen van de titel
-    return data.title;
-  })
-  .then((title) => {
-    // De derde .then() ontvangt de titel en logt deze
-    console.log("Titel van de todo:", title);
+    // Zet de response om naar JSON
+    return response.json().then((data) => {
+      console.log("Todo ontvangen:", data);
+      console.log("Titel van de todo:", data.title);
+    });
   })
   .catch((error) => {
-    // Als er een fout optreedt, wordt deze opgevangen door .catch()
     console.error("Er ging iets mis:", error);
   });
 ```
 
-Promise chaining wordt bereikt door meerdere `.then()`-methoden achter elkaar te plaatsen.
+Bovenstaande code werkt, maar is moeilijk leesbaar door de geneste structuur. We kunnen dit vereenvoudigen door de binnenste Promise te **returnen**:
 
-Elke `.then()` ontvangt de output van de vorige stap.
-
-De `.catch()` vangt eventuele fouten op die optreden tijdens het proces.
-
-In dit voorbeeld worden de stappen in de fetch()-operatie gechained: eerst de response omzetten naar JSON, dan de data verwerken, en uiteindelijk de titel loggen.
-
-## Browser-API's die Promises gebruiken
-
-Er zijn verschillende API’s in de browser die standaard Promises teruggeven. Hier zijn drie eenvoudige voorbeelden:
-
-### 1. fetch()
-
-Met fetch kun je data ophalen van een server
+### Verbeterde versie met chaining:
 
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/todos/1")
-  .then((response) => response.json())
+  .then((response) => {
+    return response.json(); // Geeft een nieuwe Promise terug
+  })
+  .then((data) => {
+    console.log("Todo ontvangen:", data);
+    return data.title;
+  })
+  .then((title) => {
+    console.log("Titel van de todo:", title);
+  })
+  .catch((error) => {
+    console.error("Er ging iets mis:", error);
+  });
+```
+
+Elke `.then()` ontvangt de **output van de vorige stap**.  
+De `.catch()` onderaan vangt **alle fouten** op die onderweg kunnen gebeuren.
+
+---
+
+## Voorbeelden van browser-API’s die Promises gebruiken
+
+Veel moderne browserfuncties werken al met Promises. Hier zijn drie bekende voorbeelden:
+
+---
+
+### `fetch()`
+
+De `fetch()`-functie wordt gebruikt om gegevens van een server op te halen.
+
+```javascript
+fetch("https://jsonplaceholder.typicode.com/todos/1")
+  .then((response) => response.json()) // Zet om naar JSON
   .then((data) => console.log("Todo:", data))
   .catch((error) => console.error("Fout bij ophalen:", error));
 ```
 
-> Opgelet: de `response.json()` methode returned op zijn beurt ook weer een promise waar we de `.then()` methode van kunnen oproepen. Meer daarover in het hoofdstuk over fetch.
+> Let op: `response.json()` geeft **zelf ook een Promise** terug. Meer daarover in het fetch hoofdstuk.
 
-### 2. navigator.clipboard.readText()
+---
 
-Met deze browser functie kun je tekst uit het klembord van de gebruiker halen
+### `navigator.clipboard.readText()`
+
+Deze functie haalt tekst op uit het klembord van de gebruiker.
 
 ```javascript
 navigator.clipboard
@@ -89,19 +114,28 @@ navigator.clipboard
   });
 ```
 
-### 3. Notification.requestPermission()
+---
 
-Met deze browser functie kun je gebruikers om toestemming vragen om notificaties te verzenden.
+### `Notification.requestPermission()`
+
+Deze functie vraagt toestemming om meldingen te tonen in de browser.
 
 ```javascript
-    Notification.requestPermission().then((permission) => {
-      if (permission === "granted") {
-        new Notification("Hello!");
-      }
-    });
+Notification.requestPermission()
+  .then((permission) => {
+    if (permission === "granted") {
+      new Notification("Hello!");
+    }
+  });
 ```
 
-## (Optioneel) Zelf een Promise aanmaken
+> Tip: eenmaal gegeven (of geweigerde) toestemming wordt **onthouden door de browser**. Je kunt dit in Chromium-based browsers resetten bij de instellingen onder Privacy & Security > Site settings.
+
+---
+
+## (Optioneel) Zelf een Promise maken
+
+Hoewel je zelden zelf Promises hoeft te schrijven, is het nuttig om te weten hoe het werkt:
 
 ```javascript
 function wachtEven(ms) {
@@ -125,28 +159,51 @@ wachtEven(1000)
   });
 ```
 
-## (Optioneel) `Promise.all()` en `Promise.race()`
+---
 
-- `Promise.all([p1, p2, ...])`: wacht tot **alle** promises voltooid zijn.
-- `Promise.race([p1, p2, ...])`: geeft resultaat van de **eerste** Promise die af is, of faalt.
+## (Optioneel) Meerdere Promises combineren
+
+### `Promise.all()`
+
+Wacht tot **alle** Promises geslaagd zijn:
 
 ```javascript
 const belofte1 = wachtEven(1000);
 const belofte2 = wachtEven(1500);
 
 Promise.all([belofte1, belofte2])
-    .then((resultaten) => {
-        console.log("Alle beloften klaar:", resultaten);
-    })
-    .catch((fout) => {
-        console.error("Eén van de beloften faalde:", fout);
-    });
-
-Promise.race([belofte1, belofte2])
-    .then((resultaat) => {
-        console.log("Eerste belofte klaar:", resultaat);
-    })
-    .catch((fout) => {
-        console.error("Eerste fout:", fout);
-    });
+  .then((resultaten) => {
+    console.log("Alle beloften klaar:", resultaten);
+  })
+  .catch((fout) => {
+    console.error("Eén van de beloften faalde:", fout);
+  });
 ```
+
+---
+
+### `Promise.race()`
+
+Geeft het resultaat van de **eerste Promise** die afgerond wordt (geslaagd of mislukt):
+
+```javascript
+Promise.race([belofte1, belofte2])
+  .then((resultaat) => {
+    console.log("Eerste belofte klaar:", resultaat);
+  })
+  .catch((fout) => {
+    console.error("Eerste fout:", fout);
+  });
+```
+
+---
+
+## Samenvatting
+
+- Een **Promise** vertegenwoordigt een toekomstige waarde.
+- Je werkt ermee via `.then()` en `.catch()`.
+- Door **chaining** kun je meerdere stappen elegant aan elkaar koppelen.
+- Veel browserfuncties zoals `fetch()`, `clipboard.readText()` en `requestPermission()` werken met Promises.
+- Je kunt meerdere Promises combineren met `Promise.all()` of `Promise.race()`.
+
+> In het volgende hoofdstuk leer je hoe je `async` en `await` gebruikt om asynchrone code nog leesbaarder te maken.
