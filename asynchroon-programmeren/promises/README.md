@@ -1,3 +1,4 @@
+
 # Hoofdstuk 2: Werken met Promises
 
 In dit hoofdstuk leer je werken met **Promises** in JavaScript. Je ontdekt wat een Promise is, hoe je ermee werkt, en hoe je fouten afhandelt.
@@ -13,6 +14,9 @@ Een **Promise** is een object dat de **toekomstige uitkomst** van een asynchrone
 
 Je hoeft voorlopig zelf geen Promise te kunnen schrijven. In de praktijk gebruik je vooral functies die al een Promise teruggeven.
 
+> **Waarom Promises?**  
+> Wanneer we met asynchrone code werken (zoals het ophalen van gegevens van een server), kunnen we niet direct weten wanneer de operatie klaar is. Promises helpen om de uitkomst van deze toekomstige operatie te beheren, zodat we pas actie ondernemen wanneer de operatie is voltooid.
+
 ## Een Promise gebruiken
 
 Stel dat je een functie hebt genaamd `doeIetsAsynchroon()` die een Promise teruggeeft:
@@ -27,14 +31,14 @@ doeIetsAsynchroon()
   });
 ```
 
-- `.then()` wordt uitgevoerd wanneer de Promise geslaagd is.
-- `.catch()` wordt uitgevoerd als er iets misgaat.
+- `.then()` wordt uitgevoerd wanneer de Promise geslaagd is. Dit ontvangt de **resultaten van de succesvolle Promise**.
+- `.catch()` wordt uitgevoerd als er iets misgaat en vangt **fouten op** die zich voordoen tijdens de asynchrone operatie.
 
 ---
 
 ## Promise chaining
 
-Je kunt meerdere asynchrone stappen op elkaar laten volgen door `.then()` meerdere keren te gebruiken. Dit heet **chaining**.
+Je kunt meerdere asynchrone stappen op elkaar laten volgen door `.then()` meerdere keren te gebruiken. Dit heet **chaining**. Elke `.then()` ontvangt de **output van de vorige stap**, en je kunt de resultaten doorgeven naar de volgende stap.
 
 ### Voorbeeld met geneste `then`:
 
@@ -73,9 +77,6 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
   });
 ```
 
-Elke `.then()` ontvangt de **output van de vorige stap**.  
-De `.catch()` onderaan vangt **alle fouten** op die onderweg kunnen gebeuren.
-
 ---
 
 ## Voorbeelden van browser-API’s die Promises gebruiken
@@ -90,9 +91,9 @@ De `fetch()`-functie wordt gebruikt om gegevens van een server op te halen.
 
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/todos/1")
-  .then((response) => response.json()) // Zet om naar JSON
-  .then((data) => console.log("Todo:", data))
-  .catch((error) => console.error("Fout bij ophalen:", error));
+    .then((response) => response.json()) // Zet om naar JSON
+    .then((data) => console.log("Todo:", data))
+    .catch((error) => console.error("Fout bij ophalen:", error));
 ```
 
 > Let op: `response.json()` geeft **zelf ook een Promise** terug. Meer daarover in het fetch hoofdstuk.
@@ -105,13 +106,13 @@ Deze functie haalt tekst op uit het klembord van de gebruiker.
 
 ```javascript
 navigator.clipboard
-  .readText()
-  .then((tekst) => {
-    console.log("Tekst uit klembord:", tekst);
-  })
-  .catch((fout) => {
-    console.error("Klembord niet beschikbaar:", fout);
-  });
+    .readText()
+    .then((tekst) => {
+        console.log("Tekst uit klembord:", tekst);
+    })
+    .catch((fout) => {
+        console.error("Klembord niet beschikbaar:", fout);
+    });
 ```
 
 ---
@@ -122,11 +123,11 @@ Deze functie vraagt toestemming om meldingen te tonen in de browser.
 
 ```javascript
 Notification.requestPermission()
-  .then((permission) => {
-    if (permission === "granted") {
-      new Notification("Hello!");
-    }
-  });
+    .then((permission) => {
+        if (permission === "granted") {
+            new Notification("Hello!");
+        }
+    });
 ```
 
 > Tip: eenmaal gegeven (of geweigerde) toestemming wordt **onthouden door de browser**. Je kunt dit in Chromium-based browsers resetten bij de instellingen onder Privacy & Security > Site settings.
@@ -139,24 +140,24 @@ Hoewel je zelden zelf Promises hoeft te schrijven, is het nuttig om te weten hoe
 
 ```javascript
 function wachtEven(ms) {
-  return new Promise((resolve, reject) => {
-    if (ms < 0) {
-      reject("Tijd mag niet negatief zijn");
-    } else {
-      setTimeout(() => {
-        resolve("Klaar!");
-      }, ms);
-    }
-  });
+    return new Promise((resolve, reject) => {
+        if (ms < 0) {
+            reject("Tijd mag niet negatief zijn");
+        } else {
+            setTimeout(() => {
+                resolve("Klaar!");
+            }, ms);
+        }
+    });
 }
 
 wachtEven(1000)
-  .then((resultaat) => {
-    console.log(resultaat);
-  })
-  .catch((fout) => {
-    console.error(fout);
-  });
+    .then((resultaat) => {
+        console.log(resultaat);
+    })
+    .catch((fout) => {
+        console.error(fout);
+    });
 ```
 
 De functie wachtEven(ms) creëert een nieuwe Promise. Laten we de verschillende onderdelen ervan stap voor stap doornemen:
@@ -179,7 +180,7 @@ _reject_: Dit wordt aangeroepen wanneer er een fout optreedt en de Promise wordt
 **Validatie van de tijd (ms < 0):**
 ```javascript
 if (ms < 0) {
-  reject("Tijd mag niet negatief zijn");
+    reject("Tijd mag niet negatief zijn");
 }
 ```
 
@@ -189,9 +190,9 @@ Voordat de daadwerkelijke wachttijd wordt ingesteld, controleert de functie of d
 
 ```javascript
 else {
-  setTimeout(() => {
-    resolve("Klaar!");
-  }, ms);
+    setTimeout(() => {
+        resolve("Klaar!");
+    }, ms);
 }
 ```
 
@@ -212,12 +213,12 @@ const belofte1 = wachtEven(1000);
 const belofte2 = wachtEven(1500);
 
 Promise.all([belofte1, belofte2])
-  .then((resultaten) => {
-    console.log("Alle beloften klaar:", resultaten);
-  })
-  .catch((fout) => {
-    console.error("Eén van de beloften faalde:", fout);
-  });
+    .then((resultaten) => {
+        console.log("Alle beloften klaar:", resultaten);
+    })
+    .catch((fout) => {
+        console.error("Eén van de beloften faalde:", fout);
+    });
 ```
 
 ---
@@ -230,12 +231,12 @@ Deze methoden helpen je bij het beheren van meerdere asynchrone taken en kunnen 
 
 ```javascript
 Promise.race([belofte1, belofte2])
-  .then((resultaat) => {
-    console.log("Eerste belofte klaar:", resultaat);
-  })
-  .catch((fout) => {
-    console.error("Eerste fout:", fout);
-  });
+    .then((resultaat) => {
+        console.log("Eerste belofte klaar:", resultaat);
+    })
+    .catch((fout) => {
+        console.error("Eerste fout:", fout);
+    });
 ```
 
 ---
