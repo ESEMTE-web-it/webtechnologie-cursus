@@ -56,6 +56,7 @@
     * [Oplossingen](oefeningen/LW10/oplossingen.md)
   * Lesweek 11
     * [Labo 20 - Promises](oefeningen/LW11/labo20/oefeningen.md)
+    * [Oplossingen](oefeningen/LW11/oplossingen.md)
 
 ## HTML
 
