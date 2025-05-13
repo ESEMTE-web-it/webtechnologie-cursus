@@ -159,13 +159,53 @@ wachtEven(1000)
   });
 ```
 
+De functie wachtEven(ms) creëert een nieuwe Promise. Laten we de verschillende onderdelen ervan stap voor stap doornemen:
+
+**Functie wachtEven(ms):**
+Deze functie accepteert één argument: ms (milliseconden), wat de wachttijd bepaalt voordat de Promise zich als volbracht beschouwt.
+
+```javascript
+function wachtEven(ms) {
+    return new Promise((resolve, reject) => {
+```
+
+Hier wordt een nieuwe Promise gemaakt. De constructor van de Promise accepteert een functie met twee parameters: resolve en reject.
+
+_resolve_: Dit wordt aangeroepen wanneer de bewerking succesvol is en de Promise wordt "voltooid" (fulfilled).
+
+_reject_: Dit wordt aangeroepen wanneer er een fout optreedt en de Promise wordt "afgewezen" (rejected).
+
+
+**Validatie van de tijd (ms < 0):**
+```javascript
+if (ms < 0) {
+  reject("Tijd mag niet negatief zijn");
+}
+```
+
+Voordat de daadwerkelijke wachttijd wordt ingesteld, controleert de functie of de ms-waarde een negatieve waarde heeft. Als dit het geval is, wordt de Promise afgewezen met de foutmelding "Tijd mag niet negatief zijn". Dit is een eenvoudige vorm van foutafhandeling.
+
+**Wachten met setTimeout:**
+
+```javascript
+else {
+  setTimeout(() => {
+    resolve("Klaar!");
+  }, ms);
+}
+```
+
+Als de tijd positief is, wordt setTimeout gebruikt om een wachttijd van ms milliseconden in te stellen.
+
+Na de wachttijd wordt de resolve-functie aangeroepen om de Promise te vervullen. De tekst "Klaar!" wordt meegegeven als resultaat van de Promise.
+
 ---
 
 ## (Optioneel) Meerdere Promises combineren
 
 ### `Promise.all()`
 
-Wacht tot **alle** Promises geslaagd zijn:
+Met Promise.all() wacht je totdat alle Promises zijn voltooid. Als een van de Promises faalt, wordt de catch-blok geactiveerd. Dit is handig wanneer je wilt wachten op meerdere bewerkingen die allemaal succesvol moeten zijn voordat je verder kunt gaan.
 
 ```javascript
 const belofte1 = wachtEven(1000);
@@ -184,7 +224,9 @@ Promise.all([belofte1, belofte2])
 
 ### `Promise.race()`
 
-Geeft het resultaat van de **eerste Promise** die afgerond wordt (geslaagd of mislukt):
+In tegenstelling tot Promise.all(), geeft Promise.race() de eerste Promise die klaar is terug, ongeacht of die geslaagd of mislukt is. Dit kan nuttig zijn als je wilt weten welke asynchrone bewerking het snelst voltooid is, zoals het ophalen van gegevens van meerdere bronnen en alleen de snelste gebruiken.
+
+Deze methoden helpen je bij het beheren van meerdere asynchrone taken en kunnen je code efficiënter maken, afhankelijk van je behoeften.
 
 ```javascript
 Promise.race([belofte1, belofte2])
@@ -197,13 +239,5 @@ Promise.race([belofte1, belofte2])
 ```
 
 ---
-
-## Samenvatting
-
-- Een **Promise** vertegenwoordigt een toekomstige waarde.
-- Je werkt ermee via `.then()` en `.catch()`.
-- Door **chaining** kun je meerdere stappen elegant aan elkaar koppelen.
-- Veel browserfuncties zoals `fetch()`, `clipboard.readText()` en `requestPermission()` werken met Promises.
-- Je kunt meerdere Promises combineren met `Promise.all()` of `Promise.race()`.
 
 > In het volgende hoofdstuk leer je hoe je `async` en `await` gebruikt om asynchrone code nog leesbaarder te maken.
