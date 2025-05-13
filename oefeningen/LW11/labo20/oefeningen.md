@@ -66,7 +66,8 @@ const multiply = (number1, number2) => {
 
 1. Roep deze functie aan met twee willekeurige getallen, bijvoorbeeld `multiply(4, 7)`.
 2. Wacht op het resultaat met `.then()`.
-3. Toon het resultaat in de console.
+3. Voorzie een `catch`-blok voor het geval er een fout optreedt.
+4. Toon het resultaat in de console.
 
 De `setTimeout` simuleert een trage bewerking.
 
@@ -87,6 +88,8 @@ Werk verder met de `multiply()`-functie:
 4. Toon telkens het tussenresultaat in de console.
 
 Vermijd geneste `.then()`-blokken. Schrijf ze op één niveau (flat).
+
+> Tip: om testing wat gemakkelijker te maken, verlaag je de timing van de timeout-functie binnen multiply.
 
 ---
 
