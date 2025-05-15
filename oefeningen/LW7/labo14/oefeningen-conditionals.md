@@ -255,13 +255,7 @@ Genereer een willekeurig getal tussen 1 en 10 en sla deze op in een variabele "a
 {% hint style="info" %}
 
 Om een willekeurig getal te genereren kun je gebruik maken van de `Math.random()` functie. Deze functie zal altijd een kommagetal teruggeven. Met de volgende functie kun je dit willekeurig kommagetal omzetten naar een geheel getal tussen twee getallen:
-```Math.floor(Math.random() * (maximumGetal - minimumGetal) + maximumGetal)```
+```Math.floor(Math.random() * (maximumGetal - minimumGetal) + minimumGetal)```
 
 Sla de [MDN documentatie van Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) er op na
 {% endhint %}
-
-
-
----
-
-

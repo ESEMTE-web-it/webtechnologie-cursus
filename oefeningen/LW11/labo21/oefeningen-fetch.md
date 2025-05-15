@@ -1,4 +1,34 @@
-# oefeningen
+# Oefeningen labo 21
+
+Zorg ervoor dat je onderstaande folderstructuur aanhoudt:
+
+```
+webtechnologie/
+├─ labo-x/
+│  ├─ oefening-01/
+│  │  ├─ index.html
+│  │  ├─ assets/
+│  │  │  ├─ image-1.jpg
+│  │  │  ├─ data.json
+│  │  ├─ css/
+│  │  │  ├─ reset.css
+│  │  │  ├─ style.css
+│  │  ├─ js/
+│  │  │  ├─ script.js
+│  ├─ oefening-02/
+│  ├─ oefening-n/
+├─ labo-y/
+├─ labo-z/
+```
+
+**Technische richtlijnen:**
+
+- Gebruik steeds **ES modules** om globale variabelen te vermijden:
+  `<script type="module" src="./path/to/script.js" defer></script>`
+- Zet bovenaan elk script `"use strict";` om strikte modus in te schakelen.
+- Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines).
+
+---
 
 {% hint style="info" %}
 Bekijk bij elke oefening de API eerst via Postman!
