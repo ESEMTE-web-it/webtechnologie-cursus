@@ -39,8 +39,8 @@
     * [Oplossingen](oefeningen/LW6/oplossingen.md)
   * Lesweek 7
     * [Labo 13](oefeningen/LW7/labo13/oefeningen.md)
-    * [Labo 14 conditionals](oefeningen/LW7/labo14/oefeningen-conditionals.md)
-    * [Labo 14 loops](oefeningen/LW7/labo14/oefeningen-loops.md)
+    * [Labo 14 - Conditionals](oefeningen/LW7/labo14/oefeningen-conditionals.md)
+    * [Labo 14 - Loops](oefeningen/LW7/labo14/oefeningen-loops.md)
     * [Oplossingen](oefeningen/LW7/oplossingen.md)
   * Lesweek 8
     * [Labo 15](oefeningen/LW8/labo15/oefeningen.md)
