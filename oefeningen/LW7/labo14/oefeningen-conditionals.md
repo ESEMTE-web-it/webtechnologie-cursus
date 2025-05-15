@@ -1,4 +1,4 @@
-# Oefeningen conditionals labo 13
+# Labo 14 - Conditionals
 
 ## Folderstructuur
 

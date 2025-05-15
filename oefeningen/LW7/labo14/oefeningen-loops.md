@@ -1,4 +1,4 @@
-# Oefeningen loops labo 13
+# Labo 14 - Loops
 
 ## Folderstructuur
 
@@ -36,7 +36,6 @@ webtechnologie/
 - Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines)
 
 ---
-# Oefeningen loops - Labo 13
 
 ## Oefening 1: Maaltafel Generator
 
