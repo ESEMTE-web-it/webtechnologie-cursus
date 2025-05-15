@@ -34,14 +34,17 @@ Elke keer dat je een applicatie zoals Facebook gebruikt, een bericht verzendt of
 
 ## structuur van een API request
 
-Een API request bestaat uit verschillende componenten. Laten we deze afzonderlijk overlopen en bekijken hoe ze kunnen worden gebruikt om een ​​request op te stellen.
+Een API request bestaat uit verschillende componenten. Laten we deze afzonderlijk overlopen en bekijken hoe ze kunnen worden gebruikt om een request op te stellen.
 
 ### endpoint
 
-Een API bestaat uit endpoints. A.d.h.v. deze endpoints kan je specificeren welke data je exact wilt ophalen van de server. **Elk endpoint bestaat uit twee delen namelijk een URL en een pad**. Laten we als voorbeeld de API van [SWAPI](https://swapi.dev) bekijken. SWAPI is een API voor het ophalen en verwerken van Star Wars data.
+Een API bestaat uit endpoints. a.d.h.v. deze endpoints kan je specificeren welke data je exact wilt ophalen van de server. **Elk endpoint bestaat uit twee delen namelijk een URL en een pad**. Laten we als voorbeeld de [PokéAPI](https://pokeapi.co) bekijken. PokéAPI is een API voor het ophalen en verwerken van data uit de Pokémon-franchise.
 
-* **De URL vormt de basis link van een API**. Voor elke endpoint binnen een bepaalde API zal de URL hetzelfde zijn. De URL van SWAPI is [https://swapi.dev/api/](https://swapi.dev/api/)
-* **Met het pad kan je specificeren welke data je juist wilt opvragen van een API**. Het pad komt na de URL te staan. Neem als voorbeeld, [https://swapi.dev/api/people](https://swapi.dev/api/people), M.b.v. **/people** vertel je aan de API dat je alle personages van het Star Wars universum wilt opvragen. Het laatste deel na de URL, **/people**, vormt dus het pad van de endpoint.
+* **De URL vormt de basis link van een API**. Voor elke endpoint binnen een bepaalde API zal de URL hetzelfde zijn. De URL van PokéAPI is [https://pokeapi.co/api/v2/](https://pokeapi.co/api/v2/)
+* **Met het pad kan je specificeren welke data je juist wilt opvragen van een API**. Het pad komt na de URL te staan. Neem als voorbeeld, [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon), M.b.v. **/pokemon** vertel je aan de API dat je alle Pokémon wilt opvragen. Het laatste deel na de URL, **/pokemon**, vormt dus het pad van de endpoint. Andere voorbeelden van end-points van deze API zijn:
+
+  * `/location` - om info over de verschillende locaties in de games op te halen), 
+  * `/move` - om info over de verschillende aanvallen van de pokémon op te halen
 
 **een endpoint = URL + pad**
 
@@ -68,6 +71,8 @@ Dit zijn één voor één API-methoden. Voor deze cursus zal je alleen data moet
 De verzoekgegevens, ook wel de "**body**" genoemd, is informatie die wordt verzonden naar of van een server. **Voor een GET request zal dit dus de data zijn die de API terugstuurt.**
 
 ## voorbeelden van populaire API's
+
+[Opendata Portaal Antwerpen](https://portaal-stadantwerpen.opendata.arcgis.com/): De stad Antwerpen beschikt over een schat aan geografische data over de stad. Via dit portaal wordt u de mogelijkheid geboden om deze geografische data te verkennen, visualiseren en te downloaden. Deze data is open data en mag u vrij en kosteloos gebruiken. Met de datasets kunt u bijvoorbeeld nieuwe mobiele toepassingen ontwikkelen die de dienstverlening voor bewoners kunnen verbeteren. Ontdek de data door hieronder te zoeken op de verschillende thema’s of door een trefwoord in te vullen.
 
 [Google Maps API](https://developers.google.com/maps/apis-by-platform): Met de Google Maps API kunnen ontwikkelaars Google Maps insluiten op webpagina's met behulp van een JavaScript- of Flash-interface. De Google Maps API is ontworpen om te werken op mobiele apparaten en desktopbrowsers.
 
