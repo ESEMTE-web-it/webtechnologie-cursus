@@ -53,7 +53,7 @@ Lees een API uit die de actuele waarde in euro geeft van 1 Bitcoin en toon deze 
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-apis-oef1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-apis-oef1.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 2: Unix timestamp converter
 
@@ -76,7 +76,7 @@ Maak gebruik van een API die een UNIX-timestamp als input krijgt en onze datum/u
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-apis-oef2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-apis-oef2.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 3: programmeergrapjes
 
@@ -98,7 +98,7 @@ Toon programmeergrapjes aan de gebruiker en laat ze kiezen of ze meer grapjes wi
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-apis-oef3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-apis-oef3.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 4: universiteitenzoeker
 
@@ -123,7 +123,7 @@ Laat de gebruiker een land kiezen uit een lijst van landen. Op basis van de keuz
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-apis-oef4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-apis-oef4.png" alt=""><figcaption></figcaption></figure>
 
 ## oefening 5: cocktails
 
@@ -164,4 +164,4 @@ fetch(
 
 **voorbeeldinteractie**
 
-<figure><img src="../../.gitbook/assets/async-apis-oef5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/async-apis-oef5.png" alt=""><figcaption></figcaption></figure>
