@@ -56,6 +56,8 @@
     * [Oplossingen](oefeningen/LW10/oplossingen.md)
   * Lesweek 11
     * [Labo 20 - Promises](oefeningen/LW11/labo20/oefeningen.md)
+    * [Labo 21 - Postman](oefeningen/LW11/labo21/oefeningen-postman.md)
+    * [Labo 21 - Fetch](oefeningen/LW11/labo21/oefeningen-fetch.md)
     * [Oplossingen](oefeningen/LW11/oplossingen.md)
 
 ## HTML

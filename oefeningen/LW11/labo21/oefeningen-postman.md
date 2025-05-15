@@ -1,13 +1,6 @@
-{% hint style="danger" %}
-**Opgelet** Deze oefeningen zijn _deprecated_, we verwijzen je graag door naar de oefeningen in de nieuwe [oefeningen sectie](../../oefeningen/LW11/labo21/oefeningen-postman.md)
-{% endhint %}
-
-
 # oefeningen
 
-## oefeningen
-
-### oefening 1: basis api request
+## oefening 1: basis api request
 
 **leerdoelen**
 
@@ -26,7 +19,7 @@
 3. Gebruik de endpoint `/posts`.
 4. Voer het verzoek uit en bekijk de JSON-respons.
 
-### oefening 2: query parameters
+## oefening 2: query parameters
 
 **leerdoelen:**
 
@@ -45,7 +38,7 @@
 3. Voeg de query parameter `id` toe voor de eerste generatie.
 4. Voer het verzoek uit en analyseer de respons.
 
-### oefening 3: post-verzoek
+## oefening 3: post-verzoek
 
 **leerdoelen:**
 
@@ -64,7 +57,7 @@
 3. Stel de body in als raw JSON met de benodigde gegevens.
 4. Voer het verzoek uit en controleer of het nieuwe bericht is toegevoegd.
 
-### oefening 4: authentificatie met api key
+## oefening 4: authentificatie met api key
 
 **leerdoelen:**
 

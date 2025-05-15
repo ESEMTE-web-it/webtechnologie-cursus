@@ -8,3 +8,11 @@
 {% file src="../../.gitbook/assets/oplossingen/labo-20-promises-oplossingen.zip" %}
 Oplossingen labo 20
 {% endfile %}
+
+## Labo 21 - Oplossingen
+
+Voor dit labo hebben we enkel oplossingen voor het deel fetch.
+
+{% file src="../../.gitbook/assets/oplossingen/labo-21-api-oplossingen.zip" %}
+Oplossingen labo 21
+{% endfile %}
