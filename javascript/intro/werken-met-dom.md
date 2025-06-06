@@ -38,6 +38,10 @@ derdeItem.textContent = "Aangepast item";
 
 Meer informatie over document.querySelectorAll vind je op [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 
+{% hint style="info" %}
+Tot voor kort werden vaak methodes als getElementById, getElementsByClassName en getElementsByTagName gebruikt. Terwijl deze nog steeds werken, is het aangeraden om querySelector en querySelectorAll te gebruiken. Het voordeel hiervan is dat je met deze methodes CSS-selectors kunt gebruiken om elementen te selecteren. Dit maakt je code flexibeler en leesbaarder, omdat je op dezelfde manier elementen aanspreekt als je ze in CSS zou stylen. Bovendien kun je met één methode zowel op id’s, klassen als tags selecteren, wat het overzichtelijker maakt. 
+{% endhint %}
+
 ## Parent
 Een parent is het element dat zich direct boven het geselecteerde element bevindt in de DOM-structuur.
 In afbeelding 1 zie je bijvoorbeeld één div-element; het parent-element daarvan is de body.
