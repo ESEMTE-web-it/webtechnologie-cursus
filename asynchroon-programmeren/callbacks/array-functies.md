@@ -189,7 +189,7 @@ const numbers = [1, 2, 3, 4];
 let evenNumbers = [];
 numbers.forEach(e => {
     if(e % 2 === 0){
-        evenNumber.push(e);
+        evenNumbers.push(e);
     }
 })
 console.log(evenNumbers); // [2,4]
