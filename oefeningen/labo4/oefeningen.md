@@ -112,7 +112,7 @@ Bouw de volgende tabel in HTML en CSS. Zorg ervoor dat de koppen van de tabel de
 
 Gebruik hierbij het `<th>`-element voor de koppen en het `<td>`-element voor de data. Geef de even rijen een andere achtergrond kleur dan de oneven (lightgray / gray) en zorg voor voldoende padding.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-07 at 23.25.18 (1).png" alt=""><figcaption><p>Een tabel met data</p></figcaption></figure>
+<figure><img src="./oef-3-finished.png" alt=""><figcaption>Statistische data</figcaption></figure>
 
 ### oefening 4
 
@@ -127,7 +127,7 @@ Bouw je lessenrooster voor de eerste drie dagen van de week week na, waarbij bep
 
 > **TIP** - De CSS van de `tr`'s kun je overnemen van de eerste oefening.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-07 at 23.25.32 (1).png" alt=""><figcaption><p>Een lessenrooster</p></figcaption></figure>
+<figure><img src="oef-4-finished.png" alt=""><figcaption>Lessenrooster</figcaption></figure>
 
 ### oefening 5
 
@@ -137,6 +137,6 @@ Bouw een fictief overzicht van de bezetting van een klaslokaal na met een HTML t
 * Voorzie alle `td` een randje om duidelijk te maken waar die juist start en eindigt
 * Voorzie de table van een caption
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-07 at 23.25.11.png" alt=""><figcaption><p>Overzicht van de bezetting van een klaslokaal</p></figcaption></figure>
+<figure><img src="oef-5-finished.png" alt=""><figcaption>Lokaalbezetting</figcaption></figure>
 
 >**TIP** - Hergebruik de CSS van oefening 2, maar voeg een extra border toe voor alle `td`
