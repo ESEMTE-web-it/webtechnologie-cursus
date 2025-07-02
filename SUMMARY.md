@@ -12,53 +12,34 @@
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
 * Oefeningen
-  * Lesweek 1
-    * [Labo 1](oefeningen/LW1/labo1/oefeningen.md)
-    * [Labo 2](oefeningen/LW1/labo2/oefeningen.md)
-    * [Herhalingsoefening](oefeningen/LW1/herhalingsoefening.md)
-    * [Oplossingen](oefeningen/LW1/oplossingen.md)
-  * Lesweek 2
-    * [Labo 3](oefeningen/LW2/labo3/oefeningen.md)
-    * [Labo 4](oefeningen/LW2/labo4/oefeningen.md)
-    * [Oplossingen](oefeningen/LW2/oplossingen.md)
-  * Lesweek 3
-    * [Labo 5](oefeningen/LW3/labo5/oefeningen.md)
-    * [Labo 6](oefeningen/LW3/labo6/oefeningen.md)
-    * [Oplossingen](oefeningen/LW3/oplossingen.md)
-  * Lesweek 4
-    * [Labo 7](oefeningen/LW4/labo7/oefeningen.md)
-    * [Labo 8](oefeningen/LW4/labo8/oefeningen.md)
-    * [Oplossingen](oefeningen/LW4/oplossingen.md)
-  * Lesweek 5
-    * [Labo 9](oefeningen/LW5/labo9/oefeningen.md)
-    * [Labo 10](oefeningen/LW5/labo10/oefeningen.md)
-    * [Oplossingen](oefeningen/LW5/oplossingen.md)
-  * Lesweek 6
-    * [Labo 11](oefeningen/LW6/labo11/oefeningen.md)
-    * [Labo 12](oefeningen/LW6/labo12/oefeningen.md)
-    * [Oplossingen](oefeningen/LW6/oplossingen.md)
-  * Lesweek 7
-    * [Labo 13](oefeningen/LW7/labo13/oefeningen.md)
-    * [Labo 14 - Conditionals](oefeningen/LW7/labo14/oefeningen-conditionals.md)
-    * [Labo 14 - Loops](oefeningen/LW7/labo14/oefeningen-loops.md)
-    * [Oplossingen](oefeningen/LW7/oplossingen.md)
-  * Lesweek 8
-    * [Labo 15](oefeningen/LW8/labo15/oefeningen.md)
-    * [Labo 16](oefeningen/LW8/labo16/oefeningen.md)
-    * [Oplossingen](oefeningen/LW8/oplossingen.md)
-  * Lesweek 9
-    * [Labo 17 - DOM](oefeningen/LW9/labo17/oefeningen-dom.md)
-    * [Labo 17 - Events](oefeningen/LW9/labo17/oefeningen-events.md)
-    * [Oplossingen](oefeningen/LW9/oplossingen.md)
-  * Lesweek 10
-    * [Labo 18 - Callbacks / Array functions](oefeningen/LW10/labo18/oefeningen.md)
-    * [Labo 19 - Herhalingsoefeningen](oefeningen/LW10/labo19/oefeningen.md)
-    * [Oplossingen](oefeningen/LW10/oplossingen.md)
-  * Lesweek 11
-    * [Labo 20 - Promises](oefeningen/LW11/labo20/oefeningen.md)
-    * [Labo 21 - Postman](oefeningen/LW11/labo21/oefeningen-postman.md)
-    * [Labo 21 - Fetch](oefeningen/LW11/labo21/oefeningen-fetch.md)
-    * [Oplossingen](oefeningen/LW11/oplossingen.md)
+  
+  * Deel 1 - HTML & CSS
+    * [Labo 1](oefeningen/labo1/oefeningen.md)
+    * [Labo 2](oefeningen/labo2/oefeningen.md)
+    * [Labo 3](oefeningen/labo3/oefeningen.md)
+    * [Labo 4](oefeningen/labo4/oefeningen.md)
+    * [Labo 5](oefeningen/labo5/oefeningen.md)
+    * [Labo 6](oefeningen/labo6/oefeningen.md)
+    * [Labo 7](oefeningen/labo7/oefeningen.md)
+    * [Labo 8](oefeningen/labo8/oefeningen.md)
+    * [Labo 9](oefeningen/labo9/oefeningen.md)
+    * [Labo 10](oefeningen/labo10/oefeningen.md)
+    * [Labo 11](oefeningen/labo11/oefeningen.md)
+    * [Labo 12](oefeningen/labo12/oefeningen.md)
+  * Deel 2 - JavaScript
+    * [Labo 13](oefeningen/labo13/oefeningen.md)
+    * [Labo 14 - Conditionals](oefeningen/labo14/oefeningen-conditionals.md)
+    * [Labo 14 - Loops](oefeningen/labo14/oefeningen-loops.md)
+    * [Labo 15](oefeningen/labo15/oefeningen.md)
+    * [Labo 16](oefeningen/labo16/oefeningen.md)
+    * [Labo 17 - DOM](oefeningen/labo17/oefeningen-dom.md)
+    * [Labo 17 - Events](oefeningen/labo17/oefeningen-events.md)
+    * [Labo 18 - Callbacks / Array functions](oefeningen/labo18/oefeningen.md)
+    * [Labo 19 - Herhalingsoefeningen](oefeningen/labo19/oefeningen.md)
+    * [Labo 20 - Promises](oefeningen/labo20/oefeningen.md)
+    * [Labo 21 - Postman](oefeningen/labo21/oefeningen-postman.md)
+    * [Labo 21 - Fetch](oefeningen/labo21/oefeningen-fetch.md)
+  * [Oplossingen](oefeningen/oplossingen.md)
 
 ## HTML
 

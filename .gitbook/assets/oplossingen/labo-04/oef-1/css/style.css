@@ -1,0 +1,31 @@
+/* stap 2: basisstijlen */
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;  
+}
+
+/* stap 3: hover-effect */
+.button:hover {
+    background-color: #2980b9;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+/* stap 4: actief-effect */
+.button:active {
+    transform: translateY(2px);
+    background-color: #1e679b;
+}
+
+/* stap 5: focus-effect (optioneel) */
+.button:focus {
+    outline: 2px solid #3498db;
+    /* voeg hier eventueel andere focus-stijlen toe, zoals een box-shadow */
+}
