@@ -79,7 +79,7 @@ Het is mogelijk om cellen meerdere rijen of kolommen te laten innemen met de `co
 </table>
 ```
 
-try it yourself: [https://www.w3schools.com/html/tryit.asp?filename=tryhtml\_table\_colspan](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_colspan)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj74DAEYxCy+Fifwky4NuXK73AE5IEP6oygCMAA4AHspg3FBkHg4MsADWANzevgFB-gC0PFBQDBGQoYXFpRCZdAC+2i5uHl50PhHGSGR0AOahAKzRNT6IUfB5DAnddKEwJPDpPj7a9ToA9OZWEKarhsamfkgW+tq6AEzqktBQzlgM8LHtdGDOAO7cyoUArrhPgjvnJwi6mk71wDFSEGUDA+VweDFauACkJc8OUvEhXx+Tk+kBuGPiYEeUPg8H8ZDsn0QGD+QO0J1sDkhGxgAF5NCAXokXKgwgAGXkAUnZ+h8glJIsWYqw6gAckwIH8XBLRS4PgTHmyQKdhdJoBAIlh0YrpVlFf4JWLzVkVSYAEIUa4AcTuEDAipM1uUYpMfV9AHY-QAOPoAFndyq97nUvr6AeDfXDptW4pOyfs1jpawOR1Tem0nEgMAQZF4VHQAGZy6heSBaoR6PLWBgAFZUYg8PgQAToWv1kCMZhN2BgNtcXj8eCsWsAXVqQA" %}
 
 ### rowspan
 
@@ -108,7 +108,7 @@ try it yourself: [https://www.w3schools.com/html/tryit.asp?filename=tryhtml\_tab
 </table>
 ```
 
-try it yourself: [https://www.w3schools.com/html/tryit.asp?filename=tryhtml\_table\_rowspan](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_rowspan)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj74DAEYxCy+Fifwky4NuXK73AE5IEP6oygCMAA4AHspg3FBkHg4MsADWANzevgFB-gC0PFBQDBGQoYXFpRCZdAC+2i5uHl50PhHGSGR0AOahAKzRNT6IUfB5DAnddKEwJPDpPj7a9ToA9OZWEKarhsamfkgW+tq6AEzqktBQzlgM8LHtdGDOAO7cyv7cL2CCO+cnEXU0neuAYqQgygYylgVweDFauACEJc8OUvAhnxeTgArpAbhivmBHpD4PB-GQ7NjEBhfoDtCdbA4IRsYABeTQgF6JFyoMIABj5AFIOfofIIyaLFuKsOoAHJMCCoX4uSVi9zqABCFGuAHE7hAfqt1Vllf5JeKzVk1VgPoTHuyQKcRdJoBAIlh0UqjTKrcpxSY+oGAOxBgAcfQALMqTCajZbWn6Jb7-epA30Q+G+tHzXHtozrPS1gcjicdngNNpOJAYAgyLwqOgAMx9VB8kC1Qj0BWsDAAKyoxB4fAgAnQ7c7IEYzB7sDAA64vH48FY7YAurUgA" %}
 
 ## tabel onderdelen
 
@@ -154,7 +154,7 @@ De onderdelen `thead` , `tbody` en `tfoot` zijn eigenlijk altijd aanwezig bij he
 </table>
 ```
 
-try it yourself: [https://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_tbody](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tbody)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj74DAEYxCy+Fifwky4NuXK73AE5IEP6oygCMAA4AHspg3FBkHg4MsADWANzaAL7aggD05lYQpnmGxqZ+SBb6uVhh6tKGzmVIbpUWTgx0HvAk3NzwytAQzHxg+XU1OrYOxd7Kgi5GJvM+i-76PlsLLuoAsrwu+burW4tY6gDKDABuZHQA5uN5J3Tbxxvzxy2bO+2-a3gnze2x2JgAUl0AK4MfwWY4rEHvdzqAAkYQADBiEQCFi9gciCaDFiYAGIQOz+GFwnGnQEmVEADmxL0R73xv2O-y+vX68Fx61x9KuUNwtKRZxR6OZ4vZQM5Lz6AxKM2s2lyeW5OlKeA02k4kBgCDIvCo6AALBjUBiQFlCPQmCx0BgAFZUYg8PgQAToW32kCMZisDCwMDuriHb3wVi2gC6WSAA" %}
 
 ## tabel titel
 
@@ -197,7 +197,7 @@ Je kan ook nog een titel toevoegen aan je tabel met het `caption`-element. Dan w
 </table>
 ```
 
-try it yourself: [https://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_caption\_test](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_caption_test)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj74DAEYxCy+Fifwky4NuXK73AE5IEP6oygCMAA4AHspg3FBkHg4MsADWANzaAL7aggD05lYQpnmGxqZ+SBb6uVhh6tKGyrAMEfBkvMrQEMx8+XU1OrYOxd7Kgi1tHXTqALK8LlAWsQwAbmR0AOZg+ZPtvPo+gvD+hz7jLnMLWPmXY0eXAMprG9u3WGe3p2PH33TnFxMACkGHQAK4MfwWW4me6A9QAEjCAAZkTDPnkTp8sXDjiYAGIQOz+CFQ9G49yIgCsaMxsP+40xf1u9ms2lyeUq1Q5em0nEgMAQ0yo6AAzGFUMiQFlCPQmCx0BgAFZUYg8PgQAToaWykCMZisDCwMCqrgLTXwVjSgC6WSAA" %}
 
 {% hint style="info" %}
 Het `<caption>`-element moet altijd als eerste element binnen de `<table>` staan.
