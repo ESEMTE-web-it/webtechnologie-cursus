@@ -29,6 +29,8 @@ li {
 
 `list-style-image`: none (= standaardwaarde) | url;
 
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6ArlGXBty5VDLmAtOasR3ZXAwBzCFRlGwAnKAAKAHIceAAHMFQAemSwhgB3DACyeCwbACMbSDCePgg+DB5cZIBBeXcASWl3AHEACWSGMEh4MHckCFxufoyIAsRYLGSABgA2GYKAJgB2AoBGEnG52DWSAE59hmWIGYBWY4Y59f2ADgBme6QGdYKSEhnk+LI6d1c6HxkMoYeJ0ALRACUAG5tABfbSCZJeawI5KGYymArcJAWfQIrBLdTSQwuNzwTyWGC+fxBZTyMLceIQMKWREEvE6eJEkmuDzIwE0iDKeIMpksizKMBM2BkcgQMDKBh0ZR+QJC7rKPJC3nwFWIXDKfxhADWzNQiK52gRdn0zkErnUkm47wgEERDqcyntZCJRndPs93sd3FgDGUTqgDH9pmSNqtOmSWJxMb08e0nEgMAQZF4VHQ61uqCWMxAsMI9CYLHQGAAVlRiGV+PBWKXyyBGMxWFUepxGxVm+hSwBdWFAA" %}
+
 try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_list-style-image](https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-image)
 
 ## list-style-position
