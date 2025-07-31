@@ -19,7 +19,7 @@ p {
 
 Bij `font-family` staat een opsomming van soortgelijke lettertypes, gescheiden door komma's . Het eerst genoemde lettertype draagt de voorkeur weg, de overige worden vermeld als extra font voor wanneer het voorgaande lettertype niet ondersteund wordt door de browser.
 
-try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_font-family](https://www.w3schools.com/css/tryit.asp?filename=trycss_font-family)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6MABwCMy4NuXKSveAFoSTChdTKmiDSZMxgygByEADuygBK3LgMdEGEyiFhaZAATmQkANzaAL7a2nYATE4ubh7evlD+ygCCuQxQaQAS0ABuEPBksAxZyWCeOXmFdCUpdHYAzFV0ru58dbh+AUEAMgCusGRIDMqSvGDcMKmBICc7uRDZkTGXuLzcYLYMsBCT04IA9OYrBBTH9DMZTAAjbhICz6bS6ezqSQAZWRNVWPnWDX+WER8NsylgUAYYDAAF4gg4guppFgyOF6cojh9sgwAOas2xYLJYbjRJZkJbwQzpUIQcJRWIJJJLFbwDD-WymAlEknkynlam0xmM5kMVkchhcnl8gVCkUtMhtdHyxXKwnE0kUkC2OZaukM8J6g2c7nKMC8-nKQXKYUQZS7faHY6nc7huUKv5K0o6P5QmEgvQp7ScSAwBBkU6scoADlQAAYQEVCPQmCx0BgAFZUYg8PgQAToKs1kCMZisDCwUmcNv8eCsKsAXSKQA" %}
 
 ### font-style
 
@@ -36,11 +36,13 @@ p.italic {
 **italic**: De browser toont de cursief versie van het lettertype.\
 **oblique**: De browser toont de schuine versie van het lettertype, gelijkend op de cursieve versie.\
 **initial**: De standaardwaarde van het lettertype wordt teruggezet.\
-try it yourself: [https://www.w3schools.com/cssref/tryit.asp?filename=trycss\_initial](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_initial)\
-**inherit**: De browser neemt de eigenschap over van her bovenliggende element.\
-try it yourself: [https://www.w3schools.com/cssref/tryit.asp?filename=trycss\_inherit](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_inherit)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25cp5RuAJ1TKPyANzOygBGnkgQXsoAjAAOAB7KYNxQZEjBUACuEH7K2gC+2tpYkY6Bbp7eZHRk8GQMUNl52oIA9OZWEKbNhsamIUgW+k22dvouupHqAJJVNXUtRaPKgtHq0oaqRmEeygwhdhA7dKnwWGRgytEMHgwA5tfRWMpnT3RgKQcMyqKTAGrK0BBmHxCMo1gdvn8AUD4KoGOcTgcyttoh5uNFwpYEhAYfBuDkQL4kJpMKD1t0tv8YNDYedquckRdUeiPJjIDi8cTKtValBiSCAO6nWCPSrKE7PWBwg7PYlBKAMWAAa2JGBaKyazWGgx0zT6Aw1ek4kBgCDIvCo6AATJbUAB2EC5Qj0JgsdAYABWVGIPD4EAE6AdTpAjGYrAwsDAXq4vH48FYDoAurkgA" %}
 
-try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_font-style](https://www.w3schools.com/css/tryit.asp?filename=trycss_font-style)
+**inherit**: De browser neemt de eigenschap over van her bovenliggende element.\
+
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6wABwZ1lwbcuU8o3AE6plAIygArhAA3C5+XkgQ3soAjLYAHspg3FBkSH5QDLAA1qF0AL7a2hgQ8fCeDEn2js6ObilePmR0hp5k8HmFOgD05lYQpt2Gxqa+3EgW+tqCSGQAbvquABJREMpkYMpm1eqVdg7K0BDMfIK9O8oA7lhksFjrm-5BhMoMm-uORyfwmwyea5B4Mp4Nw-BAMNNurMFkUdNC3JkwGAALyaEClcoMNFJSwwVFcBreADm-wgdDRi2UK3+Dy2H12VQOXzJ8DO9KuNzutJJEDJL18cAYAUg6yBzVa7U2JE83Fwos29n+fAhPWhUzh8xx-Xx7ka-yQFLC1LWGzpOz21UOMG+bIu11u91NTwgLzejM+1pZvxpgOBoIFKrOathZzGE0Gek4kBgCDIvCo6AATABOVAAdhA+UI9CYLHQGAAVlRiDw+CzWJnsyBGMxWBhYEjOKX+PAK-kALr5IA" %}
+
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6ADhjrcATrgZRlwbcuUle8ALTmVhCoyg7OrgDc2gC+2tp2ZPCuZLDunt6+AZYwIYnJsFF0sXTxGNwARlBkAI4ArhBpdF4+fFlBIRVVdRCFxYIA9IHW2gOGxqbl3EgW+iNYAIzq0oYZrUMNNo7cNhCOlqOLcTo2yrBQDGBgALyaIGEuULdLWGRgyq-KDMo2DI4MAOZ-GxYd5Ne6uZTrDADGymE5nC7XW55KqwJ7LD4fL4-P6AhjA0HvJKoyHZCDQ-qwkbw86XG4gTo1erol5vLHfX4AoEgshNRndUlBClUko6fqTaamfp6I7aTiQGAIMi8KjoABMAE5UAAGEDRQj0JgsdAYABWVGIPD4EAE6D1BruRtYGFgl04Vv48FYeoAutEgA" %}
 
 ### font-weight
 
