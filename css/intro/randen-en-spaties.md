@@ -28,8 +28,9 @@ p {
 
 `margin`: margin-top | margin-right | margin-bottom | margin-left;
 
-try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_margin\_intro](https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_intro)\
-try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_margin\_sides](https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25ctwMATgHMydVMoDsAAwADgAeANzOygBG3O5IEO5+AIxhymDcUGRIygDEACySAIIAYgCsgZF0AL7aggD05lYQpvWGxqaxSBb6dVgATOqSAMrDygCyHt50YA0DvTq2durSWGRgytAQzHyqDBsMrlM+ytwkASGhGA1LCw1dPXVteBrab3SckDAIZLxU6P1AqhAiBqoR6EwWOgMAArKjEHh8CACdCg8EgRjMVgYWBgeFcXj8eCsUEAXWqQA" %}
+
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25coBG3AE5IIH1MoCMAA4AHspg3FBkSG5QDLAA1gDczsq4DB4A5mR0ALTw3IF+-gAMxSHJdC5pmdk57vD5uEWl5SnVWbkeZBk4RQCsZcEVVekdOTAk8H4AHIPDbnHxGR7cAK50SDk8UJ5+kT3wrlCrEBUAvtqCAPTmVhCmV4bGpu5IFvqXWABM6gCqYNkMspsrY7FFVgwoKlRtllIEVoEfPAyBAwNdvh8dKD1NIsGQwMpQcpoBBmHxVAwCQxlPlAtCapVuCQAi1goRlNSugd6R1lEyAgMQuzqfVGjzYfySoNhRsOcoJvBxYzmbMQhhrtjtJcrq93tq9Fq6NpOJAYAgyLwqOgvgAWVDFEBnQj0JgsdAYABWVGIPD4EAE6EdzpAjGYrAwsDA3q4vH48FYjoAumcgA" %}
 
 ## padding
 
@@ -44,8 +45,8 @@ p {
 
 `padding`: padding-top | padding-right | padding-bottom | padding-left;
 
-try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_padding\_intro](https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_intro)\
-try it yourself: [https://www.w3schools.com/css/tryit.asp?filename=trycss\_padding\_sides](https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_sides)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25coAOx23QDmqZQHYABlcADwBuZ2UAI24AJyQIGN8ARhDlMG4oMiRlAGIAFkkAQQAxAFYA8LoAX21BAHpzKwhTOsNjU2ikC31arAAmdUkAZSHleQ8yb3r+01s7dWksMjBlaAhmPlUGFYY3Ce9lbhJ-IOCMermenTrO7trWvA1tZ7pOSBgEMl4qdCSATlQARAVUI9CYLHQGAAVlRiDw+BABOhgaCQIxmKwMLAwLCuLx+PBWMCALpVIA" %}
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25coBG3AE5IIH1MoCMAA4AHspg3FBkSG5QDLAA1gDczm5x8QDmHtwArnRIALQ8UJ5+kek4rlDZEMl0LoHGtnTp+fDcgX4ArAAMIbX1jWTN+R5k5fB+AMy9wf3KDUhNLe7wbbhdM3MLS-kwJBPKAByb2gC+2oIA9OZWEKaXhsam7kgW+hdYAEzqAKpgQ+llENbHYotkGFB5oNmvMsoEfPAyBAwFcvu8dCD1NIsGQwMoQcpoBBmHxVAw8QxlG1AlDFgDlNwSMoeiFCMpKaNxrSlgymdNWey3NxVtxcNz6YzmTM2Qw8oK9vBxTDJccQhgrpjtBdLi83tq9Fq6NpOJAYAgyLwqOhPgAWVDdECnQj0JgsdAYABWVGIPD4EAE6EdzpAjGYrAwsDA3q4vH48FYjoAuqcgA" %}
 
 ## border
 
@@ -57,7 +58,7 @@ p {
     border: 3px dotted #0088dd;}
 ```
 
-[w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_border)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6ADsuDblygEbcATkghvUygKw2AD2UwbigyJGU3ZABubQBfbUEAenMrCFMkw2NTVyQLfUSsACZ1aUMXd083ZXk3bhsvS2Tigp0bUqwyMGUbOoa3S2Uu5QZgrHd4LAY6CN76xotlEncKjy8AWgB3cMnCVar11Jg96YjXNbd1nih3DGT27USk3PynvUe6bU5IGAQyXio6AAjABOVAABhAcUI9CYLHQGAAVlRiDw+BABOgoTCQIxmKwMLAwCiuLx+PBWFCALpxIA" %}
 
 ### border-width
 
