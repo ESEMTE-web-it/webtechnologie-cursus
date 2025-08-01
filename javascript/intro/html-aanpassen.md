@@ -37,7 +37,7 @@ We kunnen ook alle eigenschappen van een HTML-element wijzigen. Denk hierbij bij
 document.querySelector('#myImage").src = "landscape.jpg";
 ```
 
-Try it yourself: [link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_image)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gFIMAbgwDKsAE5kADvGUAJaQFkAGWUJf0EAeixrCzJcAHNlMiQAXk0QWIY4iDTlMFdYVJAceA8wVHDw1wYAdww4sngsAFcDJsh83n54DB5ccIBBeQBaAElpIYBxH3CGMEh4MCGkCFxuReqIA0RYLEqIEjBIiAYkQ9wGMjpw2LiAfXhXCAgMDzo4nOqkxsKARgA2AAMOSwEDIcRwv0sQJA5h0YDcnng+iQ3FgTWYfDqEHgihgGPgACETCMkAAKNIZLJpACUGDysGUyWUaWKpXKlRqdQazVa7R4fAgmN6A2GY0m01m80Wy1W602212jwORxOZwuVw8l2OHg8MAwACsPO8QABuCzheHuLywwQedTSEHKbjueqMKCJc5ZZTVWYeu4PJ4vN6EZStbyNCC5BFeZQ7BhvZCJcPcZSauja3XPQ1xCJ27TmoymfQRPTaTiQGAIMi8KjoH4AVlQAJAAF9CPQmCx0AaqMR+V1WK32yBGMxWD05px+4L4IOWwBdFtAA" %}
 
 ## HTML toevoegen
 

@@ -4,13 +4,7 @@ Het integreren van video in een webpagina gebeurt met behulp van het `<video>`-e
 
 Hier is een voorbeeld van hoe je het `<video>`-element kunt gebruiken:
 
-```html
-<video width="640" height="360" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
-```
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boCM66VgjKAbmSQRuy6BGZ9BAeizXtCycXNwB3Z3gsAF5NEABmACYABljVCDIAcxwYkASAFhSQZR4+ACduKDB9ZWVBMG4AV1LYezBmnJx4AAcwVB8fUoZQjAyySIaDBshm3n54DB5cHwBBeQBaAElpNYBxAAkfBjBIeDA1l1xuM9CIA0RYLAGIEjA-CAYkV9wGMjofS6cEAwuC6eVS8BMXQgOWCrn+oNi1Vq9SaLWUbVgHXg3V6-UGw1G40m0xKcwW3CWq02232h2OEFO508VzWNzucEepWerzsHy+Pz+ALIQO4GQy4Mh0NisO4PlF4pASNkjVKygM5VC02USG4EDAyjo3Hg6IaXS63FKxsi9hlyngDAyGAsPhl5h0PiMpn0vj02k4kBgCDIvCo6EseVQSRAAF9CPQmCx0BgAFZUYikiACdAxuMgRjMVgLY6cDNZkAxgC60aAA" %}
 
 Laten we de verschillende onderdelen nader bekijken:
 
@@ -18,8 +12,6 @@ Laten we de verschillende onderdelen nader bekijken:
 * Het `controls`-attribuut voegt afspeelbedieningselementen toe, zoals een afspeelknop, volumeregelaar en tijdsbalk.
 * Het `<source>`-element wordt gebruikt om verschillende bronnen van het videobestand te definiëren. In dit voorbeeld zijn er twee bronnen, één in het MP4-formaat en één in het WebM-formaat. De browser selecteert automatisch de best passende bron op basis van de ondersteuning van het formaat.
 * De tekst "Your browser does not support the video tag." wordt weergegeven in browsers die het `<video>`-element niet ondersteunen.
-
-Probeer het zelf: [HTML5 Video Try It](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
 ## ondertitels en opmerkingen
 

@@ -12,8 +12,7 @@ document.querySelector('#p2').style.color = 'blue';
 ```
 
 
-
-Try it yourself: [link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_change_style)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gFIMAbgwDKsAE5kADvGUAJaQFkAGWUJf0EAeixrCw91SSwGOgBzMmTleCwIXwDgsHgTGFQI2O1SnQ9lMiQAXk0QDwBGOvUfaChuZQB1blcoJGFi-UEKqtr6y2bWqHaunr6B8JK6CzA3T3h9JG5YAFdmPgwkiHhFGH34ACETAEkkAAo6jwmQAEoMPIKIDB5212Vq5R1AxQHYQOoAbm0W1250Ox1OEHOV1uD3GdTeHxgGBIvHgADEmBQTP9ASAAILuBhQCFQ7Z7CAHI4nM4My43e6PZ4Y-JYnF8JxkABeWQBdSgDFcR1cNJ04VW7i85mWsqMpiGkTwGm0nEgMAQZF4VHQlgADKgTSAAL6EehMFjoDAAKyoxB4fFZrCtNpAjGYrG+YBdXFxHvQVoAupagA" %}
 
 {% hint style="info" %}
 Let op: Het aanpassen van CSS via JavaScript op deze manier wordt vaak vermeden, omdat het kan leiden tot complexiteit en onvoorspelbare gevolgen. Het overschrijft inline stijlen en kan de scheiding van verantwoordelijkheden tussen HTML, CSS en JavaScript verstoren.
