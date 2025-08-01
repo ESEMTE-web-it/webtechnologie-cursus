@@ -18,7 +18,7 @@ Met de innerHTML-eigenschap kan je de volledige inhoud (incl. markup) van een no
 **XSS** Cross-site scripting attacks zijn manieren om bepaalde data toe te voegen aan een website die daar niet thuis hoort. (video: https://youtu.be/zv0kZKC6GAM )
 {% endhint %}
 
-try it yourself: [link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_dom)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gLInlAMTIAnMPGUB1CAeXyGAcwhBAHosawsAB1t7J1d3P2cAxIisDBCo7UjlMiQAXk0QJAhcbgL1dPMdMFhnMgj4fSRuWABXZj4MQPhFGHb4ACETAEkkAAoCopKCgEoMMjo6CGcACWkbABllXOUAVmUAamUANgBuC2Dq2vrKkKNTfRC9ZW1OSBgEMl4qdABGHdQAAwgAC+hHoTBY6AwACsqMQeHwIAJ0CCwSBGMxWBhYGA4VxePx4KwQQBdYFAA %}
 
 ## element.textContent = ""
 
@@ -49,4 +49,4 @@ U kunt deze methode ook gebruiken om een ​​element van het ene naar het ande
 
 Gebruik insertBefore () om een ​​nieuw child-node in te voegen in een reeds bestaande, onderliggende node.
 
-meer info: [link](https://www.w3schools.com/jsref/met_node_appendchild.asp) try it yourself: [link](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_appendchild)
+meer info: [link](https://www.w3schools.com/jsref/met_node_appendchild.asp) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+3QEZ10rBGWKYzPsvEGAVnHiCA9FivbdACZrW2UGAAdwiDokSSwKJAAKAEplAFkIeCxjHyxg7QCAVyhlMiQAXk0QXBMAGTIweCr9ZWVBKDJ1SW4SEggIHw6WtqHpCAZBzoDvYv0A8K6O2ABrZSqAQUjopCrleG4wrZiwulLEXD2DrLtt5R690I7G1B8FgsNC+H3T3lgl5cq1RMADFCnQEGReClmpsojEfAZPt85jowLAAE5kcLwfQkMEQ3jKGqg8HwSF0FLKYDvbzeZSSdHjRAnNYgDq7OjGCCobQ8OiNZScpB2crKJDcWCFJzwDAYpkQBwQaWJKrskDJADcNLpDPlYT2EAAHvBBVyeeDeALEMahSKxRKpdEZXKGIgxsaAHJclUgADqrog6Kqmu1ylht2uBuNpuFlwedlVZA5Zu0towEThsXiUCS1vgtpDdG0tLDRyQ8dZapjdn2Fae8HN4sl0owAHNMorpQAhEwASSSVRq9UawfTZbiCUSBa1dAAvtM0ZjsSiEcYzNM9NpOJAYAT+awAMwAFlQAAYQLPCPQmCx0Bg3FRiHz+PBWBeryBGMxWLKwI+uLwL5vrOAC6s5AA %}

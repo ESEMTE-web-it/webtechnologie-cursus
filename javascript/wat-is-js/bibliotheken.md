@@ -250,4 +250,4 @@ let flkty = new Flickity('.carousel');
 <script src="javascript.js" defer></script>
 ```
 
-try it yourself: [https://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_script\_defer](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_script_defer)
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIkQLYHsD6mAZhAE4B0AVmCADQiECWM1qA2qAHYCGWEaIZABbwsUWiFg4OiafwA8AQgAiAeQDCAFQCaABQCiAAmGiAfAB0Oc41HOWARjiQBPWxasBGExsEQDYWCQMAA7wBkSkBlzw8IF2AK6IcgD0gp4Wbv6BIX4ksAC8ZhjY+OHkVIVhEMQkJsmZwfCulkFePn4BDZEOAG6+JBAAjnEQYPBgBgwchDgkWFEMUgaEJDhYBvBtQVwkXADmO0GCBnbQOADuZAYAcjNzUFBONOuCDOOvBhw4oUE4YGAMdhgTxOsC4cUgz189Wy7wgAA84AlkMcqjNfBtfFsdvsuIcDPDXmMyMkWulmhMkAUQEF3IUTAAJaBQHAGADqMygSAUJKacha9POEF6JCeGMq1Ui0ViSL8QTgDEYI2eUUh7SyoTAghwcU5KPxCNgSKQBigUVIl287zOXCcquhoVBHAM-SGI1Ck2ms3mi2Wq1VWL2B0ExKSpI4biSDmctmS1ls4kgMAQCw4LBA7gAbKgAAwgAC+NE4PD46EwuAIVXNVHEkmkEFk6C4MBI8AAFEgcIbeNIyLsIPA9DBu-AAEJOACSSFbhRphQAlGRGCRRmoXpyyJ9MAA1JvDOcAbnzhZA3F4-Eo1DotZk8H4R6LZ-QZFgfxrUhvd7zAF080A %}
