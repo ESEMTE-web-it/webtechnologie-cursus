@@ -1,15 +1,15 @@
 # Oefeningen labo 16
 
-Zorg dat je de volgende folder structuur volgt:
+Zorg ervoor dat je de volgende folderstructuur volgt:
 
-```
+```plaintext
 webtechnologie/
 ├─ labo-x/
 │  ├─ oefening-01/
 │  │  ├─ index.html
 │  │  ├─ assets/
 │  │  │  ├─ image-1.jpg 
-│  │  │  ├─ data.json 
+│  │  │  ├─ image-n.jpg 
 │  │  ├─ css/
 │  │  │  ├─ reset.css
 │  │  │  ├─ style.css
@@ -25,137 +25,42 @@ webtechnologie/
 - Zet je Javascript file steeds in strict mode (`"use strict"`);
 - Volg de [Coding Guidelines](https://apwt.gitbook.io/webtechnologie/coding-guidelines)
 
-## oefening 1: recept
+### Oefening 1: Maak een object
 
-**leerdoelen**
+Maak een object `car` met de properties `brand`, `model` en `year`. Toon het object in de console.
 
-* objecten aanmaken
-* dot notatie gebruiken
-* lussen
+### Oefening 2: Lees properties
 
-**functionele analyse**
+Geef de `brand` en `model` van het object `car` uit de vorige oefening weer in de console.
 
-Het programma berekent de totaalprijs van een gegeven recept.
+### Oefening 3: Voeg een property toe
 
-**technische analyse**
+Voeg aan het object `car` een property `color` toe met waarde `red`. Toon daarna het volledige object in de console.
 
-Je maakt een object. Dit bevat een
+### Oefening 4: Array van objecten
 
-* naam
-* beschrijving
-* personen
-* ingredienten
+Maak een array `students` met 3 objecten, elk met de properties `name` en `age`. Toon de array in de console.
 
-de ingredienten bevatten een:
+### Oefening 5: Itereren over objecten in array
 
-* naam
-* hoeveelheid (bv "1 stuk", "1 kg")
-* prijs
+Gebruik een lus om de `name` van elke student uit de array `students` te tonen in de console.
 
-Maak het object aan met zelfgekozen values en ken deze toe aan aan variabele `spaghetti`.
+### Oefening 6: Gemiddelde leeftijd
 
-Print de naam van dit gerecht af (via de dot-notatie) gevolgd door de totaalprijs van alle ingredienten.
+Bereken met behulp van een lus de gemiddelde `age` van alle studenten in de array `students` en toon dit in de console.
 
-**voorbeeldinteractie**
+### Oefening 7: Zoek student
 
-<figure><img src="../../.gitbook/assets/js-9-oef1.png" alt=""><figcaption></figcaption></figure>
+Zoek in de array `students` de student met de naam `Bob` en toon het volledige object in de console.
 
-## oefening 2: persoon
+### Oefening 8: Bestaat student?
 
-**leerdoelen**
+Controleer of er een student met de naam `Daisy` in de array `students` zit. Toon `true` of `false` in de console.
 
-* objecten aanmaken
-* dot-notatie gebruiken
-* gebruik/uitlezen van JSON
-* schrijven van functies
+### Oefening 9: Toon alle properties
 
-**functionele analyse**
+Gebruik een `for...in` lus om alle properties en hun waarden van het object `car` weer te geven in de console.
 
-Lees een json-bestand in en print daar enkele waardes van op het scherm
+### Oefening 10: Tel aantal properties
 
-**technische analyse**
-
-Maak een **person.json** bestand aan met volgende data:
-
-```
-{
-  "firstname": "Jurgen",
-  "lastname": "Vervoort",
-  "age": 27,
-  "city": "Heist-op-den-Berg",
-  "street": "Bergstraat",
-  "number": "17c",
-  "postal": 2220,
-  "hobbies": ["voetbal", "tafeltennis", "vissen"]
-}
-```
-
-1. Lees het _person.json_ bestand in
-2. Maak een eerste functie _printFullName()_ dat het ingelezen object als parameter ontvangt en de volledige naam van de persoon uitprint.
-3. Maak een tweede functie _printHobbies()_ dat het ingelezen object als parameter ontvangt en de hobby's van de persoon oplijst.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../.gitbook/assets/js-9-oef2.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 3: todo's
-
-**leerdoelen**
-
-* objecten aanmaken
-* dot-notatie gebruiken
-* gebruik/uitlezen van JSON
-* schrijven van functies
-* werken met arrays van objecten
-
-**voorbereiding**
-
-{% file src="../../.gitbook/assets/todos.json" %}
-Download dit bestand en plaats het in de assets-map van deze oefening
-{% endfile %}
-
-**functionele analyse**
-
-Lees todos.json uit en haal er enkel de reeds voltooide todo's uit.
-
-**technische analyse**
-
-1. Maak een array van Todos door het bestand todos.json uit te lezen.
-2. Schrijf een functie _getCompleted()_ dat als parameter je array ontvangt. Zorg ervoor dat de functie een array teruggeeft met _enkel de voltooide_ todo's.
-3. Toon de voltooide todo's op de website in een lijst.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../.gitbook/assets/js-9-oef3.png" alt=""><figcaption></figcaption></figure>
-
-## oefening 4: dieren
-
-**leerdoelen**
-
-* objecten aanmaken
-* dot-notatie gebruiken
-* gebruik/uitlezen van JSON
-* werken met gebruikersinteractie
-* werken met arrays van objecten
-
-**voorbereiding**
-
-{% file src="../../.gitbook/assets/dieren.json" %}
-Download dit bestand en plaats het in de assets-map van deze oefening
-{% endfile %}
-
-**functionele analyse**
-
-Toon de gebruiker een lijst van dieren. Nadat de gebruiker een dier kiest wordt wat info betreffende dat gekozen dier weergegeven.
-
-**technische analyse**
-
-Maak een array van dieren `animalData` door het bestand dieren.json in te lezen d.m.v. `import`.
-
-Maak een functie _getAnimalsList() dat de animal\[] als parameter ontvangt en een string\[] van alle dierennamen teruggeeft._
-
-Nu kan je de gebruiker laten kiezen uit 1 van de dieren. Gebruik de arraypositie om de info op te vragen van het gekozen dier.
-
-**voorbeeldinteractie**
-
-<figure><img src="../../.gitbook/assets/js-9-oef4.gif" alt=""><figcaption></figcaption></figure>
+Schrijf code die telt hoeveel properties het object `car` heeft. Toon het aantal in de console.
