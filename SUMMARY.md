@@ -25,8 +25,8 @@
     * [Labo 9](oefeningen/labo9/oefeningen.md)
     * [Labo 10](oefeningen/labo10/oefeningen.md)
     * [Labo 11](oefeningen/labo11/oefeningen.md)
-    * [Labo 12](oefeningen/labo12/oefeningen.md)
   * Deel 2 - JavaScript
+    * [Labo 12](oefeningen/labo12/oefeningen.md)
     * [Labo 13 - Conditionals](oefeningen/labo13/oefeningen-conditionals.md)
     * [Labo 13 - Loops](oefeningen/labo13/oefeningen-loops.md)
     * [Labo 14 - arrays](oefeningen/labo14/oefeningen-arrays.md)
