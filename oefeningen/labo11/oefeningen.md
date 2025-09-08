@@ -19,61 +19,90 @@ webtechnologie/
 ├─ labo-n/      
 ```
 
-Voor elke oefening maak je een nieuwe lege pagina en link je een CSS bestand.
+## Geïntegreerde opdracht
 
-## oefening 1
+Dit is een grote herhalingsoefening waar de meeste topics van het voorbije trimester in terugkomen. Deze herhalingsoefening is een ideale oefening om jezelf of je voldoende voorbereid bent voor de tussentijdse toets.
+Voor deze oefening maak je gebruik van de volgende startbestanden:
 
-Bouw de onderstaande animatie na met CSS:
-
-{% file src="../../.gitbook/assets/oefeningen/resultaten/labo11/01-animation-resultaat.mp4" %}
-Resultaat oefening 1
+{% file src="../../.gitbook/assets/oefeningen/startbestanden/labo11/website-architecture-assets.zip" %}
+startbestanden geïntegreerde opdracht
 {% endfile %}
 
-## oefening 2
 
-Bouw de onderstaande animatie na met CSS:
+Jou taak is om de volgende _one-pager_ responsive (mobile-first OF desktop-first) op te bouwen.
+Test jouw website op responsiviteit, zodat die werkt op alle schermgroottes.
 
-{% file src="../../../.gitbook/assets/oefeningen/resultaten/labo11/02-animation-resultaat.mp4" %}
-Resultaat oefening 2
-{% endfile %}
+<div style="display: flex; justify-content: space-between;">
+<figure>
+  <picture>
+    <img src="../../.gitbook/assets/oefeningen/resultaten/labo11/index-768px.png" width="30%" alt="mobile result">
+  </picture>
+  <figcaption>Mobile result (768px wide screen)</figcaption>
+</figure>
 
-## oefening 3
+<figure>
+  <picture>
+    <img src="../../.gitbook/assets/oefeningen/resultaten/labo11/index-1280px.png" width="30%" alt="tablet result">
+  </picture>
+  <figcaption>Tablet result (1280px wide screen)</figcaption>
+</figure>
 
-Bouw de onderstaande transitie na met CSS:
+<figure>
+  <picture>
+    <img src="../../.gitbook/assets/oefeningen/resultaten/labo11/index-1920px.png" width="30%" alt="desktop result">
+  </picture>
+  <figcaption>Desktop result (1920px wide screen)</figcaption>
+</figure>
+</div>
 
-{% file src="../../../.gitbook/assets/oefeningen/resultaten/labo11/03-transition-resultaat.mp4" %}
-Resultaat oefening 3
-{% endfile %}
 
-## oefening 4
-Bouw de onderstaande transitie na met CSS:
+### Requirements: 
 
-{% file src="../../../.gitbook/assets/oefeningen/resultaten/labo11/04-transition-resultaat.mp4" %}
-Resultaat oefening 4
-{% endfile %}
+#### HTML
 
-Voor de tegels voorzie je:
-- afgeronde hoekjes van 8px
-- Gebruik de ingebouwde box-shadow editor van je browser devtools om een soortgelijke box-shadow te genereren.
-- Zorg dat je geen css dupliceert. Hergebruik css classes.
+- Maak gebruik van semantische elementen waar mogelijk (header, nav, main, section, article, aside en footer)
+- De header met nav bevat:
+  - het logo met daarover een link naar de homepage
+  - een navbar met 3 elementen: 
+        - home (link naar section met id="home")
+        - portfolio (link naar section met id="portfolio")
+        - contact (link naar section met id="contact")
+  - een zoekbalk
+- Teaser section (section met id="teaser) bestaat uit een hoofdtitel met op de achtergrond een afbeelding
+- Home section (section met id="home") bestaat uit twee kolommen:
+  - Kolom links
+    - een ondertitel 
+    - een paragraaf met een aantal links die naar "nergens" wijzen (href="#")
+    - een tweede paragraaf zonder links
+  - Kolom rechts
+    - een ondertitel 
+    - een paragraaf 
+    - een tweede paragraaf met een link naar de contactgegevens onderaan de pagina
+  - Portfolio section (section met id="portfolio")
+    - een flexbox waarin 3 items naast elkaar passen op desktop.
+    - de flex-items moeten naar de volgende lijn geduwd worden wanneer de minimum breedte niet gegarandeerd kan worden.
+- Contact section (section met id="contact)
+  - Rechts staat de contact info
+  - Onderaan staan de social media icons met links (href="#")
+- Footer
+  - Footertekst
+  - ©-symbool wordt geschreven als HTML-entiteit.
 
-{% hint style="info" %}
+#### CSS
 
-## Tips
+- Maak gebruik van een reset.css
+- De algemene layout van de website staat in een grid
+- Binnen sections zoals portfolio kan flex gebruikt worden
+- Gebruik als font "Arial", "Helvetica", sans-serif
+- Gebruik de volgende kleurenvariabelen:
+  - achtergrondkleur (`--bg-color`) = `rgb(244,244,244)`,
+  - h1 (`--secondary-color`) = `rgb(231,227,79)`
+  - h2 (`--primary-color`) = `rgb(18,18,18)`
+  - p (`--tertiary-color`) = `rgb(100, 100, 100)`
+  - a (`--link-color`) = `rgb(149, 147, 100)`
+- Zorg voor de volgende subtiele animatie wanneer de gebruiker over de portfolio-items hovert
 
-- Bekijk [hier](https://support.microsoft.com/en-us/windows/windows-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942#:~:text=During%20text%20entry%2C%20press%20Windows,from%20GIFs%20and%20Kaomoji%20too!) hoe je het emoji keyboard kunt openen op Windows.
-- Bekijk [hier](https://devtoolstips.org/tips/en/edit-shadow/) hoe je de ingebouwde box-shadow generator van Google Chrome gebruikt.
+![Hover animatie](../../.gitbook/assets/oefeningen/resultaten/labo11/hover.gif)
+  
 
-{% endhint %}
 
-## oefening 5
-
-Bouw de onderstaande webpagina na met HTML en CSS:
-
-{% file src="../../../.gitbook/assets/oefeningen/resultaten/labo11/06-css-advanced-grote-oef-resultaat.mp4" %}
-Resultaat oefening 5
-{% endfile %}
-
-Gebruik voor de animatie de volgende afbeelding:
-
-![Circulaire tekst](../../.gitbook/assets/oefeningen/startbestanden/labo11/circular-text.png)

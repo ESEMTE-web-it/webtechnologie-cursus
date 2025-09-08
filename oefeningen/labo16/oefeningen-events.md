@@ -1,4 +1,4 @@
-# Oefeningen labo 17 - Events
+# Oefeningen labo 16 - Events
 
 Zorg dat je de volgende folder structuur volgt:
 

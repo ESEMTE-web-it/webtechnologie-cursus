@@ -1,4 +1,4 @@
-# Oefeningen labo 15
+# Oefeningen labo 14
 
 Zorg ervoor dat je de volgende folderstructuur volgt:
 
