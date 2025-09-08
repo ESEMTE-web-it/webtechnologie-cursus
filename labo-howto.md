@@ -2,30 +2,20 @@
 
 ## Stap 1: Start via GitHub Classroom
 Voor elk labo krijg je een **GitHub Classroom-link**.  
-Bovenaan de labo-opdracht zal je altijd een link vinden om je **eigen repository** voor dat labo aan te maken.
+In deze cursus vind je bovenaan iedere labo-opdracht een link om je **eigen repository** voor dat labo aan te maken.
 
 Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
 
+Klik op die link en volg de stappen om je repo aan te maken. Na afloop krijg je een scherm zoals hieronder:
+
 <figure><img src="./.gitbook/assets/gh-classroom.png" alt=""><figcaption>Github Classroom nadat je jouw repo hebt aangemaakt. Kopieer de URL om jouw repository te clonen</figcaption></figure>
-
-### Waarom werken we zo?
-- Je leert al doende werken met **git**.
-- Je oefeningen staan veilig online als **back-up**.
-- De lectoren kunnen je werk makkelijk **nakijken** bij vragen of problemen.
-- Je ziet je **evolutie** in de commit history.
-
-### Wat heb je nodig?
-- Een gratis **GitHub-account**.
-- **Git** op je laptop, of een tool zoals **GitHub Desktop** of **VS Code** (heeft ingebouwde git-ondersteuning).
-
----
 
 ## Stap 2: Voor je start
 - Installeer **Visual Studio Code** en de nodige extensies (zie hoofdstuk [IDE](/ide.md)).
 - Maak op je computer een mapje (bv. `webtechnologie`).
 - **Clone je GitHub Classroom-repo** in dit mapje.
 
-> Tip: in de cursus IT Essentials vind je onder het hoofdstuk [Git > Remote Repositories en Samenwerken](https://apwt.gitbook.io/it-essentials/git/collaborating) alle informatie over hoe je dit via de _command-line_ doet.
+> Tip: in de cursus IT Essentials vind je onder het hoofdstuk [Git > Remote Repositories en Samenwerken](https://apwt.gitbook.io/it-essentials/git/collaborating) alle informatie over hoe je een repo kunt clonen via de _command-line_.
 
 ---
 
@@ -51,3 +41,9 @@ Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
 - Je kan je repo altijd opnieuw **clonen** op een andere computer.
 - Je vooruitgang is zichtbaar in de **commit history**.
 - Bij vragen of problemen: contacteer de lector of gebruik het afgesproken communicatiekanaal.
+
+## Waarom werken we met Github Classroom?
+- Je leert al doende werken met **git**.
+- Je oefeningen staan veilig online als **back-up**.
+- De lectoren kunnen je werk makkelijk **nakijken** bij vragen of problemen.
+- Je ziet je **evolutie** in de commit history.
