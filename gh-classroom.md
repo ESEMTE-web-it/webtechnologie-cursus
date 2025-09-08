@@ -6,6 +6,8 @@ Bovenaan de labo-opdracht zal je altijd een link vinden om je **eigen repository
 
 Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
 
+<figure><img src="./.gitbook/assets/gh-classroom.png" alt=""><figcaption>Github Classroom nadat je jouw repo hebt aangemaakt. Kopieer de URL om jouw repository te clonen</figcaption></figure>
+
 ### Waarom werken we zo?
 - Je leert al doende werken met **git**.
 - Je oefeningen staan veilig online als **back-up**.
@@ -22,6 +24,8 @@ Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
 - Installeer **Visual Studio Code** en de nodige extensies (zie hoofdstuk [IDE](/ide.md)).
 - Maak op je computer een mapje (bv. `webtechnologie`).
 - **Clone je GitHub Classroom-repo** in dit mapje.
+
+> Tip: in de cursus IT Essentials vind je onder het hoofdstuk [Git > Remote Repositories en Samenwerken](https://apwt.gitbook.io/it-essentials/git/collaborating) alle informatie over hoe je dit via de _command-line_ doet.
 
 ---
 

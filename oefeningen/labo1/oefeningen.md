@@ -3,9 +3,6 @@
 Voor dit labo gebruik je deze link:  
 🔗 [Maak je Labo 1 repo aan via GitHub Classroom](https://classroom.github.com/a/djenOf3r)
 
-> Nadat je op de link hebt geklikt, maakt GitHub Classroom automatisch een **privérepository** voor jou.  
-> Enkel jij en de lectoren hebben toegang tot deze repo.
-
 ## Werkwijze
 * zet de volgende oefeningen om naar HTML5
 * zet de naam van de oefening in de _head_ en in de _title_
