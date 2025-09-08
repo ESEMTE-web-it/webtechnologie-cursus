@@ -36,7 +36,7 @@
     * [Labo 16 - Events](oefeningen/labo16/oefeningen-events.md)
     * [Labo 17 - Herhalingsoefeningen](oefeningen/labo17/oefeningen.md)
     * [Labo 18 - Leaflet](oefeningen/labo18/oefeningen.md)
-    * [Labo 19 - Callbacks / Array functions](oefeningen/labo18/oefeningen.md)
+    * [Labo 19 - Callbacks / Array functions](oefeningen/labo19/oefeningen.md)
     * [Labo 20 - Promises](oefeningen/labo20/oefeningen.md)
     * [Labo 21 - Postman](oefeningen/labo21/oefeningen-postman.md)
     * [Labo 21 - Fetch](oefeningen/labo21/oefeningen-fetch.md)
