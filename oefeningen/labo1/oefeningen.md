@@ -1,12 +1,12 @@
 # Oefeningen labo 1
 
-* Zorg dat Visual Studio Code en alle nodige extensies zijn geïnstalleerd (zie hoofdstuk [IDE](/ide.md))
-* open Visual Studio Code.
+Voor dit labo gebruik je deze link:  
+🔗 [Maak je Labo 1 repo aan via GitHub Classroom](https://classroom.github.com/a/djenOf3r)
 
-* maak ergens op je computer een mapje "webtechnologie" aan met daaronder een mapje per labo zoals in onderstaande afbeelding.
+> Nadat je op de link hebt geklikt, maakt GitHub Classroom automatisch een **privérepository** voor jou.  
+> Enkel jij en de lectoren hebben toegang tot deze repo.
 
-![bestandstuctuur.png](bestandstuctuur.png)
-
+## Werkwijze
 * zet de volgende oefeningen om naar HTML5
 * zet de naam van de oefening in de _head_ en in de _title_
 * bewaar elke oefening als index.html (belangrijk).

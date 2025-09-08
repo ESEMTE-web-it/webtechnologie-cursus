@@ -1,32 +1,49 @@
-# Oefeningen via GitHub Classroom
+# Hoe werken we in de labo's?
 
-Voor de oefeningen maken we gebruik van **GitHub Classroom**.  
-Via [deze link](https://classroom.github.com/classrooms/5469721-webtechnologie-25-26-regulier-traject) kan je lid worden van de klas.
+## Stap 1: Start via GitHub Classroom
+Voor elk labo krijg je een **GitHub Classroom-link**.  
+Bovenaan de labo-opdracht zal je altijd een link vinden om je **eigen repository** voor dat labo aan te maken.
 
-Per labo wordt er automatisch een **individuele repository** voor jou aangemaakt.  
-Zowel jij als de lectoren van dit vak hebben toegang tot deze repo.
+Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
 
-## Waarom werken we zo?
-- Je leert al doende met **git** werken.
-- Je oefeningen staan veilig online: je hebt altijd een **back-up**.
-- De lectoren kunnen je oefeningen makkelijk **nakijken** bij problemen.
-- Je kan je **evolutie** zien doorheen de labo’s via de commit history.
+### Waarom werken we zo?
+- Je leert al doende werken met **git**.
+- Je oefeningen staan veilig online als **back-up**.
+- De lectoren kunnen je werk makkelijk **nakijken** bij vragen of problemen.
+- Je ziet je **evolutie** in de commit history.
 
-## Wat heb je nodig?
-- Een **GitHub-account** (gratis).
-- Git op je laptop geïnstalleerd, of een tool zoals **GitHub Desktop** of **VS Code** met ingebouwde git-ondersteuning.
+### Wat heb je nodig?
+- Een gratis **GitHub-account**.
+- **Git** op je laptop, of een tool zoals **GitHub Desktop** of **VS Code** (heeft ingebouwde git-ondersteuning).
 
-## Hoe werkt het per labo?
-1. Je krijgt voor elk labo een link naar je eigen repo.
-2. Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
-3. Je **clone’t** de repo naar je laptop, maakt de oefeningen, en **push’t** je werk terug naar GitHub.
+---
+
+## Stap 2: Voor je start
+- Installeer **Visual Studio Code** en de nodige extensies (zie hoofdstuk [IDE](/ide.md)).
+- Maak op je computer een mapje (bv. `webtechnologie`).
+- **Clone je GitHub Classroom-repo** in dit mapje.
+
+---
+
+## Stap 3: Tijdens het labo
+1. Open **Visual Studio Code** en selecteer de **map van het labo dat je wil maken** (de map die je gecloned hebt).
+2. Start de **Live Server-extensie** via de knop *Go Live*.
+3. Open het HTML-bestand in je browser.
+   > Tip: meestal vind je dit op `http://localhost:5500` (het poortnummer kan verschillen).
+4. Volg de instructies van de oefening.
+5. Maak **regelmatig commits** en **push** je werk naar GitHub.
+
+---
 
 ## Verwachtingen
-- Maak **regelmatig commits** in plaats van alles in één keer te uploaden.
+- Maak **regelmatig commits** (bv. na elke oefening of belangrijke wijziging).
 - Gebruik **duidelijke commit messages**.
-- Zorg dat je je werk tijdig pusht
+  > Voorbeeld: `Oefening 3 afgewerkt` is beter dan `update`.
+- Push je werk **op tijd**.
+
+---
 
 ## Handige weetjes
 - Je kan je repo altijd opnieuw **clonen** op een andere computer.
-- Je kan je vooruitgang zien via de **commit history**.
+- Je vooruitgang is zichtbaar in de **commit history**.
 - Bij vragen of problemen: contacteer de lector of gebruik het afgesproken communicatiekanaal.
