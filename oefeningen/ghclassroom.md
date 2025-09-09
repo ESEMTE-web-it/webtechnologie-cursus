@@ -1,3 +1,9 @@
+---
+hidden: true
+---
+
+# GitHub Classroom repositories
+
 * [Labo 1](https://classroom.github.com/a/djenOf3r)
 * [Labo 2](https://classroom.github.com/a/ZW4mMmGE)
 * [Labo 3](https://classroom.github.com/a/dlct1B9b)

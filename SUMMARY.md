@@ -12,6 +12,7 @@
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
 * Oefeningen
+  * [Labo links](oefeningen/ghclassroom.md)
   * [Hoe begin je aan de labo's](labo-howto.md)
   * Deel 1 - HTML & CSS
     * [Labo 1](oefeningen/labo1/oefeningen.md)
