@@ -4,18 +4,6 @@ hidden: true
 
 # GitHub Classroom repositories
 
-* [Labo 1](https://classroom.github.com/a/djenOf3r)
-* [Labo 2](https://classroom.github.com/a/ZW4mMmGE)
-* [Labo 3](https://classroom.github.com/a/dlct1B9b)
-* [Labo 4](https://classroom.github.com/a/2iE9X8oz)
-* [Labo 5](https://classroom.github.com/a/fElzpxvH)
-* [Labo 6](https://classroom.github.com/a/9_3hzTkG)
-* [Labo 7](https://classroom.github.com/a/8ytTW6mn)
-* [Labo 8](https://classroom.github.com/a/fNrqMkZZ)
-* [Labo 9](https://classroom.github.com/a/OY5D0PtT)
-* [Labo 10](https://classroom.github.com/a/IA1dgIwQ)
-* [Labo 11](https://classroom.github.com/a/4ESudilD)
-* [Labo 12](https://classroom.github.com/a/BNdQsxSB)
 * [Labo 13](https://classroom.github.com/a/FVoOXDwz)
 * [Labo 14](https://classroom.github.com/a/fVUQs3DY)
 * [Labo 15](https://classroom.github.com/a/BJLi8Vmp)

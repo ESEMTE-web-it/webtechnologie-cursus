@@ -1,6 +1,15 @@
-# Labo 2
+# Labo 2 
 
-## Theorie
+## HTML basis
 
-* [teksten](https://apwt.gitbook.io/webtechnologie/html/intro-1): [verwijzingen](https://apwt.gitbook.io/webtechnologie/html/intro-1/verwijzingen), [lijsten](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten), [speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
-* media: [afbeeldingen](https://apwt.gitbook.io/webtechnologie/html/media/afbeeldingen), [video](https://apwt.gitbook.io/webtechnologie/html/media/video), [audio](https://apwt.gitbook.io/webtechnologie/html/media/audio)
+* [Teksten](https://apwt.gitbook.io/webtechnologie/html/intro-1)
+* [Verwijzingen](https://apwt.gitbook.io/webtechnologie/html/intro-1/verwijzingen)
+* [Lijsten](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
+* [Speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
+* [Afbeeldingen](https://apwt.gitbook.io/webtechnologie/html/media/afbeeldingen)
+* [Video](https://apwt.gitbook.io/webtechnologie/html/media/video)
+* [Audio](https://apwt.gitbook.io/webtechnologie/html/media/audio) 
+
+## GitHub Classroom link
+
+* [Labo 2](https://classroom.github.com/a/ZW4mMmGE)
