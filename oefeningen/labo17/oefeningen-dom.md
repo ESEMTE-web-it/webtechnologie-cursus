@@ -1,4 +1,4 @@
-# Oefeningen labo 16 - Document Object Model (DOM)
+# Oefeningen labo 17 - Document Object Model (DOM)
 
 Zorg dat je de volgende folder structuur volgt:
 
