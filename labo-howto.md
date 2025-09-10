@@ -1,7 +1,7 @@
 # Hoe werken we in de labo's?
 
 ## Stap 1: Start via GitHub Classroom
-Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](oefeningen/labo1/oefeningen.md), [Labo 2](oefeningen/labo2/oefeningen.md), ...).
+Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in DigitAP.
 Klik op de link van het labo dat je wil starten. Hiermee maak je een **eigen repository** aan met daarin de startbestanden van het labo.
 
 👉 Deze repo is **privé**: enkel jij en de lectoren hebben toegang.  
