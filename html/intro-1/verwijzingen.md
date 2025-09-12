@@ -7,7 +7,10 @@ Een verwijzing maak je met het `<a>`-element. Elk element moet voorzien zijn van
 Met het `target`-attribuut kan je aangeven of je wil dat het andere document in een nieuw venster moet worden geopend of in hetzelfde.
 
 ```html
-<p>Bezoek <a href="https://www.ap.be/" target="_blank">de website van AP hogeschool</a>!</p>
+<p>
+  Bezoek
+  <a href="https://www.tabbrasschaat.be/" target="_blank">de website van Technische Atheneum Brasschaat</a>!
+</p>
 ```
 
 ## absolute verwijzing
@@ -27,7 +30,7 @@ Wanneer we echter gaan verwijzen naar pagina's van dezelfde website, hoeven we h
 Door in het `href`-attribuut `mailto:` toe te voegen aan het `<a>`-element, kunnen we het e-mailprogramma van de bezoeker laten openen en ineens een nieuwe e-mail starten.
 
 ```html
-<a href="mailto:lector@ap.be">E-mailadres lector</a>
+<a href="mailto:leerkracht@tabbrasschaat.be">E-mailadres leerkracht</a>
 ```
 
 ## telefoon verwijzing
@@ -44,19 +47,22 @@ Wil je een verwijzing plaatsen naar een stuk tekst op dezelfde pagina, dan gebru
 
 ```html
 <h1 id="top">Film-Making Terms</h1>
-<a href="#arc_shot">Arc Shot</a><br>
-<a href="#interlude">Interlude</a><br>
-<a href="#prologue">Prologue</a><br><br>
+<a href="#arc_shot">Arc Shot</a><br />
+<a href="#interlude">Interlude</a><br />
+<a href="#prologue">Prologue</a><br /><br />
 <h2 id="arc_shot">Arc Shot</h2>
-<p>A shot in which the subject is photographed by an
-encircling or moving camera</p>
+<p>
+  A shot in which the subject is photographed by an encircling or moving camera
+</p>
 <h2 id="interlude">Interlude</h2>
-<p>A brief, intervening film scene or sequence, not
-   specifically tied to the plot, that appears
-within a film</p>
+<p>
+  A brief, intervening film scene or sequence, not specifically tied to the
+  plot, that appears within a film
+</p>
 <h2 id="prologue">Prologue</h2>
-<p>A speech, preface, introduction, or brief scene
-   preceding the the main action or plot of a film;
-contrast to epilogue</p>
+<p>
+  A speech, preface, introduction, or brief scene preceding the the main action
+  or plot of a film; contrast to epilogue
+</p>
 <p><a href="#top">Back to Top</a></p>
 ```

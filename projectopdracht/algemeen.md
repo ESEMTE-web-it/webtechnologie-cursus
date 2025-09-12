@@ -17,11 +17,9 @@ De opdracht is opgedeeld in **6 deelopdrachten**:
 
 Tijdens de laatste 2 labo's kom je je webshop die je doorheen het semester gebouwd hebt presenteren voor de klas. Deelopdracht 6 is dus je finale inzending.
 
-## Inzending via Digitap
+## Inzending via Smartschool
 
-Vòòr het verstrijken van iedere deadline lever je elke deelopdracht in via Digitap onder het hoofdstuk projectopdracht. Voor deadlines: check Digitap.
-
-![digitap-projectopdracht.png](../.gitbook/assets/digitap-projectopdracht.png)
+Vòòr het verstrijken van iedere deadline lever je elke deelopdracht in via Smartschool onder de uploadmap projectopdracht. Voor deadlines: check Smartschool.
 
 ## Wireframes
 
@@ -58,6 +56,7 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
   - [Unsplash](https://unsplash.com/)
   - [Pexels](https://www.pexels.com/)
   - [Pixabay](https://pixabay.com/)
+
 - **Tip:** Kun je geen perfecte afbeelding vinden voor je product? Kies dan voor een meer generieke afbeelding die het idee van je product goed weergeeft. Bijv. voor een webshop die voetbalschoenen verkoopt, kun je zoeken naar generieke, rechtenvrije foto's van voetbalschoenen.
 - Afbeeldingen gegenereerd met AI kunnen ook, maar probeer origineel te zijn.
 
@@ -76,10 +75,9 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
   - [Imagy.app](https://imagy.app/)
 
   om je afbeeldingen bij te snijden naar de juiste afmetingen en **aspect-ratio's**.
-- Voor productfoto's: ga voor vierkante images van 500x500px.
 
+- Voor productfoto's: ga voor vierkante images van 500x500px.
 
 ## Coding Guidelines
 
 Zorg ervoor dat alle code die je schrijft voldoet aan de [Coding Guidelines](../coding-guidelines.md). Volg deze richtlijnen zorgvuldig om een consistente en professionele webshop te bouwen.
-

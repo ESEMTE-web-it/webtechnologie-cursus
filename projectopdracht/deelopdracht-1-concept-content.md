@@ -78,7 +78,8 @@ Kies een kleurenpalet en lettertype voor je webshop en beschrijf deze in je docu
 - De primaire kleur voor knoppen ("primary-color")
 - Een secundaire kleur voor accenten ("secondary-color")
 
-> **Tips:** 
+> **Tips:**
+>
 > - Beslis eerst of je voor een light theme (lichte achtergrond met donkere tekst) of dark theme (donkere achtergrond met lichte tekst) wilt gaan. Dit bepaalt deels het gevoel van je webshop.
 > - Voorzie voor elke kleur 3 tinten: een iets lichtere, normale en donkerdere variant zodat je zeker voldoende kleurtjes ter beschikking hebt in je ontwerp.
 > - Gebruik websites zoals [Happy Hues](https://www.happyhues.co), [Coolors](https://coolors.co/palettes/trending) of [Adobe Colors](https://color.adobe.com/nl/trends) om een mooi kleurenpalet te vinden. Je kleuren passen dan altijd mooi bij elkaar.
@@ -95,7 +96,7 @@ Wil je werken met een tweede lettertype (bijvoorbeeld voor een ondertiteltje)? Z
 
 ## Deliverables
 
-Je moet deze deelopdracht uploaden naar **Digitap**. Zorg ervoor dat je de volgende bestanden verzamelt en deze samenvoegt in één zip-bestand voordat je het uploadt:
+Je moet deze deelopdracht uploaden naar **Smartschool**. Zorg ervoor dat je de volgende bestanden verzamelt en deze samenvoegt in één zip-bestand voordat je het uploadt:
 
 - Een document (**.md** of **.docx** bestand) met de volgende secties:
   - Situering - de omschrijving van je webshop
