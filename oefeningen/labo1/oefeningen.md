@@ -15,6 +15,8 @@
 
 ## HTML basis
 
+De oefeningen hieronder kan je maken na het lezen van de theorie over HTML-structuur (incl. subpagina's) en Teksten (t.e.m. verwijzingen), 
+
 ### oefening 1
 ![oef-1.png](oef-1.png)
 

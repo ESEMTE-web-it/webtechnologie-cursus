@@ -13,6 +13,8 @@
 
 ## Verwijzingen (_links_)
 
+De volgende oefeningen kan je enkel maken als je de theorie hebt doorgenomen t.e.m. het onderdeel Verwijzingen!
+
 ### oefening 1
 ![oef-1.png](oef-1.png)
 
@@ -40,6 +42,8 @@
 ![oef-8.png](oef-8.png)
 
 ## Afbeeldingen
+
+De volgende oefeningen kan je enkel maken als je de theorie hebt doorgenomen t.e.m. het onderdeel Media > Afbeeldingen!
 
 ### oefening 9
 ![oef-9.png](oef-9.png)
